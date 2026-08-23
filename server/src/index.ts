@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import path from "node:path";
+import { mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { openDb } from "./db/connection.js";
 import { dashboardRouter } from "./routes/dashboard.js";
@@ -24,6 +25,10 @@ try {
 
 const dataDir = path.join(__dirname, "..", "data");
 const dbPath = process.env.SOP_DB_PATH ?? path.join(dataDir, "sop.db");
+
+// data/ est gitignoré (contient sop.db + fichiers importés) — absent d'un checkout
+// frais (ex. déploiement Railway), donc SQLite échoue à créer le fichier sans ce mkdir.
+mkdirSync(dataDir, { recursive: true });
 
 const db = openDb(dbPath);
 startWatcher(db, path.join(dataDir, "watched"), path.join(dataDir, "processed"));
