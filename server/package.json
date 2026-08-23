@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && node scripts/copy-sql-assets.mjs",
     "start": "node dist/index.js",
     "test": "tsx --test src/**/*.test.ts",
     "ingest:test": "tsx src/scripts/ingestTestData.ts",
