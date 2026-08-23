@@ -1,0 +1,2521 @@
+ref_produit,mois,marche,type_prevision,qty,source
+PRD-001,2026-01,France,Ventes,10391,Ajustement commercial
+PRD-001,2026-01,Europe (hors FR),Ventes,8907,Consensus S&OP
+PRD-001,2026-01,US,Ventes,5938,Ajustement commercial
+PRD-001,2026-01,International,Ventes,4453,Consensus S&OP
+PRD-001,2026-02,France,Ventes,10937,Statistique
+PRD-001,2026-02,Europe (hors FR),Ventes,9375,Consensus S&OP
+PRD-001,2026-02,US,Ventes,6250,Ajustement commercial
+PRD-001,2026-02,International,Ventes,4687,Consensus S&OP
+PRD-001,2026-03,France,Ventes,11757,Ajustement commercial
+PRD-001,2026-03,Europe (hors FR),Ventes,10078,Consensus S&OP
+PRD-001,2026-03,US,Ventes,6718,Ajustement commercial
+PRD-001,2026-03,International,Ventes,5039,Ajustement commercial
+PRD-001,2026-04,France,Ventes,12025,Ajustement commercial
+PRD-001,2026-04,Europe (hors FR),Ventes,10307,Consensus S&OP
+PRD-001,2026-04,US,Ventes,6871,Ajustement commercial
+PRD-001,2026-04,International,Ventes,5153,Consensus S&OP
+PRD-001,2026-05,France,Ventes,10315,Statistique
+PRD-001,2026-05,Europe (hors FR),Ventes,8841,Statistique
+PRD-001,2026-05,US,Ventes,5894,Ajustement commercial
+PRD-001,2026-05,International,Ventes,4421,Consensus S&OP
+PRD-001,2026-06,France,Ventes,9277,Ajustement commercial
+PRD-001,2026-06,Europe (hors FR),Ventes,7952,Consensus S&OP
+PRD-001,2026-06,US,Ventes,5301,Consensus S&OP
+PRD-001,2026-06,International,Ventes,3976,Statistique
+PRD-001,2026-07,France,Ventes,8979,Consensus S&OP
+PRD-001,2026-07,Europe (hors FR),Ventes,7696,Consensus S&OP
+PRD-001,2026-07,US,Ventes,5131,Ajustement commercial
+PRD-001,2026-07,International,Ventes,3848,Ajustement commercial
+PRD-001,2026-08,France,Ventes,7836,Consensus S&OP
+PRD-001,2026-08,Europe (hors FR),Ventes,6716,Statistique
+PRD-001,2026-08,US,Ventes,4478,Ajustement commercial
+PRD-001,2026-08,International,Ventes,3358,Ajustement commercial
+PRD-001,2026-09,France,Ventes,7122,Statistique
+PRD-001,2026-09,Europe (hors FR),Ventes,6104,Ajustement commercial
+PRD-001,2026-09,US,Ventes,4069,Consensus S&OP
+PRD-001,2026-09,International,Ventes,3052,Consensus S&OP
+PRD-001,2026-10,France,Ventes,7864,Consensus S&OP
+PRD-001,2026-10,Europe (hors FR),Ventes,6740,Ajustement commercial
+PRD-001,2026-10,US,Ventes,4494,Ajustement commercial
+PRD-001,2026-10,International,Ventes,3370,Ajustement commercial
+PRD-001,2026-11,France,Ventes,8367,Ajustement commercial
+PRD-001,2026-11,Europe (hors FR),Ventes,7172,Consensus S&OP
+PRD-001,2026-11,US,Ventes,4781,Statistique
+PRD-001,2026-11,International,Ventes,3586,Consensus S&OP
+PRD-001,2026-12,France,Ventes,9575,Ajustement commercial
+PRD-001,2026-12,Europe (hors FR),Ventes,8207,Consensus S&OP
+PRD-001,2026-12,US,Ventes,5471,Statistique
+PRD-001,2026-12,International,Ventes,4104,Consensus S&OP
+PRD-001,2027-01,France,Ventes,11192,Statistique
+PRD-001,2027-01,Europe (hors FR),Ventes,9593,Ajustement commercial
+PRD-001,2027-01,US,Ventes,6395,Consensus S&OP
+PRD-001,2027-01,International,Ventes,4797,Consensus S&OP
+PRD-001,2027-02,France,Ventes,10862,Consensus S&OP
+PRD-001,2027-02,Europe (hors FR),Ventes,9310,Consensus S&OP
+PRD-001,2027-02,US,Ventes,6207,Ajustement commercial
+PRD-001,2027-02,International,Ventes,4655,Statistique
+PRD-001,2027-03,France,Ventes,11349,Statistique
+PRD-001,2027-03,Europe (hors FR),Ventes,9728,Consensus S&OP
+PRD-001,2027-03,US,Ventes,6485,Ajustement commercial
+PRD-001,2027-03,International,Ventes,4864,Statistique
+PRD-001,2027-04,France,Ventes,11843,Statistique
+PRD-001,2027-04,Europe (hors FR),Ventes,10151,Statistique
+PRD-001,2027-04,US,Ventes,6768,Statistique
+PRD-001,2027-04,International,Ventes,5076,Statistique
+PRD-001,2027-05,France,Ventes,10806,Statistique
+PRD-001,2027-05,Europe (hors FR),Ventes,9262,Ajustement commercial
+PRD-001,2027-05,US,Ventes,6175,Consensus S&OP
+PRD-001,2027-05,International,Ventes,4631,Statistique
+PRD-001,2027-06,France,Ventes,10398,Ajustement commercial
+PRD-001,2027-06,Europe (hors FR),Ventes,8913,Ajustement commercial
+PRD-001,2027-06,US,Ventes,5942,Consensus S&OP
+PRD-001,2027-06,International,Ventes,4456,Consensus S&OP
+PRD-002,2026-01,France,Ventes,5238,Ajustement commercial
+PRD-002,2026-01,Europe (hors FR),Ventes,4489,Statistique
+PRD-002,2026-01,US,Ventes,2993,Statistique
+PRD-002,2026-01,International,Ventes,2245,Consensus S&OP
+PRD-002,2026-02,France,Ventes,5422,Consensus S&OP
+PRD-002,2026-02,Europe (hors FR),Ventes,4647,Statistique
+PRD-002,2026-02,US,Ventes,3098,Statistique
+PRD-002,2026-02,International,Ventes,2324,Ajustement commercial
+PRD-002,2026-03,France,Ventes,6476,Statistique
+PRD-002,2026-03,Europe (hors FR),Ventes,5551,Statistique
+PRD-002,2026-03,US,Ventes,3701,Consensus S&OP
+PRD-002,2026-03,International,Ventes,2775,Consensus S&OP
+PRD-002,2026-04,France,Ventes,5986,Ajustement commercial
+PRD-002,2026-04,Europe (hors FR),Ventes,5131,Statistique
+PRD-002,2026-04,US,Ventes,3420,Consensus S&OP
+PRD-002,2026-04,International,Ventes,2565,Statistique
+PRD-002,2026-05,France,Ventes,5930,Statistique
+PRD-002,2026-05,Europe (hors FR),Ventes,5083,Ajustement commercial
+PRD-002,2026-05,US,Ventes,3388,Statistique
+PRD-002,2026-05,International,Ventes,2541,Ajustement commercial
+PRD-002,2026-06,France,Ventes,5258,Consensus S&OP
+PRD-002,2026-06,Europe (hors FR),Ventes,4507,Consensus S&OP
+PRD-002,2026-06,US,Ventes,3005,Consensus S&OP
+PRD-002,2026-06,International,Ventes,2253,Consensus S&OP
+PRD-002,2026-07,France,Ventes,5255,Ajustement commercial
+PRD-002,2026-07,Europe (hors FR),Ventes,4504,Ajustement commercial
+PRD-002,2026-07,US,Ventes,3003,Consensus S&OP
+PRD-002,2026-07,International,Ventes,2252,Consensus S&OP
+PRD-002,2026-08,France,Ventes,5259,Consensus S&OP
+PRD-002,2026-08,Europe (hors FR),Ventes,4508,Ajustement commercial
+PRD-002,2026-08,US,Ventes,3005,Consensus S&OP
+PRD-002,2026-08,International,Ventes,2254,Ajustement commercial
+PRD-002,2026-09,France,Ventes,4926,Statistique
+PRD-002,2026-09,Europe (hors FR),Ventes,4222,Consensus S&OP
+PRD-002,2026-09,US,Ventes,2815,Ajustement commercial
+PRD-002,2026-09,International,Ventes,2111,Ajustement commercial
+PRD-002,2026-10,France,Ventes,5530,Ajustement commercial
+PRD-002,2026-10,Europe (hors FR),Ventes,4740,Statistique
+PRD-002,2026-10,US,Ventes,3160,Consensus S&OP
+PRD-002,2026-10,International,Ventes,2370,Ajustement commercial
+PRD-002,2026-11,France,Ventes,5643,Consensus S&OP
+PRD-002,2026-11,Europe (hors FR),Ventes,4837,Ajustement commercial
+PRD-002,2026-11,US,Ventes,3225,Consensus S&OP
+PRD-002,2026-11,International,Ventes,2419,Statistique
+PRD-002,2026-12,France,Ventes,6236,Ajustement commercial
+PRD-002,2026-12,Europe (hors FR),Ventes,5345,Ajustement commercial
+PRD-002,2026-12,US,Ventes,3563,Statistique
+PRD-002,2026-12,International,Ventes,2673,Consensus S&OP
+PRD-002,2027-01,France,Ventes,6649,Ajustement commercial
+PRD-002,2027-01,Europe (hors FR),Ventes,5699,Statistique
+PRD-002,2027-01,US,Ventes,3800,Ajustement commercial
+PRD-002,2027-01,International,Ventes,2850,Ajustement commercial
+PRD-002,2027-02,France,Ventes,7964,Ajustement commercial
+PRD-002,2027-02,Europe (hors FR),Ventes,6826,Consensus S&OP
+PRD-002,2027-02,US,Ventes,4551,Statistique
+PRD-002,2027-02,International,Ventes,3413,Statistique
+PRD-002,2027-03,France,Ventes,7534,Statistique
+PRD-002,2027-03,Europe (hors FR),Ventes,6458,Statistique
+PRD-002,2027-03,US,Ventes,4305,Ajustement commercial
+PRD-002,2027-03,International,Ventes,3229,Consensus S&OP
+PRD-002,2027-04,France,Ventes,7164,Statistique
+PRD-002,2027-04,Europe (hors FR),Ventes,6141,Consensus S&OP
+PRD-002,2027-04,US,Ventes,4094,Statistique
+PRD-002,2027-04,International,Ventes,3070,Statistique
+PRD-002,2027-05,France,Ventes,7688,Ajustement commercial
+PRD-002,2027-05,Europe (hors FR),Ventes,6589,Ajustement commercial
+PRD-002,2027-05,US,Ventes,4393,Ajustement commercial
+PRD-002,2027-05,International,Ventes,3295,Consensus S&OP
+PRD-002,2027-06,France,Ventes,6642,Ajustement commercial
+PRD-002,2027-06,Europe (hors FR),Ventes,5693,Ajustement commercial
+PRD-002,2027-06,US,Ventes,3795,Statistique
+PRD-002,2027-06,International,Ventes,2847,Statistique
+PRD-003,2026-01,France,Ventes,11510,Consensus S&OP
+PRD-003,2026-01,Europe (hors FR),Ventes,9866,Statistique
+PRD-003,2026-01,US,Ventes,6577,Consensus S&OP
+PRD-003,2026-01,International,Ventes,4933,Ajustement commercial
+PRD-003,2026-02,France,Ventes,11032,Ajustement commercial
+PRD-003,2026-02,Europe (hors FR),Ventes,9456,Statistique
+PRD-003,2026-02,US,Ventes,6304,Ajustement commercial
+PRD-003,2026-02,International,Ventes,4728,Ajustement commercial
+PRD-003,2026-03,France,Ventes,11749,Ajustement commercial
+PRD-003,2026-03,Europe (hors FR),Ventes,10070,Ajustement commercial
+PRD-003,2026-03,US,Ventes,6714,Consensus S&OP
+PRD-003,2026-03,International,Ventes,5035,Consensus S&OP
+PRD-003,2026-04,France,Ventes,12489,Consensus S&OP
+PRD-003,2026-04,Europe (hors FR),Ventes,10705,Consensus S&OP
+PRD-003,2026-04,US,Ventes,7137,Consensus S&OP
+PRD-003,2026-04,International,Ventes,5353,Statistique
+PRD-003,2026-05,France,Ventes,12077,Ajustement commercial
+PRD-003,2026-05,Europe (hors FR),Ventes,10352,Statistique
+PRD-003,2026-05,US,Ventes,6901,Ajustement commercial
+PRD-003,2026-05,International,Ventes,5176,Ajustement commercial
+PRD-003,2026-06,France,Ventes,10720,Ajustement commercial
+PRD-003,2026-06,Europe (hors FR),Ventes,9188,Statistique
+PRD-003,2026-06,US,Ventes,6125,Ajustement commercial
+PRD-003,2026-06,International,Ventes,4594,Ajustement commercial
+PRD-003,2026-07,France,Ventes,9542,Consensus S&OP
+PRD-003,2026-07,Europe (hors FR),Ventes,8179,Consensus S&OP
+PRD-003,2026-07,US,Ventes,5453,Ajustement commercial
+PRD-003,2026-07,International,Ventes,4090,Consensus S&OP
+PRD-003,2026-08,France,Ventes,8716,Statistique
+PRD-003,2026-08,Europe (hors FR),Ventes,7471,Ajustement commercial
+PRD-003,2026-08,US,Ventes,4980,Statistique
+PRD-003,2026-08,International,Ventes,3735,Consensus S&OP
+PRD-003,2026-09,France,Ventes,7967,Consensus S&OP
+PRD-003,2026-09,Europe (hors FR),Ventes,6829,Statistique
+PRD-003,2026-09,US,Ventes,4553,Ajustement commercial
+PRD-003,2026-09,International,Ventes,3414,Consensus S&OP
+PRD-003,2026-10,France,Ventes,8626,Consensus S&OP
+PRD-003,2026-10,Europe (hors FR),Ventes,7394,Consensus S&OP
+PRD-003,2026-10,US,Ventes,4929,Statistique
+PRD-003,2026-10,International,Ventes,3697,Statistique
+PRD-003,2026-11,France,Ventes,9588,Consensus S&OP
+PRD-003,2026-11,Europe (hors FR),Ventes,8218,Ajustement commercial
+PRD-003,2026-11,US,Ventes,5479,Statistique
+PRD-003,2026-11,International,Ventes,4109,Ajustement commercial
+PRD-003,2026-12,France,Ventes,11570,Statistique
+PRD-003,2026-12,Europe (hors FR),Ventes,9917,Statistique
+PRD-003,2026-12,US,Ventes,6611,Ajustement commercial
+PRD-003,2026-12,International,Ventes,4959,Ajustement commercial
+PRD-003,2027-01,France,Ventes,12387,Ajustement commercial
+PRD-003,2027-01,Europe (hors FR),Ventes,10617,Statistique
+PRD-003,2027-01,US,Ventes,7078,Ajustement commercial
+PRD-003,2027-01,International,Ventes,5309,Ajustement commercial
+PRD-003,2027-02,France,Ventes,11922,Ajustement commercial
+PRD-003,2027-02,Europe (hors FR),Ventes,10219,Ajustement commercial
+PRD-003,2027-02,US,Ventes,6813,Ajustement commercial
+PRD-003,2027-02,International,Ventes,5110,Ajustement commercial
+PRD-003,2027-03,France,Ventes,13671,Ajustement commercial
+PRD-003,2027-03,Europe (hors FR),Ventes,11718,Statistique
+PRD-003,2027-03,US,Ventes,7812,Ajustement commercial
+PRD-003,2027-03,International,Ventes,5859,Statistique
+PRD-003,2027-04,France,Ventes,12967,Consensus S&OP
+PRD-003,2027-04,Europe (hors FR),Ventes,11114,Consensus S&OP
+PRD-003,2027-04,US,Ventes,7410,Statistique
+PRD-003,2027-04,International,Ventes,5557,Ajustement commercial
+PRD-003,2027-05,France,Ventes,12030,Statistique
+PRD-003,2027-05,Europe (hors FR),Ventes,10312,Consensus S&OP
+PRD-003,2027-05,US,Ventes,6874,Statistique
+PRD-003,2027-05,International,Ventes,5156,Consensus S&OP
+PRD-003,2027-06,France,Ventes,11710,Statistique
+PRD-003,2027-06,Europe (hors FR),Ventes,10037,Statistique
+PRD-003,2027-06,US,Ventes,6691,Statistique
+PRD-003,2027-06,International,Ventes,5018,Statistique
+PRD-004,2026-01,France,Ventes,1287,Ajustement commercial
+PRD-004,2026-01,Europe (hors FR),Ventes,1103,Consensus S&OP
+PRD-004,2026-01,US,Ventes,736,Statistique
+PRD-004,2026-01,International,Ventes,552,Consensus S&OP
+PRD-004,2026-02,France,Ventes,1345,Statistique
+PRD-004,2026-02,Europe (hors FR),Ventes,1153,Ajustement commercial
+PRD-004,2026-02,US,Ventes,768,Consensus S&OP
+PRD-004,2026-02,International,Ventes,576,Ajustement commercial
+PRD-004,2026-03,France,Ventes,1264,Ajustement commercial
+PRD-004,2026-03,Europe (hors FR),Ventes,1084,Statistique
+PRD-004,2026-03,US,Ventes,722,Consensus S&OP
+PRD-004,2026-03,International,Ventes,542,Consensus S&OP
+PRD-004,2026-04,France,Ventes,1303,Consensus S&OP
+PRD-004,2026-04,Europe (hors FR),Ventes,1117,Consensus S&OP
+PRD-004,2026-04,US,Ventes,744,Statistique
+PRD-004,2026-04,International,Ventes,558,Statistique
+PRD-004,2026-05,France,Ventes,1320,Ajustement commercial
+PRD-004,2026-05,Europe (hors FR),Ventes,1132,Statistique
+PRD-004,2026-05,US,Ventes,754,Consensus S&OP
+PRD-004,2026-05,International,Ventes,566,Statistique
+PRD-004,2026-06,France,Ventes,1318,Ajustement commercial
+PRD-004,2026-06,Europe (hors FR),Ventes,1130,Consensus S&OP
+PRD-004,2026-06,US,Ventes,753,Consensus S&OP
+PRD-004,2026-06,International,Ventes,565,Ajustement commercial
+PRD-004,2026-07,France,Ventes,1184,Ajustement commercial
+PRD-004,2026-07,Europe (hors FR),Ventes,1015,Consensus S&OP
+PRD-004,2026-07,US,Ventes,676,Statistique
+PRD-004,2026-07,International,Ventes,507,Statistique
+PRD-004,2026-08,France,Ventes,1174,Consensus S&OP
+PRD-004,2026-08,Europe (hors FR),Ventes,1006,Consensus S&OP
+PRD-004,2026-08,US,Ventes,671,Consensus S&OP
+PRD-004,2026-08,International,Ventes,503,Statistique
+PRD-004,2026-09,France,Ventes,1119,Statistique
+PRD-004,2026-09,Europe (hors FR),Ventes,960,Consensus S&OP
+PRD-004,2026-09,US,Ventes,640,Ajustement commercial
+PRD-004,2026-09,International,Ventes,480,Consensus S&OP
+PRD-004,2026-10,France,Ventes,1147,Consensus S&OP
+PRD-004,2026-10,Europe (hors FR),Ventes,983,Statistique
+PRD-004,2026-10,US,Ventes,656,Consensus S&OP
+PRD-004,2026-10,International,Ventes,492,Statistique
+PRD-004,2026-11,France,Ventes,1339,Ajustement commercial
+PRD-004,2026-11,Europe (hors FR),Ventes,1148,Consensus S&OP
+PRD-004,2026-11,US,Ventes,765,Ajustement commercial
+PRD-004,2026-11,International,Ventes,574,Consensus S&OP
+PRD-004,2026-12,France,Ventes,1466,Ajustement commercial
+PRD-004,2026-12,Europe (hors FR),Ventes,1256,Statistique
+PRD-004,2026-12,US,Ventes,838,Consensus S&OP
+PRD-004,2026-12,International,Ventes,628,Consensus S&OP
+PRD-004,2027-01,France,Ventes,1456,Ajustement commercial
+PRD-004,2027-01,Europe (hors FR),Ventes,1248,Statistique
+PRD-004,2027-01,US,Ventes,832,Ajustement commercial
+PRD-004,2027-01,International,Ventes,624,Ajustement commercial
+PRD-004,2027-02,France,Ventes,1610,Statistique
+PRD-004,2027-02,Europe (hors FR),Ventes,1380,Ajustement commercial
+PRD-004,2027-02,US,Ventes,920,Ajustement commercial
+PRD-004,2027-02,International,Ventes,690,Consensus S&OP
+PRD-004,2027-03,France,Ventes,1604,Ajustement commercial
+PRD-004,2027-03,Europe (hors FR),Ventes,1374,Consensus S&OP
+PRD-004,2027-03,US,Ventes,916,Statistique
+PRD-004,2027-03,International,Ventes,687,Ajustement commercial
+PRD-004,2027-04,France,Ventes,1528,Statistique
+PRD-004,2027-04,Europe (hors FR),Ventes,1310,Consensus S&OP
+PRD-004,2027-04,US,Ventes,873,Consensus S&OP
+PRD-004,2027-04,International,Ventes,655,Consensus S&OP
+PRD-004,2027-05,France,Ventes,1578,Ajustement commercial
+PRD-004,2027-05,Europe (hors FR),Ventes,1353,Consensus S&OP
+PRD-004,2027-05,US,Ventes,902,Consensus S&OP
+PRD-004,2027-05,International,Ventes,676,Ajustement commercial
+PRD-004,2027-06,France,Ventes,1615,Ajustement commercial
+PRD-004,2027-06,Europe (hors FR),Ventes,1384,Ajustement commercial
+PRD-004,2027-06,US,Ventes,923,Consensus S&OP
+PRD-004,2027-06,International,Ventes,692,Consensus S&OP
+PRD-005,2026-01,France,Ventes,7183,Statistique
+PRD-005,2026-01,Europe (hors FR),Ventes,6157,Ajustement commercial
+PRD-005,2026-01,US,Ventes,4105,Ajustement commercial
+PRD-005,2026-01,International,Ventes,3078,Statistique
+PRD-005,2026-02,France,Ventes,8050,Ajustement commercial
+PRD-005,2026-02,Europe (hors FR),Ventes,6900,Consensus S&OP
+PRD-005,2026-02,US,Ventes,4600,Consensus S&OP
+PRD-005,2026-02,International,Ventes,3450,Consensus S&OP
+PRD-005,2026-03,France,Ventes,6586,Ajustement commercial
+PRD-005,2026-03,Europe (hors FR),Ventes,5646,Ajustement commercial
+PRD-005,2026-03,US,Ventes,3764,Statistique
+PRD-005,2026-03,International,Ventes,2823,Ajustement commercial
+PRD-005,2026-04,France,Ventes,7818,Ajustement commercial
+PRD-005,2026-04,Europe (hors FR),Ventes,6701,Statistique
+PRD-005,2026-04,US,Ventes,4467,Ajustement commercial
+PRD-005,2026-04,International,Ventes,3351,Statistique
+PRD-005,2026-05,France,Ventes,7311,Ajustement commercial
+PRD-005,2026-05,Europe (hors FR),Ventes,6267,Ajustement commercial
+PRD-005,2026-05,US,Ventes,4178,Ajustement commercial
+PRD-005,2026-05,International,Ventes,3133,Ajustement commercial
+PRD-005,2026-06,France,Ventes,6852,Consensus S&OP
+PRD-005,2026-06,Europe (hors FR),Ventes,5873,Consensus S&OP
+PRD-005,2026-06,US,Ventes,3915,Ajustement commercial
+PRD-005,2026-06,International,Ventes,2937,Consensus S&OP
+PRD-005,2026-07,France,Ventes,6661,Statistique
+PRD-005,2026-07,Europe (hors FR),Ventes,5709,Consensus S&OP
+PRD-005,2026-07,US,Ventes,3806,Statistique
+PRD-005,2026-07,International,Ventes,2855,Statistique
+PRD-005,2026-08,France,Ventes,5760,Statistique
+PRD-005,2026-08,Europe (hors FR),Ventes,4937,Consensus S&OP
+PRD-005,2026-08,US,Ventes,3292,Ajustement commercial
+PRD-005,2026-08,International,Ventes,2469,Ajustement commercial
+PRD-005,2026-09,France,Ventes,6252,Consensus S&OP
+PRD-005,2026-09,Europe (hors FR),Ventes,5359,Statistique
+PRD-005,2026-09,US,Ventes,3572,Consensus S&OP
+PRD-005,2026-09,International,Ventes,2679,Ajustement commercial
+PRD-005,2026-10,France,Ventes,6548,Consensus S&OP
+PRD-005,2026-10,Europe (hors FR),Ventes,5612,Consensus S&OP
+PRD-005,2026-10,US,Ventes,3742,Ajustement commercial
+PRD-005,2026-10,International,Ventes,2806,Ajustement commercial
+PRD-005,2026-11,France,Ventes,7203,Statistique
+PRD-005,2026-11,Europe (hors FR),Ventes,6174,Statistique
+PRD-005,2026-11,US,Ventes,4116,Ajustement commercial
+PRD-005,2026-11,International,Ventes,3087,Statistique
+PRD-005,2026-12,France,Ventes,6894,Ajustement commercial
+PRD-005,2026-12,Europe (hors FR),Ventes,5909,Consensus S&OP
+PRD-005,2026-12,US,Ventes,3939,Statistique
+PRD-005,2026-12,International,Ventes,2955,Ajustement commercial
+PRD-005,2027-01,France,Ventes,7148,Consensus S&OP
+PRD-005,2027-01,Europe (hors FR),Ventes,6127,Consensus S&OP
+PRD-005,2027-01,US,Ventes,4085,Ajustement commercial
+PRD-005,2027-01,International,Ventes,3064,Ajustement commercial
+PRD-005,2027-02,France,Ventes,7535,Consensus S&OP
+PRD-005,2027-02,Europe (hors FR),Ventes,6459,Consensus S&OP
+PRD-005,2027-02,US,Ventes,4306,Ajustement commercial
+PRD-005,2027-02,International,Ventes,3229,Ajustement commercial
+PRD-005,2027-03,France,Ventes,8206,Consensus S&OP
+PRD-005,2027-03,Europe (hors FR),Ventes,7033,Consensus S&OP
+PRD-005,2027-03,US,Ventes,4689,Ajustement commercial
+PRD-005,2027-03,International,Ventes,3517,Ajustement commercial
+PRD-005,2027-04,France,Ventes,7902,Consensus S&OP
+PRD-005,2027-04,Europe (hors FR),Ventes,6773,Ajustement commercial
+PRD-005,2027-04,US,Ventes,4515,Ajustement commercial
+PRD-005,2027-04,International,Ventes,3387,Ajustement commercial
+PRD-005,2027-05,France,Ventes,7337,Ajustement commercial
+PRD-005,2027-05,Europe (hors FR),Ventes,6288,Statistique
+PRD-005,2027-05,US,Ventes,4192,Statistique
+PRD-005,2027-05,International,Ventes,3144,Consensus S&OP
+PRD-005,2027-06,France,Ventes,7386,Statistique
+PRD-005,2027-06,Europe (hors FR),Ventes,6331,Ajustement commercial
+PRD-005,2027-06,US,Ventes,4221,Statistique
+PRD-005,2027-06,International,Ventes,3165,Consensus S&OP
+PRD-006,2026-01,France,Ventes,14282,Statistique
+PRD-006,2026-01,Europe (hors FR),Ventes,12241,Statistique
+PRD-006,2026-01,US,Ventes,8161,Consensus S&OP
+PRD-006,2026-01,International,Ventes,6121,Ajustement commercial
+PRD-006,2026-02,France,Ventes,16283,Ajustement commercial
+PRD-006,2026-02,Europe (hors FR),Ventes,13956,Consensus S&OP
+PRD-006,2026-02,US,Ventes,9304,Consensus S&OP
+PRD-006,2026-02,International,Ventes,6978,Consensus S&OP
+PRD-006,2026-03,France,Ventes,15739,Consensus S&OP
+PRD-006,2026-03,Europe (hors FR),Ventes,13491,Ajustement commercial
+PRD-006,2026-03,US,Ventes,8994,Statistique
+PRD-006,2026-03,International,Ventes,6745,Statistique
+PRD-006,2026-04,France,Ventes,16144,Ajustement commercial
+PRD-006,2026-04,Europe (hors FR),Ventes,13838,Statistique
+PRD-006,2026-04,US,Ventes,9225,Ajustement commercial
+PRD-006,2026-04,International,Ventes,6919,Statistique
+PRD-006,2026-05,France,Ventes,15564,Ajustement commercial
+PRD-006,2026-05,Europe (hors FR),Ventes,13340,Statistique
+PRD-006,2026-05,US,Ventes,8893,Consensus S&OP
+PRD-006,2026-05,International,Ventes,6670,Consensus S&OP
+PRD-006,2026-06,France,Ventes,13826,Statistique
+PRD-006,2026-06,Europe (hors FR),Ventes,11851,Ajustement commercial
+PRD-006,2026-06,US,Ventes,7900,Statistique
+PRD-006,2026-06,International,Ventes,5925,Statistique
+PRD-006,2026-07,France,Ventes,14099,Consensus S&OP
+PRD-006,2026-07,Europe (hors FR),Ventes,12085,Ajustement commercial
+PRD-006,2026-07,US,Ventes,8057,Consensus S&OP
+PRD-006,2026-07,International,Ventes,6043,Statistique
+PRD-006,2026-08,France,Ventes,13371,Consensus S&OP
+PRD-006,2026-08,Europe (hors FR),Ventes,11460,Ajustement commercial
+PRD-006,2026-08,US,Ventes,7640,Statistique
+PRD-006,2026-08,International,Ventes,5730,Statistique
+PRD-006,2026-09,France,Ventes,13163,Consensus S&OP
+PRD-006,2026-09,Europe (hors FR),Ventes,11283,Ajustement commercial
+PRD-006,2026-09,US,Ventes,7522,Ajustement commercial
+PRD-006,2026-09,International,Ventes,5641,Ajustement commercial
+PRD-006,2026-10,France,Ventes,13785,Ajustement commercial
+PRD-006,2026-10,Europe (hors FR),Ventes,11816,Ajustement commercial
+PRD-006,2026-10,US,Ventes,7877,Statistique
+PRD-006,2026-10,International,Ventes,5908,Statistique
+PRD-006,2026-11,France,Ventes,14420,Ajustement commercial
+PRD-006,2026-11,Europe (hors FR),Ventes,12360,Ajustement commercial
+PRD-006,2026-11,US,Ventes,8240,Statistique
+PRD-006,2026-11,International,Ventes,6180,Statistique
+PRD-006,2026-12,France,Ventes,17239,Ajustement commercial
+PRD-006,2026-12,Europe (hors FR),Ventes,14776,Ajustement commercial
+PRD-006,2026-12,US,Ventes,9851,Statistique
+PRD-006,2026-12,International,Ventes,7388,Consensus S&OP
+PRD-006,2027-01,France,Ventes,19465,Consensus S&OP
+PRD-006,2027-01,Europe (hors FR),Ventes,16685,Consensus S&OP
+PRD-006,2027-01,US,Ventes,11123,Statistique
+PRD-006,2027-01,International,Ventes,8342,Statistique
+PRD-006,2027-02,France,Ventes,20773,Statistique
+PRD-006,2027-02,Europe (hors FR),Ventes,17805,Consensus S&OP
+PRD-006,2027-02,US,Ventes,11870,Ajustement commercial
+PRD-006,2027-02,International,Ventes,8903,Statistique
+PRD-006,2027-03,France,Ventes,22546,Statistique
+PRD-006,2027-03,Europe (hors FR),Ventes,19325,Statistique
+PRD-006,2027-03,US,Ventes,12884,Consensus S&OP
+PRD-006,2027-03,International,Ventes,9663,Ajustement commercial
+PRD-006,2027-04,France,Ventes,23333,Consensus S&OP
+PRD-006,2027-04,Europe (hors FR),Ventes,20000,Consensus S&OP
+PRD-006,2027-04,US,Ventes,13333,Consensus S&OP
+PRD-006,2027-04,International,Ventes,10000,Statistique
+PRD-006,2027-05,France,Ventes,24207,Consensus S&OP
+PRD-006,2027-05,Europe (hors FR),Ventes,20749,Ajustement commercial
+PRD-006,2027-05,US,Ventes,13833,Ajustement commercial
+PRD-006,2027-05,International,Ventes,10374,Ajustement commercial
+PRD-006,2027-06,France,Ventes,20968,Ajustement commercial
+PRD-006,2027-06,Europe (hors FR),Ventes,17973,Consensus S&OP
+PRD-006,2027-06,US,Ventes,11982,Ajustement commercial
+PRD-006,2027-06,International,Ventes,8986,Ajustement commercial
+PRD-007,2026-01,France,Ventes,15116,Consensus S&OP
+PRD-007,2026-01,Europe (hors FR),Ventes,12957,Statistique
+PRD-007,2026-01,US,Ventes,8638,Statistique
+PRD-007,2026-01,International,Ventes,6478,Consensus S&OP
+PRD-007,2026-02,France,Ventes,15964,Statistique
+PRD-007,2026-02,Europe (hors FR),Ventes,13683,Ajustement commercial
+PRD-007,2026-02,US,Ventes,9122,Consensus S&OP
+PRD-007,2026-02,International,Ventes,6842,Statistique
+PRD-007,2026-03,France,Ventes,14996,Statistique
+PRD-007,2026-03,Europe (hors FR),Ventes,12853,Statistique
+PRD-007,2026-03,US,Ventes,8569,Statistique
+PRD-007,2026-03,International,Ventes,6427,Consensus S&OP
+PRD-007,2026-04,France,Ventes,16481,Statistique
+PRD-007,2026-04,Europe (hors FR),Ventes,14126,Statistique
+PRD-007,2026-04,US,Ventes,9417,Statistique
+PRD-007,2026-04,International,Ventes,7063,Ajustement commercial
+PRD-007,2026-05,France,Ventes,15878,Ajustement commercial
+PRD-007,2026-05,Europe (hors FR),Ventes,13609,Consensus S&OP
+PRD-007,2026-05,US,Ventes,9073,Consensus S&OP
+PRD-007,2026-05,International,Ventes,6805,Ajustement commercial
+PRD-007,2026-06,France,Ventes,16615,Ajustement commercial
+PRD-007,2026-06,Europe (hors FR),Ventes,14242,Statistique
+PRD-007,2026-06,US,Ventes,9494,Statistique
+PRD-007,2026-06,International,Ventes,7121,Ajustement commercial
+PRD-007,2026-07,France,Ventes,13590,Consensus S&OP
+PRD-007,2026-07,Europe (hors FR),Ventes,11649,Ajustement commercial
+PRD-007,2026-07,US,Ventes,7766,Consensus S&OP
+PRD-007,2026-07,International,Ventes,5824,Ajustement commercial
+PRD-007,2026-08,France,Ventes,13163,Statistique
+PRD-007,2026-08,Europe (hors FR),Ventes,11282,Consensus S&OP
+PRD-007,2026-08,US,Ventes,7522,Statistique
+PRD-007,2026-08,International,Ventes,5641,Ajustement commercial
+PRD-007,2026-09,France,Ventes,12781,Consensus S&OP
+PRD-007,2026-09,Europe (hors FR),Ventes,10955,Consensus S&OP
+PRD-007,2026-09,US,Ventes,7304,Consensus S&OP
+PRD-007,2026-09,International,Ventes,5478,Statistique
+PRD-007,2026-10,France,Ventes,12575,Ajustement commercial
+PRD-007,2026-10,Europe (hors FR),Ventes,10778,Statistique
+PRD-007,2026-10,US,Ventes,7185,Consensus S&OP
+PRD-007,2026-10,International,Ventes,5389,Statistique
+PRD-007,2026-11,France,Ventes,15387,Consensus S&OP
+PRD-007,2026-11,Europe (hors FR),Ventes,13189,Statistique
+PRD-007,2026-11,US,Ventes,8793,Ajustement commercial
+PRD-007,2026-11,International,Ventes,6594,Statistique
+PRD-007,2026-12,France,Ventes,16768,Statistique
+PRD-007,2026-12,Europe (hors FR),Ventes,14373,Statistique
+PRD-007,2026-12,US,Ventes,9582,Statistique
+PRD-007,2026-12,International,Ventes,7186,Ajustement commercial
+PRD-007,2027-01,France,Ventes,18514,Consensus S&OP
+PRD-007,2027-01,Europe (hors FR),Ventes,15870,Consensus S&OP
+PRD-007,2027-01,US,Ventes,10580,Consensus S&OP
+PRD-007,2027-01,International,Ventes,7935,Ajustement commercial
+PRD-007,2027-02,France,Ventes,18252,Ajustement commercial
+PRD-007,2027-02,Europe (hors FR),Ventes,15645,Statistique
+PRD-007,2027-02,US,Ventes,10430,Ajustement commercial
+PRD-007,2027-02,International,Ventes,7822,Consensus S&OP
+PRD-007,2027-03,France,Ventes,21183,Ajustement commercial
+PRD-007,2027-03,Europe (hors FR),Ventes,18157,Consensus S&OP
+PRD-007,2027-03,US,Ventes,12105,Ajustement commercial
+PRD-007,2027-03,International,Ventes,9078,Ajustement commercial
+PRD-007,2027-04,France,Ventes,18313,Consensus S&OP
+PRD-007,2027-04,Europe (hors FR),Ventes,15697,Consensus S&OP
+PRD-007,2027-04,US,Ventes,10465,Ajustement commercial
+PRD-007,2027-04,International,Ventes,7848,Ajustement commercial
+PRD-007,2027-05,France,Ventes,19445,Statistique
+PRD-007,2027-05,Europe (hors FR),Ventes,16668,Consensus S&OP
+PRD-007,2027-05,US,Ventes,11112,Statistique
+PRD-007,2027-05,International,Ventes,8334,Ajustement commercial
+PRD-007,2027-06,France,Ventes,19587,Consensus S&OP
+PRD-007,2027-06,Europe (hors FR),Ventes,16789,Ajustement commercial
+PRD-007,2027-06,US,Ventes,11193,Consensus S&OP
+PRD-007,2027-06,International,Ventes,8395,Ajustement commercial
+PRD-008,2026-01,France,Ventes,1378,Consensus S&OP
+PRD-008,2026-01,Europe (hors FR),Ventes,1181,Consensus S&OP
+PRD-008,2026-01,US,Ventes,788,Statistique
+PRD-008,2026-01,International,Ventes,591,Consensus S&OP
+PRD-008,2026-02,France,Ventes,1511,Ajustement commercial
+PRD-008,2026-02,Europe (hors FR),Ventes,1295,Consensus S&OP
+PRD-008,2026-02,US,Ventes,863,Statistique
+PRD-008,2026-02,International,Ventes,647,Statistique
+PRD-008,2026-03,France,Ventes,1594,Ajustement commercial
+PRD-008,2026-03,Europe (hors FR),Ventes,1367,Consensus S&OP
+PRD-008,2026-03,US,Ventes,911,Consensus S&OP
+PRD-008,2026-03,International,Ventes,683,Ajustement commercial
+PRD-008,2026-04,France,Ventes,1496,Ajustement commercial
+PRD-008,2026-04,Europe (hors FR),Ventes,1283,Statistique
+PRD-008,2026-04,US,Ventes,855,Consensus S&OP
+PRD-008,2026-04,International,Ventes,641,Ajustement commercial
+PRD-008,2026-05,France,Ventes,1304,Consensus S&OP
+PRD-008,2026-05,Europe (hors FR),Ventes,1118,Ajustement commercial
+PRD-008,2026-05,US,Ventes,745,Statistique
+PRD-008,2026-05,International,Ventes,559,Ajustement commercial
+PRD-008,2026-06,France,Ventes,1257,Ajustement commercial
+PRD-008,2026-06,Europe (hors FR),Ventes,1077,Ajustement commercial
+PRD-008,2026-06,US,Ventes,718,Ajustement commercial
+PRD-008,2026-06,International,Ventes,539,Ajustement commercial
+PRD-008,2026-07,France,Ventes,1036,Consensus S&OP
+PRD-008,2026-07,Europe (hors FR),Ventes,888,Statistique
+PRD-008,2026-07,US,Ventes,592,Statistique
+PRD-008,2026-07,International,Ventes,444,Ajustement commercial
+PRD-008,2026-08,France,Ventes,1000,Ajustement commercial
+PRD-008,2026-08,Europe (hors FR),Ventes,857,Consensus S&OP
+PRD-008,2026-08,US,Ventes,572,Ajustement commercial
+PRD-008,2026-08,International,Ventes,429,Ajustement commercial
+PRD-008,2026-09,France,Ventes,888,Consensus S&OP
+PRD-008,2026-09,Europe (hors FR),Ventes,761,Ajustement commercial
+PRD-008,2026-09,US,Ventes,508,Consensus S&OP
+PRD-008,2026-09,International,Ventes,381,Statistique
+PRD-008,2026-10,France,Ventes,1040,Ajustement commercial
+PRD-008,2026-10,Europe (hors FR),Ventes,891,Statistique
+PRD-008,2026-10,US,Ventes,594,Ajustement commercial
+PRD-008,2026-10,International,Ventes,446,Ajustement commercial
+PRD-008,2026-11,France,Ventes,1025,Ajustement commercial
+PRD-008,2026-11,Europe (hors FR),Ventes,878,Statistique
+PRD-008,2026-11,US,Ventes,586,Ajustement commercial
+PRD-008,2026-11,International,Ventes,439,Consensus S&OP
+PRD-008,2026-12,France,Ventes,1186,Statistique
+PRD-008,2026-12,Europe (hors FR),Ventes,1017,Consensus S&OP
+PRD-008,2026-12,US,Ventes,678,Consensus S&OP
+PRD-008,2026-12,International,Ventes,508,Ajustement commercial
+PRD-008,2027-01,France,Ventes,1398,Ajustement commercial
+PRD-008,2027-01,Europe (hors FR),Ventes,1198,Statistique
+PRD-008,2027-01,US,Ventes,799,Statistique
+PRD-008,2027-01,International,Ventes,599,Consensus S&OP
+PRD-008,2027-02,France,Ventes,1352,Ajustement commercial
+PRD-008,2027-02,Europe (hors FR),Ventes,1159,Consensus S&OP
+PRD-008,2027-02,US,Ventes,772,Ajustement commercial
+PRD-008,2027-02,International,Ventes,579,Consensus S&OP
+PRD-008,2027-03,France,Ventes,1486,Ajustement commercial
+PRD-008,2027-03,Europe (hors FR),Ventes,1274,Statistique
+PRD-008,2027-03,US,Ventes,849,Statistique
+PRD-008,2027-03,International,Ventes,637,Ajustement commercial
+PRD-008,2027-04,France,Ventes,1515,Consensus S&OP
+PRD-008,2027-04,Europe (hors FR),Ventes,1299,Statistique
+PRD-008,2027-04,US,Ventes,866,Ajustement commercial
+PRD-008,2027-04,International,Ventes,649,Ajustement commercial
+PRD-008,2027-05,France,Ventes,1204,Consensus S&OP
+PRD-008,2027-05,Europe (hors FR),Ventes,1032,Ajustement commercial
+PRD-008,2027-05,US,Ventes,688,Statistique
+PRD-008,2027-05,International,Ventes,516,Statistique
+PRD-008,2027-06,France,Ventes,1171,Consensus S&OP
+PRD-008,2027-06,Europe (hors FR),Ventes,1004,Consensus S&OP
+PRD-008,2027-06,US,Ventes,669,Statistique
+PRD-008,2027-06,International,Ventes,502,Consensus S&OP
+PRD-009,2026-01,France,Ventes,4505,Ajustement commercial
+PRD-009,2026-01,Europe (hors FR),Ventes,3861,Statistique
+PRD-009,2026-01,US,Ventes,2574,Statistique
+PRD-009,2026-01,International,Ventes,1931,Statistique
+PRD-009,2026-02,France,Ventes,4719,Ajustement commercial
+PRD-009,2026-02,Europe (hors FR),Ventes,4045,Statistique
+PRD-009,2026-02,US,Ventes,2697,Consensus S&OP
+PRD-009,2026-02,International,Ventes,2022,Statistique
+PRD-009,2026-03,France,Ventes,4300,Ajustement commercial
+PRD-009,2026-03,Europe (hors FR),Ventes,3686,Consensus S&OP
+PRD-009,2026-03,US,Ventes,2457,Ajustement commercial
+PRD-009,2026-03,International,Ventes,1843,Consensus S&OP
+PRD-009,2026-04,France,Ventes,4262,Consensus S&OP
+PRD-009,2026-04,Europe (hors FR),Ventes,3653,Ajustement commercial
+PRD-009,2026-04,US,Ventes,2436,Ajustement commercial
+PRD-009,2026-04,International,Ventes,1827,Ajustement commercial
+PRD-009,2026-05,France,Ventes,4607,Ajustement commercial
+PRD-009,2026-05,Europe (hors FR),Ventes,3949,Statistique
+PRD-009,2026-05,US,Ventes,2633,Ajustement commercial
+PRD-009,2026-05,International,Ventes,1975,Consensus S&OP
+PRD-009,2026-06,France,Ventes,4451,Statistique
+PRD-009,2026-06,Europe (hors FR),Ventes,3815,Ajustement commercial
+PRD-009,2026-06,US,Ventes,2543,Statistique
+PRD-009,2026-06,International,Ventes,1907,Consensus S&OP
+PRD-009,2026-07,France,Ventes,4334,Consensus S&OP
+PRD-009,2026-07,Europe (hors FR),Ventes,3715,Consensus S&OP
+PRD-009,2026-07,US,Ventes,2477,Statistique
+PRD-009,2026-07,International,Ventes,1857,Statistique
+PRD-009,2026-08,France,Ventes,4278,Ajustement commercial
+PRD-009,2026-08,Europe (hors FR),Ventes,3667,Ajustement commercial
+PRD-009,2026-08,US,Ventes,2445,Ajustement commercial
+PRD-009,2026-08,International,Ventes,1834,Consensus S&OP
+PRD-009,2026-09,France,Ventes,4042,Ajustement commercial
+PRD-009,2026-09,Europe (hors FR),Ventes,3465,Statistique
+PRD-009,2026-09,US,Ventes,2310,Ajustement commercial
+PRD-009,2026-09,International,Ventes,1732,Consensus S&OP
+PRD-009,2026-10,France,Ventes,4275,Ajustement commercial
+PRD-009,2026-10,Europe (hors FR),Ventes,3664,Consensus S&OP
+PRD-009,2026-10,US,Ventes,2443,Consensus S&OP
+PRD-009,2026-10,International,Ventes,1832,Consensus S&OP
+PRD-009,2026-11,France,Ventes,4385,Ajustement commercial
+PRD-009,2026-11,Europe (hors FR),Ventes,3759,Statistique
+PRD-009,2026-11,US,Ventes,2506,Ajustement commercial
+PRD-009,2026-11,International,Ventes,1879,Consensus S&OP
+PRD-009,2026-12,France,Ventes,4291,Ajustement commercial
+PRD-009,2026-12,Europe (hors FR),Ventes,3678,Ajustement commercial
+PRD-009,2026-12,US,Ventes,2452,Ajustement commercial
+PRD-009,2026-12,International,Ventes,1839,Consensus S&OP
+PRD-009,2027-01,France,Ventes,5005,Consensus S&OP
+PRD-009,2027-01,Europe (hors FR),Ventes,4290,Ajustement commercial
+PRD-009,2027-01,US,Ventes,2860,Ajustement commercial
+PRD-009,2027-01,International,Ventes,2145,Ajustement commercial
+PRD-009,2027-02,France,Ventes,4787,Statistique
+PRD-009,2027-02,Europe (hors FR),Ventes,4103,Consensus S&OP
+PRD-009,2027-02,US,Ventes,2735,Statistique
+PRD-009,2027-02,International,Ventes,2051,Consensus S&OP
+PRD-009,2027-03,France,Ventes,4438,Ajustement commercial
+PRD-009,2027-03,Europe (hors FR),Ventes,3804,Statistique
+PRD-009,2027-03,US,Ventes,2536,Ajustement commercial
+PRD-009,2027-03,International,Ventes,1902,Statistique
+PRD-009,2027-04,France,Ventes,4853,Ajustement commercial
+PRD-009,2027-04,Europe (hors FR),Ventes,4159,Consensus S&OP
+PRD-009,2027-04,US,Ventes,2773,Ajustement commercial
+PRD-009,2027-04,International,Ventes,2080,Consensus S&OP
+PRD-009,2027-05,France,Ventes,4398,Ajustement commercial
+PRD-009,2027-05,Europe (hors FR),Ventes,3769,Ajustement commercial
+PRD-009,2027-05,US,Ventes,2513,Consensus S&OP
+PRD-009,2027-05,International,Ventes,1885,Consensus S&OP
+PRD-009,2027-06,France,Ventes,4693,Statistique
+PRD-009,2027-06,Europe (hors FR),Ventes,4022,Ajustement commercial
+PRD-009,2027-06,US,Ventes,2682,Statistique
+PRD-009,2027-06,International,Ventes,2011,Statistique
+PRD-010,2026-01,France,Ventes,13682,Statistique
+PRD-010,2026-01,Europe (hors FR),Ventes,11727,Ajustement commercial
+PRD-010,2026-01,US,Ventes,7818,Statistique
+PRD-010,2026-01,International,Ventes,5864,Consensus S&OP
+PRD-010,2026-02,France,Ventes,13270,Ajustement commercial
+PRD-010,2026-02,Europe (hors FR),Ventes,11375,Statistique
+PRD-010,2026-02,US,Ventes,7583,Consensus S&OP
+PRD-010,2026-02,International,Ventes,5687,Statistique
+PRD-010,2026-03,France,Ventes,15131,Ajustement commercial
+PRD-010,2026-03,Europe (hors FR),Ventes,12970,Consensus S&OP
+PRD-010,2026-03,US,Ventes,8646,Statistique
+PRD-010,2026-03,International,Ventes,6485,Statistique
+PRD-010,2026-04,France,Ventes,14944,Ajustement commercial
+PRD-010,2026-04,Europe (hors FR),Ventes,12809,Ajustement commercial
+PRD-010,2026-04,US,Ventes,8539,Ajustement commercial
+PRD-010,2026-04,International,Ventes,6404,Consensus S&OP
+PRD-010,2026-05,France,Ventes,15073,Consensus S&OP
+PRD-010,2026-05,Europe (hors FR),Ventes,12919,Ajustement commercial
+PRD-010,2026-05,US,Ventes,8613,Consensus S&OP
+PRD-010,2026-05,International,Ventes,6460,Statistique
+PRD-010,2026-06,France,Ventes,15407,Ajustement commercial
+PRD-010,2026-06,Europe (hors FR),Ventes,13206,Consensus S&OP
+PRD-010,2026-06,US,Ventes,8804,Consensus S&OP
+PRD-010,2026-06,International,Ventes,6603,Ajustement commercial
+PRD-010,2026-07,France,Ventes,13466,Ajustement commercial
+PRD-010,2026-07,Europe (hors FR),Ventes,11542,Consensus S&OP
+PRD-010,2026-07,US,Ventes,7695,Consensus S&OP
+PRD-010,2026-07,International,Ventes,5771,Ajustement commercial
+PRD-010,2026-08,France,Ventes,12884,Consensus S&OP
+PRD-010,2026-08,Europe (hors FR),Ventes,11044,Statistique
+PRD-010,2026-08,US,Ventes,7362,Consensus S&OP
+PRD-010,2026-08,International,Ventes,5522,Statistique
+PRD-010,2026-09,France,Ventes,12931,Statistique
+PRD-010,2026-09,Europe (hors FR),Ventes,11084,Consensus S&OP
+PRD-010,2026-09,US,Ventes,7389,Consensus S&OP
+PRD-010,2026-09,International,Ventes,5542,Ajustement commercial
+PRD-010,2026-10,France,Ventes,13588,Statistique
+PRD-010,2026-10,Europe (hors FR),Ventes,11647,Consensus S&OP
+PRD-010,2026-10,US,Ventes,7765,Statistique
+PRD-010,2026-10,International,Ventes,5823,Ajustement commercial
+PRD-010,2026-11,France,Ventes,15203,Statistique
+PRD-010,2026-11,Europe (hors FR),Ventes,13031,Consensus S&OP
+PRD-010,2026-11,US,Ventes,8687,Consensus S&OP
+PRD-010,2026-11,International,Ventes,6515,Statistique
+PRD-010,2026-12,France,Ventes,16953,Ajustement commercial
+PRD-010,2026-12,Europe (hors FR),Ventes,14531,Statistique
+PRD-010,2026-12,US,Ventes,9687,Consensus S&OP
+PRD-010,2026-12,International,Ventes,7265,Ajustement commercial
+PRD-010,2027-01,France,Ventes,18394,Statistique
+PRD-010,2027-01,Europe (hors FR),Ventes,15766,Statistique
+PRD-010,2027-01,US,Ventes,10511,Ajustement commercial
+PRD-010,2027-01,International,Ventes,7883,Statistique
+PRD-010,2027-02,France,Ventes,20217,Ajustement commercial
+PRD-010,2027-02,Europe (hors FR),Ventes,17329,Ajustement commercial
+PRD-010,2027-02,US,Ventes,11552,Ajustement commercial
+PRD-010,2027-02,International,Ventes,8664,Ajustement commercial
+PRD-010,2027-03,France,Ventes,20265,Statistique
+PRD-010,2027-03,Europe (hors FR),Ventes,17370,Statistique
+PRD-010,2027-03,US,Ventes,11580,Consensus S&OP
+PRD-010,2027-03,International,Ventes,8685,Ajustement commercial
+PRD-010,2027-04,France,Ventes,22034,Consensus S&OP
+PRD-010,2027-04,Europe (hors FR),Ventes,18886,Consensus S&OP
+PRD-010,2027-04,US,Ventes,12591,Statistique
+PRD-010,2027-04,International,Ventes,9443,Statistique
+PRD-010,2027-05,France,Ventes,20042,Statistique
+PRD-010,2027-05,Europe (hors FR),Ventes,17179,Statistique
+PRD-010,2027-05,US,Ventes,11453,Consensus S&OP
+PRD-010,2027-05,International,Ventes,8589,Ajustement commercial
+PRD-010,2027-06,France,Ventes,22428,Consensus S&OP
+PRD-010,2027-06,Europe (hors FR),Ventes,19224,Consensus S&OP
+PRD-010,2027-06,US,Ventes,12816,Statistique
+PRD-010,2027-06,International,Ventes,9612,Ajustement commercial
+PRD-011,2026-01,France,Ventes,15549,Ajustement commercial
+PRD-011,2026-01,Europe (hors FR),Ventes,13327,Ajustement commercial
+PRD-011,2026-01,US,Ventes,8885,Ajustement commercial
+PRD-011,2026-01,International,Ventes,6664,Consensus S&OP
+PRD-011,2026-02,France,Ventes,15067,Statistique
+PRD-011,2026-02,Europe (hors FR),Ventes,12915,Ajustement commercial
+PRD-011,2026-02,US,Ventes,8610,Ajustement commercial
+PRD-011,2026-02,International,Ventes,6457,Consensus S&OP
+PRD-011,2026-03,France,Ventes,15087,Consensus S&OP
+PRD-011,2026-03,Europe (hors FR),Ventes,12932,Statistique
+PRD-011,2026-03,US,Ventes,8621,Statistique
+PRD-011,2026-03,International,Ventes,6466,Ajustement commercial
+PRD-011,2026-04,France,Ventes,15984,Ajustement commercial
+PRD-011,2026-04,Europe (hors FR),Ventes,13701,Consensus S&OP
+PRD-011,2026-04,US,Ventes,9134,Ajustement commercial
+PRD-011,2026-04,International,Ventes,6850,Consensus S&OP
+PRD-011,2026-05,France,Ventes,14655,Ajustement commercial
+PRD-011,2026-05,Europe (hors FR),Ventes,12562,Consensus S&OP
+PRD-011,2026-05,US,Ventes,8374,Ajustement commercial
+PRD-011,2026-05,International,Ventes,6281,Ajustement commercial
+PRD-011,2026-06,France,Ventes,14269,Ajustement commercial
+PRD-011,2026-06,Europe (hors FR),Ventes,12231,Statistique
+PRD-011,2026-06,US,Ventes,8154,Ajustement commercial
+PRD-011,2026-06,International,Ventes,6115,Ajustement commercial
+PRD-011,2026-07,France,Ventes,13045,Statistique
+PRD-011,2026-07,Europe (hors FR),Ventes,11181,Statistique
+PRD-011,2026-07,US,Ventes,7454,Ajustement commercial
+PRD-011,2026-07,International,Ventes,5591,Consensus S&OP
+PRD-011,2026-08,France,Ventes,11934,Ajustement commercial
+PRD-011,2026-08,Europe (hors FR),Ventes,10229,Consensus S&OP
+PRD-011,2026-08,US,Ventes,6819,Ajustement commercial
+PRD-011,2026-08,International,Ventes,5115,Consensus S&OP
+PRD-011,2026-09,France,Ventes,11173,Ajustement commercial
+PRD-011,2026-09,Europe (hors FR),Ventes,9577,Statistique
+PRD-011,2026-09,US,Ventes,6385,Consensus S&OP
+PRD-011,2026-09,International,Ventes,4788,Ajustement commercial
+PRD-011,2026-10,France,Ventes,10976,Ajustement commercial
+PRD-011,2026-10,Europe (hors FR),Ventes,9408,Statistique
+PRD-011,2026-10,US,Ventes,6272,Consensus S&OP
+PRD-011,2026-10,International,Ventes,4704,Consensus S&OP
+PRD-011,2026-11,France,Ventes,12247,Consensus S&OP
+PRD-011,2026-11,Europe (hors FR),Ventes,10497,Statistique
+PRD-011,2026-11,US,Ventes,6998,Consensus S&OP
+PRD-011,2026-11,International,Ventes,5249,Consensus S&OP
+PRD-011,2026-12,France,Ventes,14003,Ajustement commercial
+PRD-011,2026-12,Europe (hors FR),Ventes,12003,Ajustement commercial
+PRD-011,2026-12,US,Ventes,8002,Statistique
+PRD-011,2026-12,International,Ventes,6001,Consensus S&OP
+PRD-011,2027-01,France,Ventes,14475,Ajustement commercial
+PRD-011,2027-01,Europe (hors FR),Ventes,12407,Statistique
+PRD-011,2027-01,US,Ventes,8271,Consensus S&OP
+PRD-011,2027-01,International,Ventes,6203,Statistique
+PRD-011,2027-02,France,Ventes,14022,Consensus S&OP
+PRD-011,2027-02,Europe (hors FR),Ventes,12019,Ajustement commercial
+PRD-011,2027-02,US,Ventes,8012,Consensus S&OP
+PRD-011,2027-02,International,Ventes,6009,Consensus S&OP
+PRD-011,2027-03,France,Ventes,15273,Consensus S&OP
+PRD-011,2027-03,Europe (hors FR),Ventes,13091,Consensus S&OP
+PRD-011,2027-03,US,Ventes,8727,Statistique
+PRD-011,2027-03,International,Ventes,6546,Consensus S&OP
+PRD-011,2027-04,France,Ventes,15111,Statistique
+PRD-011,2027-04,Europe (hors FR),Ventes,12953,Consensus S&OP
+PRD-011,2027-04,US,Ventes,8635,Consensus S&OP
+PRD-011,2027-04,International,Ventes,6476,Statistique
+PRD-011,2027-05,France,Ventes,13456,Ajustement commercial
+PRD-011,2027-05,Europe (hors FR),Ventes,11534,Ajustement commercial
+PRD-011,2027-05,US,Ventes,7689,Statistique
+PRD-011,2027-05,International,Ventes,5767,Consensus S&OP
+PRD-011,2027-06,France,Ventes,13188,Ajustement commercial
+PRD-011,2027-06,Europe (hors FR),Ventes,11304,Consensus S&OP
+PRD-011,2027-06,US,Ventes,7536,Statistique
+PRD-011,2027-06,International,Ventes,5652,Statistique
+PRD-012,2026-01,France,Ventes,7989,Statistique
+PRD-012,2026-01,Europe (hors FR),Ventes,6848,Statistique
+PRD-012,2026-01,US,Ventes,4565,Consensus S&OP
+PRD-012,2026-01,International,Ventes,3424,Ajustement commercial
+PRD-012,2026-02,France,Ventes,7878,Consensus S&OP
+PRD-012,2026-02,Europe (hors FR),Ventes,6753,Consensus S&OP
+PRD-012,2026-02,US,Ventes,4502,Ajustement commercial
+PRD-012,2026-02,International,Ventes,3376,Statistique
+PRD-012,2026-03,France,Ventes,8667,Ajustement commercial
+PRD-012,2026-03,Europe (hors FR),Ventes,7429,Ajustement commercial
+PRD-012,2026-03,US,Ventes,4953,Ajustement commercial
+PRD-012,2026-03,International,Ventes,3715,Consensus S&OP
+PRD-012,2026-04,France,Ventes,8643,Ajustement commercial
+PRD-012,2026-04,Europe (hors FR),Ventes,7408,Statistique
+PRD-012,2026-04,US,Ventes,4939,Ajustement commercial
+PRD-012,2026-04,International,Ventes,3704,Statistique
+PRD-012,2026-05,France,Ventes,8501,Statistique
+PRD-012,2026-05,Europe (hors FR),Ventes,7287,Statistique
+PRD-012,2026-05,US,Ventes,4858,Consensus S&OP
+PRD-012,2026-05,International,Ventes,3643,Consensus S&OP
+PRD-012,2026-06,France,Ventes,7984,Consensus S&OP
+PRD-012,2026-06,Europe (hors FR),Ventes,6843,Ajustement commercial
+PRD-012,2026-06,US,Ventes,4562,Consensus S&OP
+PRD-012,2026-06,International,Ventes,3422,Ajustement commercial
+PRD-012,2026-07,France,Ventes,6612,Statistique
+PRD-012,2026-07,Europe (hors FR),Ventes,5668,Ajustement commercial
+PRD-012,2026-07,US,Ventes,3778,Statistique
+PRD-012,2026-07,International,Ventes,2834,Ajustement commercial
+PRD-012,2026-08,France,Ventes,6435,Consensus S&OP
+PRD-012,2026-08,Europe (hors FR),Ventes,5515,Statistique
+PRD-012,2026-08,US,Ventes,3677,Ajustement commercial
+PRD-012,2026-08,International,Ventes,2758,Ajustement commercial
+PRD-012,2026-09,France,Ventes,6806,Consensus S&OP
+PRD-012,2026-09,Europe (hors FR),Ventes,5834,Consensus S&OP
+PRD-012,2026-09,US,Ventes,3889,Consensus S&OP
+PRD-012,2026-09,International,Ventes,2917,Ajustement commercial
+PRD-012,2026-10,France,Ventes,6967,Consensus S&OP
+PRD-012,2026-10,Europe (hors FR),Ventes,5972,Ajustement commercial
+PRD-012,2026-10,US,Ventes,3981,Consensus S&OP
+PRD-012,2026-10,International,Ventes,2986,Ajustement commercial
+PRD-012,2026-11,France,Ventes,7374,Statistique
+PRD-012,2026-11,Europe (hors FR),Ventes,6321,Consensus S&OP
+PRD-012,2026-11,US,Ventes,4214,Statistique
+PRD-012,2026-11,International,Ventes,3160,Ajustement commercial
+PRD-012,2026-12,France,Ventes,9213,Statistique
+PRD-012,2026-12,Europe (hors FR),Ventes,7897,Consensus S&OP
+PRD-012,2026-12,US,Ventes,5265,Consensus S&OP
+PRD-012,2026-12,International,Ventes,3948,Ajustement commercial
+PRD-012,2027-01,France,Ventes,8500,Consensus S&OP
+PRD-012,2027-01,Europe (hors FR),Ventes,7286,Statistique
+PRD-012,2027-01,US,Ventes,4857,Consensus S&OP
+PRD-012,2027-01,International,Ventes,3643,Statistique
+PRD-012,2027-02,France,Ventes,9161,Consensus S&OP
+PRD-012,2027-02,Europe (hors FR),Ventes,7852,Ajustement commercial
+PRD-012,2027-02,US,Ventes,5235,Consensus S&OP
+PRD-012,2027-02,International,Ventes,3926,Ajustement commercial
+PRD-012,2027-03,France,Ventes,9255,Consensus S&OP
+PRD-012,2027-03,Europe (hors FR),Ventes,7933,Ajustement commercial
+PRD-012,2027-03,US,Ventes,5289,Statistique
+PRD-012,2027-03,International,Ventes,3967,Statistique
+PRD-012,2027-04,France,Ventes,9006,Statistique
+PRD-012,2027-04,Europe (hors FR),Ventes,7719,Statistique
+PRD-012,2027-04,US,Ventes,5146,Ajustement commercial
+PRD-012,2027-04,International,Ventes,3860,Ajustement commercial
+PRD-012,2027-05,France,Ventes,8234,Statistique
+PRD-012,2027-05,Europe (hors FR),Ventes,7058,Statistique
+PRD-012,2027-05,US,Ventes,4705,Statistique
+PRD-012,2027-05,International,Ventes,3529,Consensus S&OP
+PRD-012,2027-06,France,Ventes,8167,Statistique
+PRD-012,2027-06,Europe (hors FR),Ventes,7000,Ajustement commercial
+PRD-012,2027-06,US,Ventes,4667,Ajustement commercial
+PRD-012,2027-06,International,Ventes,3500,Ajustement commercial
+PRD-013,2026-01,France,Ventes,16921,Consensus S&OP
+PRD-013,2026-01,Europe (hors FR),Ventes,14503,Ajustement commercial
+PRD-013,2026-01,US,Ventes,9669,Consensus S&OP
+PRD-013,2026-01,International,Ventes,7252,Consensus S&OP
+PRD-013,2026-02,France,Ventes,19011,Consensus S&OP
+PRD-013,2026-02,Europe (hors FR),Ventes,16295,Statistique
+PRD-013,2026-02,US,Ventes,10863,Ajustement commercial
+PRD-013,2026-02,International,Ventes,8147,Consensus S&OP
+PRD-013,2026-03,France,Ventes,19717,Statistique
+PRD-013,2026-03,Europe (hors FR),Ventes,16900,Ajustement commercial
+PRD-013,2026-03,US,Ventes,11267,Consensus S&OP
+PRD-013,2026-03,International,Ventes,8450,Ajustement commercial
+PRD-013,2026-04,France,Ventes,20413,Ajustement commercial
+PRD-013,2026-04,Europe (hors FR),Ventes,17497,Statistique
+PRD-013,2026-04,US,Ventes,11665,Consensus S&OP
+PRD-013,2026-04,International,Ventes,8748,Ajustement commercial
+PRD-013,2026-05,France,Ventes,21929,Statistique
+PRD-013,2026-05,Europe (hors FR),Ventes,18797,Ajustement commercial
+PRD-013,2026-05,US,Ventes,12531,Ajustement commercial
+PRD-013,2026-05,International,Ventes,9398,Statistique
+PRD-013,2026-06,France,Ventes,16734,Ajustement commercial
+PRD-013,2026-06,Europe (hors FR),Ventes,14344,Statistique
+PRD-013,2026-06,US,Ventes,9562,Consensus S&OP
+PRD-013,2026-06,International,Ventes,7172,Ajustement commercial
+PRD-013,2026-07,France,Ventes,17767,Consensus S&OP
+PRD-013,2026-07,Europe (hors FR),Ventes,15229,Consensus S&OP
+PRD-013,2026-07,US,Ventes,10153,Ajustement commercial
+PRD-013,2026-07,International,Ventes,7615,Statistique
+PRD-013,2026-08,France,Ventes,14992,Ajustement commercial
+PRD-013,2026-08,Europe (hors FR),Ventes,12850,Ajustement commercial
+PRD-013,2026-08,US,Ventes,8567,Statistique
+PRD-013,2026-08,International,Ventes,6425,Statistique
+PRD-013,2026-09,France,Ventes,15871,Ajustement commercial
+PRD-013,2026-09,Europe (hors FR),Ventes,13604,Statistique
+PRD-013,2026-09,US,Ventes,9069,Consensus S&OP
+PRD-013,2026-09,International,Ventes,6802,Statistique
+PRD-013,2026-10,France,Ventes,18171,Consensus S&OP
+PRD-013,2026-10,Europe (hors FR),Ventes,15575,Consensus S&OP
+PRD-013,2026-10,US,Ventes,10383,Consensus S&OP
+PRD-013,2026-10,International,Ventes,7787,Statistique
+PRD-013,2026-11,France,Ventes,19244,Statistique
+PRD-013,2026-11,Europe (hors FR),Ventes,16495,Ajustement commercial
+PRD-013,2026-11,US,Ventes,10997,Statistique
+PRD-013,2026-11,International,Ventes,8247,Statistique
+PRD-013,2026-12,France,Ventes,20607,Consensus S&OP
+PRD-013,2026-12,Europe (hors FR),Ventes,17663,Statistique
+PRD-013,2026-12,US,Ventes,11775,Statistique
+PRD-013,2026-12,International,Ventes,8831,Consensus S&OP
+PRD-013,2027-01,France,Ventes,23632,Statistique
+PRD-013,2027-01,Europe (hors FR),Ventes,20256,Consensus S&OP
+PRD-013,2027-01,US,Ventes,13504,Statistique
+PRD-013,2027-01,International,Ventes,10128,Statistique
+PRD-013,2027-02,France,Ventes,27700,Ajustement commercial
+PRD-013,2027-02,Europe (hors FR),Ventes,23743,Statistique
+PRD-013,2027-02,US,Ventes,15828,Consensus S&OP
+PRD-013,2027-02,International,Ventes,11871,Statistique
+PRD-013,2027-03,France,Ventes,27111,Ajustement commercial
+PRD-013,2027-03,Europe (hors FR),Ventes,23238,Statistique
+PRD-013,2027-03,US,Ventes,15492,Statistique
+PRD-013,2027-03,International,Ventes,11619,Consensus S&OP
+PRD-013,2027-04,France,Ventes,28616,Ajustement commercial
+PRD-013,2027-04,Europe (hors FR),Ventes,24528,Statistique
+PRD-013,2027-04,US,Ventes,16352,Statistique
+PRD-013,2027-04,International,Ventes,12264,Consensus S&OP
+PRD-013,2027-05,France,Ventes,27431,Statistique
+PRD-013,2027-05,Europe (hors FR),Ventes,23512,Statistique
+PRD-013,2027-05,US,Ventes,15675,Statistique
+PRD-013,2027-05,International,Ventes,11756,Ajustement commercial
+PRD-013,2027-06,France,Ventes,24864,Statistique
+PRD-013,2027-06,Europe (hors FR),Ventes,21312,Consensus S&OP
+PRD-013,2027-06,US,Ventes,14208,Ajustement commercial
+PRD-013,2027-06,International,Ventes,10656,Statistique
+PRD-014,2026-01,France,Ventes,5396,Ajustement commercial
+PRD-014,2026-01,Europe (hors FR),Ventes,4625,Consensus S&OP
+PRD-014,2026-01,US,Ventes,3083,Statistique
+PRD-014,2026-01,International,Ventes,2313,Consensus S&OP
+PRD-014,2026-02,France,Ventes,5165,Statistique
+PRD-014,2026-02,Europe (hors FR),Ventes,4427,Ajustement commercial
+PRD-014,2026-02,US,Ventes,2951,Ajustement commercial
+PRD-014,2026-02,International,Ventes,2214,Ajustement commercial
+PRD-014,2026-03,France,Ventes,4545,Consensus S&OP
+PRD-014,2026-03,Europe (hors FR),Ventes,3895,Consensus S&OP
+PRD-014,2026-03,US,Ventes,2597,Statistique
+PRD-014,2026-03,International,Ventes,1948,Ajustement commercial
+PRD-014,2026-04,France,Ventes,5059,Consensus S&OP
+PRD-014,2026-04,Europe (hors FR),Ventes,4336,Statistique
+PRD-014,2026-04,US,Ventes,2891,Consensus S&OP
+PRD-014,2026-04,International,Ventes,2168,Statistique
+PRD-014,2026-05,France,Ventes,4724,Consensus S&OP
+PRD-014,2026-05,Europe (hors FR),Ventes,4049,Consensus S&OP
+PRD-014,2026-05,US,Ventes,2699,Consensus S&OP
+PRD-014,2026-05,International,Ventes,2025,Ajustement commercial
+PRD-014,2026-06,France,Ventes,4912,Ajustement commercial
+PRD-014,2026-06,Europe (hors FR),Ventes,4210,Consensus S&OP
+PRD-014,2026-06,US,Ventes,2807,Statistique
+PRD-014,2026-06,International,Ventes,2105,Statistique
+PRD-014,2026-07,France,Ventes,4357,Ajustement commercial
+PRD-014,2026-07,Europe (hors FR),Ventes,3734,Ajustement commercial
+PRD-014,2026-07,US,Ventes,2490,Ajustement commercial
+PRD-014,2026-07,International,Ventes,1867,Consensus S&OP
+PRD-014,2026-08,France,Ventes,4384,Statistique
+PRD-014,2026-08,Europe (hors FR),Ventes,3758,Ajustement commercial
+PRD-014,2026-08,US,Ventes,2505,Consensus S&OP
+PRD-014,2026-08,International,Ventes,1879,Ajustement commercial
+PRD-014,2026-09,France,Ventes,4474,Statistique
+PRD-014,2026-09,Europe (hors FR),Ventes,3835,Statistique
+PRD-014,2026-09,US,Ventes,2557,Ajustement commercial
+PRD-014,2026-09,International,Ventes,1918,Consensus S&OP
+PRD-014,2026-10,France,Ventes,4606,Statistique
+PRD-014,2026-10,Europe (hors FR),Ventes,3948,Statistique
+PRD-014,2026-10,US,Ventes,2632,Statistique
+PRD-014,2026-10,International,Ventes,1974,Ajustement commercial
+PRD-014,2026-11,France,Ventes,4275,Consensus S&OP
+PRD-014,2026-11,Europe (hors FR),Ventes,3664,Consensus S&OP
+PRD-014,2026-11,US,Ventes,2443,Consensus S&OP
+PRD-014,2026-11,International,Ventes,1832,Consensus S&OP
+PRD-014,2026-12,France,Ventes,4649,Consensus S&OP
+PRD-014,2026-12,Europe (hors FR),Ventes,3985,Ajustement commercial
+PRD-014,2026-12,US,Ventes,2657,Ajustement commercial
+PRD-014,2026-12,International,Ventes,1993,Consensus S&OP
+PRD-014,2027-01,France,Ventes,4793,Consensus S&OP
+PRD-014,2027-01,Europe (hors FR),Ventes,4108,Ajustement commercial
+PRD-014,2027-01,US,Ventes,2739,Ajustement commercial
+PRD-014,2027-01,International,Ventes,2054,Consensus S&OP
+PRD-014,2027-02,France,Ventes,4879,Consensus S&OP
+PRD-014,2027-02,Europe (hors FR),Ventes,4182,Ajustement commercial
+PRD-014,2027-02,US,Ventes,2788,Statistique
+PRD-014,2027-02,International,Ventes,2091,Consensus S&OP
+PRD-014,2027-03,France,Ventes,5544,Statistique
+PRD-014,2027-03,Europe (hors FR),Ventes,4752,Consensus S&OP
+PRD-014,2027-03,US,Ventes,3168,Consensus S&OP
+PRD-014,2027-03,International,Ventes,2376,Consensus S&OP
+PRD-014,2027-04,France,Ventes,5152,Consensus S&OP
+PRD-014,2027-04,Europe (hors FR),Ventes,4416,Statistique
+PRD-014,2027-04,US,Ventes,2944,Ajustement commercial
+PRD-014,2027-04,International,Ventes,2208,Ajustement commercial
+PRD-014,2027-05,France,Ventes,4611,Statistique
+PRD-014,2027-05,Europe (hors FR),Ventes,3953,Ajustement commercial
+PRD-014,2027-05,US,Ventes,2635,Ajustement commercial
+PRD-014,2027-05,International,Ventes,1976,Ajustement commercial
+PRD-014,2027-06,France,Ventes,4964,Ajustement commercial
+PRD-014,2027-06,Europe (hors FR),Ventes,4255,Ajustement commercial
+PRD-014,2027-06,US,Ventes,2836,Consensus S&OP
+PRD-014,2027-06,International,Ventes,2127,Statistique
+PRD-015,2026-01,France,Ventes,9501,Ajustement commercial
+PRD-015,2026-01,Europe (hors FR),Ventes,8143,Statistique
+PRD-015,2026-01,US,Ventes,5429,Consensus S&OP
+PRD-015,2026-01,International,Ventes,4072,Ajustement commercial
+PRD-015,2026-02,France,Ventes,9655,Statistique
+PRD-015,2026-02,Europe (hors FR),Ventes,8275,Statistique
+PRD-015,2026-02,US,Ventes,5517,Statistique
+PRD-015,2026-02,International,Ventes,4138,Statistique
+PRD-015,2026-03,France,Ventes,8724,Ajustement commercial
+PRD-015,2026-03,Europe (hors FR),Ventes,7478,Statistique
+PRD-015,2026-03,US,Ventes,4985,Consensus S&OP
+PRD-015,2026-03,International,Ventes,3739,Consensus S&OP
+PRD-015,2026-04,France,Ventes,9086,Ajustement commercial
+PRD-015,2026-04,Europe (hors FR),Ventes,7788,Statistique
+PRD-015,2026-04,US,Ventes,5192,Consensus S&OP
+PRD-015,2026-04,International,Ventes,3894,Statistique
+PRD-015,2026-05,France,Ventes,9394,Consensus S&OP
+PRD-015,2026-05,Europe (hors FR),Ventes,8052,Consensus S&OP
+PRD-015,2026-05,US,Ventes,5368,Consensus S&OP
+PRD-015,2026-05,International,Ventes,4026,Ajustement commercial
+PRD-015,2026-06,France,Ventes,7863,Consensus S&OP
+PRD-015,2026-06,Europe (hors FR),Ventes,6740,Statistique
+PRD-015,2026-06,US,Ventes,4493,Ajustement commercial
+PRD-015,2026-06,International,Ventes,3370,Ajustement commercial
+PRD-015,2026-07,France,Ventes,7623,Consensus S&OP
+PRD-015,2026-07,Europe (hors FR),Ventes,6534,Ajustement commercial
+PRD-015,2026-07,US,Ventes,4356,Consensus S&OP
+PRD-015,2026-07,International,Ventes,3267,Statistique
+PRD-015,2026-08,France,Ventes,7226,Ajustement commercial
+PRD-015,2026-08,Europe (hors FR),Ventes,6194,Consensus S&OP
+PRD-015,2026-08,US,Ventes,4129,Ajustement commercial
+PRD-015,2026-08,International,Ventes,3097,Ajustement commercial
+PRD-015,2026-09,France,Ventes,6486,Statistique
+PRD-015,2026-09,Europe (hors FR),Ventes,5560,Consensus S&OP
+PRD-015,2026-09,US,Ventes,3707,Consensus S&OP
+PRD-015,2026-09,International,Ventes,2780,Statistique
+PRD-015,2026-10,France,Ventes,7034,Statistique
+PRD-015,2026-10,Europe (hors FR),Ventes,6029,Consensus S&OP
+PRD-015,2026-10,US,Ventes,4020,Ajustement commercial
+PRD-015,2026-10,International,Ventes,3015,Statistique
+PRD-015,2026-11,France,Ventes,6428,Statistique
+PRD-015,2026-11,Europe (hors FR),Ventes,5509,Ajustement commercial
+PRD-015,2026-11,US,Ventes,3673,Consensus S&OP
+PRD-015,2026-11,International,Ventes,2755,Ajustement commercial
+PRD-015,2026-12,France,Ventes,8068,Statistique
+PRD-015,2026-12,Europe (hors FR),Ventes,6915,Ajustement commercial
+PRD-015,2026-12,US,Ventes,4610,Consensus S&OP
+PRD-015,2026-12,International,Ventes,3458,Statistique
+PRD-015,2027-01,France,Ventes,9229,Ajustement commercial
+PRD-015,2027-01,Europe (hors FR),Ventes,7910,Consensus S&OP
+PRD-015,2027-01,US,Ventes,5274,Consensus S&OP
+PRD-015,2027-01,International,Ventes,3955,Consensus S&OP
+PRD-015,2027-02,France,Ventes,9367,Consensus S&OP
+PRD-015,2027-02,Europe (hors FR),Ventes,8029,Consensus S&OP
+PRD-015,2027-02,US,Ventes,5353,Consensus S&OP
+PRD-015,2027-02,International,Ventes,4015,Statistique
+PRD-015,2027-03,France,Ventes,11113,Consensus S&OP
+PRD-015,2027-03,Europe (hors FR),Ventes,9525,Consensus S&OP
+PRD-015,2027-03,US,Ventes,6350,Consensus S&OP
+PRD-015,2027-03,International,Ventes,4763,Ajustement commercial
+PRD-015,2027-04,France,Ventes,9408,Statistique
+PRD-015,2027-04,Europe (hors FR),Ventes,8064,Statistique
+PRD-015,2027-04,US,Ventes,5376,Ajustement commercial
+PRD-015,2027-04,International,Ventes,4032,Consensus S&OP
+PRD-015,2027-05,France,Ventes,9403,Ajustement commercial
+PRD-015,2027-05,Europe (hors FR),Ventes,8059,Ajustement commercial
+PRD-015,2027-05,US,Ventes,5373,Ajustement commercial
+PRD-015,2027-05,International,Ventes,4030,Statistique
+PRD-015,2027-06,France,Ventes,8928,Statistique
+PRD-015,2027-06,Europe (hors FR),Ventes,7653,Statistique
+PRD-015,2027-06,US,Ventes,5102,Consensus S&OP
+PRD-015,2027-06,International,Ventes,3826,Consensus S&OP
+PRD-016,2026-01,France,Ventes,11657,Statistique
+PRD-016,2026-01,Europe (hors FR),Ventes,9991,Statistique
+PRD-016,2026-01,US,Ventes,6661,Consensus S&OP
+PRD-016,2026-01,International,Ventes,4996,Consensus S&OP
+PRD-016,2026-02,France,Ventes,10681,Statistique
+PRD-016,2026-02,Europe (hors FR),Ventes,9155,Ajustement commercial
+PRD-016,2026-02,US,Ventes,6103,Ajustement commercial
+PRD-016,2026-02,International,Ventes,4578,Ajustement commercial
+PRD-016,2026-03,France,Ventes,12362,Ajustement commercial
+PRD-016,2026-03,Europe (hors FR),Ventes,10596,Statistique
+PRD-016,2026-03,US,Ventes,7064,Ajustement commercial
+PRD-016,2026-03,International,Ventes,5298,Ajustement commercial
+PRD-016,2026-04,France,Ventes,11347,Consensus S&OP
+PRD-016,2026-04,Europe (hors FR),Ventes,9726,Ajustement commercial
+PRD-016,2026-04,US,Ventes,6484,Consensus S&OP
+PRD-016,2026-04,International,Ventes,4863,Consensus S&OP
+PRD-016,2026-05,France,Ventes,10044,Statistique
+PRD-016,2026-05,Europe (hors FR),Ventes,8609,Statistique
+PRD-016,2026-05,US,Ventes,5740,Statistique
+PRD-016,2026-05,International,Ventes,4305,Statistique
+PRD-016,2026-06,France,Ventes,9761,Consensus S&OP
+PRD-016,2026-06,Europe (hors FR),Ventes,8367,Statistique
+PRD-016,2026-06,US,Ventes,5578,Consensus S&OP
+PRD-016,2026-06,International,Ventes,4183,Statistique
+PRD-016,2026-07,France,Ventes,8618,Ajustement commercial
+PRD-016,2026-07,Europe (hors FR),Ventes,7387,Ajustement commercial
+PRD-016,2026-07,US,Ventes,4925,Consensus S&OP
+PRD-016,2026-07,International,Ventes,3694,Ajustement commercial
+PRD-016,2026-08,France,Ventes,7556,Ajustement commercial
+PRD-016,2026-08,Europe (hors FR),Ventes,6476,Consensus S&OP
+PRD-016,2026-08,US,Ventes,4318,Ajustement commercial
+PRD-016,2026-08,International,Ventes,3238,Ajustement commercial
+PRD-016,2026-09,France,Ventes,7512,Ajustement commercial
+PRD-016,2026-09,Europe (hors FR),Ventes,6439,Statistique
+PRD-016,2026-09,US,Ventes,4292,Consensus S&OP
+PRD-016,2026-09,International,Ventes,3219,Statistique
+PRD-016,2026-10,France,Ventes,7530,Ajustement commercial
+PRD-016,2026-10,Europe (hors FR),Ventes,6454,Ajustement commercial
+PRD-016,2026-10,US,Ventes,4303,Statistique
+PRD-016,2026-10,International,Ventes,3227,Ajustement commercial
+PRD-016,2026-11,France,Ventes,8337,Consensus S&OP
+PRD-016,2026-11,Europe (hors FR),Ventes,7146,Consensus S&OP
+PRD-016,2026-11,US,Ventes,4764,Consensus S&OP
+PRD-016,2026-11,International,Ventes,3573,Ajustement commercial
+PRD-016,2026-12,France,Ventes,9438,Consensus S&OP
+PRD-016,2026-12,Europe (hors FR),Ventes,8089,Consensus S&OP
+PRD-016,2026-12,US,Ventes,5393,Ajustement commercial
+PRD-016,2026-12,International,Ventes,4045,Statistique
+PRD-016,2027-01,France,Ventes,10758,Statistique
+PRD-016,2027-01,Europe (hors FR),Ventes,9222,Ajustement commercial
+PRD-016,2027-01,US,Ventes,6148,Consensus S&OP
+PRD-016,2027-01,International,Ventes,4611,Statistique
+PRD-016,2027-02,France,Ventes,9896,Statistique
+PRD-016,2027-02,Europe (hors FR),Ventes,8483,Statistique
+PRD-016,2027-02,US,Ventes,5655,Ajustement commercial
+PRD-016,2027-02,International,Ventes,4241,Statistique
+PRD-016,2027-03,France,Ventes,11853,Statistique
+PRD-016,2027-03,Europe (hors FR),Ventes,10159,Ajustement commercial
+PRD-016,2027-03,US,Ventes,6773,Ajustement commercial
+PRD-016,2027-03,International,Ventes,5080,Ajustement commercial
+PRD-016,2027-04,France,Ventes,9383,Statistique
+PRD-016,2027-04,Europe (hors FR),Ventes,8042,Statistique
+PRD-016,2027-04,US,Ventes,5362,Ajustement commercial
+PRD-016,2027-04,International,Ventes,4021,Consensus S&OP
+PRD-016,2027-05,France,Ventes,9610,Ajustement commercial
+PRD-016,2027-05,Europe (hors FR),Ventes,8237,Statistique
+PRD-016,2027-05,US,Ventes,5491,Statistique
+PRD-016,2027-05,International,Ventes,4119,Ajustement commercial
+PRD-016,2027-06,France,Ventes,9004,Consensus S&OP
+PRD-016,2027-06,Europe (hors FR),Ventes,7718,Consensus S&OP
+PRD-016,2027-06,US,Ventes,5145,Statistique
+PRD-016,2027-06,International,Ventes,3859,Consensus S&OP
+PRD-017,2026-01,France,Ventes,15153,Statistique
+PRD-017,2026-01,Europe (hors FR),Ventes,12988,Ajustement commercial
+PRD-017,2026-01,US,Ventes,8659,Consensus S&OP
+PRD-017,2026-01,International,Ventes,6494,Statistique
+PRD-017,2026-02,France,Ventes,15852,Ajustement commercial
+PRD-017,2026-02,Europe (hors FR),Ventes,13587,Statistique
+PRD-017,2026-02,US,Ventes,9058,Ajustement commercial
+PRD-017,2026-02,International,Ventes,6794,Statistique
+PRD-017,2026-03,France,Ventes,16965,Ajustement commercial
+PRD-017,2026-03,Europe (hors FR),Ventes,14542,Consensus S&OP
+PRD-017,2026-03,US,Ventes,9694,Ajustement commercial
+PRD-017,2026-03,International,Ventes,7271,Consensus S&OP
+PRD-017,2026-04,France,Ventes,16711,Ajustement commercial
+PRD-017,2026-04,Europe (hors FR),Ventes,14324,Consensus S&OP
+PRD-017,2026-04,US,Ventes,9549,Consensus S&OP
+PRD-017,2026-04,International,Ventes,7162,Ajustement commercial
+PRD-017,2026-05,France,Ventes,15905,Ajustement commercial
+PRD-017,2026-05,Europe (hors FR),Ventes,13632,Statistique
+PRD-017,2026-05,US,Ventes,9088,Ajustement commercial
+PRD-017,2026-05,International,Ventes,6816,Statistique
+PRD-017,2026-06,France,Ventes,15812,Ajustement commercial
+PRD-017,2026-06,Europe (hors FR),Ventes,13553,Statistique
+PRD-017,2026-06,US,Ventes,9036,Consensus S&OP
+PRD-017,2026-06,International,Ventes,6777,Ajustement commercial
+PRD-017,2026-07,France,Ventes,14130,Consensus S&OP
+PRD-017,2026-07,Europe (hors FR),Ventes,12112,Ajustement commercial
+PRD-017,2026-07,US,Ventes,8074,Statistique
+PRD-017,2026-07,International,Ventes,6056,Ajustement commercial
+PRD-017,2026-08,France,Ventes,12528,Statistique
+PRD-017,2026-08,Europe (hors FR),Ventes,10739,Statistique
+PRD-017,2026-08,US,Ventes,7159,Ajustement commercial
+PRD-017,2026-08,International,Ventes,5369,Consensus S&OP
+PRD-017,2026-09,France,Ventes,13398,Ajustement commercial
+PRD-017,2026-09,Europe (hors FR),Ventes,11484,Consensus S&OP
+PRD-017,2026-09,US,Ventes,7656,Statistique
+PRD-017,2026-09,International,Ventes,5742,Ajustement commercial
+PRD-017,2026-10,France,Ventes,13800,Ajustement commercial
+PRD-017,2026-10,Europe (hors FR),Ventes,11828,Consensus S&OP
+PRD-017,2026-10,US,Ventes,7886,Ajustement commercial
+PRD-017,2026-10,International,Ventes,5914,Statistique
+PRD-017,2026-11,France,Ventes,15843,Ajustement commercial
+PRD-017,2026-11,Europe (hors FR),Ventes,13580,Statistique
+PRD-017,2026-11,US,Ventes,9053,Statistique
+PRD-017,2026-11,International,Ventes,6790,Consensus S&OP
+PRD-017,2026-12,France,Ventes,17968,Consensus S&OP
+PRD-017,2026-12,Europe (hors FR),Ventes,15401,Statistique
+PRD-017,2026-12,US,Ventes,10267,Consensus S&OP
+PRD-017,2026-12,International,Ventes,7700,Consensus S&OP
+PRD-017,2027-01,France,Ventes,18891,Statistique
+PRD-017,2027-01,Europe (hors FR),Ventes,16193,Ajustement commercial
+PRD-017,2027-01,US,Ventes,10795,Ajustement commercial
+PRD-017,2027-01,International,Ventes,8096,Consensus S&OP
+PRD-017,2027-02,France,Ventes,20974,Consensus S&OP
+PRD-017,2027-02,Europe (hors FR),Ventes,17978,Statistique
+PRD-017,2027-02,US,Ventes,11985,Statistique
+PRD-017,2027-02,International,Ventes,8989,Statistique
+PRD-017,2027-03,France,Ventes,23455,Statistique
+PRD-017,2027-03,Europe (hors FR),Ventes,20105,Ajustement commercial
+PRD-017,2027-03,US,Ventes,13403,Statistique
+PRD-017,2027-03,International,Ventes,10052,Statistique
+PRD-017,2027-04,France,Ventes,23287,Consensus S&OP
+PRD-017,2027-04,Europe (hors FR),Ventes,19960,Statistique
+PRD-017,2027-04,US,Ventes,13307,Consensus S&OP
+PRD-017,2027-04,International,Ventes,9980,Statistique
+PRD-017,2027-05,France,Ventes,21591,Statistique
+PRD-017,2027-05,Europe (hors FR),Ventes,18506,Consensus S&OP
+PRD-017,2027-05,US,Ventes,12338,Ajustement commercial
+PRD-017,2027-05,International,Ventes,9253,Ajustement commercial
+PRD-017,2027-06,France,Ventes,20122,Consensus S&OP
+PRD-017,2027-06,Europe (hors FR),Ventes,17247,Consensus S&OP
+PRD-017,2027-06,US,Ventes,11498,Ajustement commercial
+PRD-017,2027-06,International,Ventes,8624,Consensus S&OP
+PRD-018,2026-01,France,Ventes,16315,Ajustement commercial
+PRD-018,2026-01,Europe (hors FR),Ventes,13984,Consensus S&OP
+PRD-018,2026-01,US,Ventes,9323,Ajustement commercial
+PRD-018,2026-01,International,Ventes,6992,Statistique
+PRD-018,2026-02,France,Ventes,16334,Ajustement commercial
+PRD-018,2026-02,Europe (hors FR),Ventes,14000,Statistique
+PRD-018,2026-02,US,Ventes,9333,Ajustement commercial
+PRD-018,2026-02,International,Ventes,7000,Ajustement commercial
+PRD-018,2026-03,France,Ventes,18043,Consensus S&OP
+PRD-018,2026-03,Europe (hors FR),Ventes,15465,Ajustement commercial
+PRD-018,2026-03,US,Ventes,10310,Ajustement commercial
+PRD-018,2026-03,International,Ventes,7733,Consensus S&OP
+PRD-018,2026-04,France,Ventes,17189,Statistique
+PRD-018,2026-04,Europe (hors FR),Ventes,14734,Ajustement commercial
+PRD-018,2026-04,US,Ventes,9822,Consensus S&OP
+PRD-018,2026-04,International,Ventes,7367,Statistique
+PRD-018,2026-05,France,Ventes,16145,Ajustement commercial
+PRD-018,2026-05,Europe (hors FR),Ventes,13839,Ajustement commercial
+PRD-018,2026-05,US,Ventes,9226,Ajustement commercial
+PRD-018,2026-05,International,Ventes,6919,Statistique
+PRD-018,2026-06,France,Ventes,15565,Statistique
+PRD-018,2026-06,Europe (hors FR),Ventes,13342,Ajustement commercial
+PRD-018,2026-06,US,Ventes,8895,Ajustement commercial
+PRD-018,2026-06,International,Ventes,6671,Statistique
+PRD-018,2026-07,France,Ventes,13676,Consensus S&OP
+PRD-018,2026-07,Europe (hors FR),Ventes,11722,Statistique
+PRD-018,2026-07,US,Ventes,7815,Consensus S&OP
+PRD-018,2026-07,International,Ventes,5861,Consensus S&OP
+PRD-018,2026-08,France,Ventes,12449,Consensus S&OP
+PRD-018,2026-08,Europe (hors FR),Ventes,10670,Ajustement commercial
+PRD-018,2026-08,US,Ventes,7114,Ajustement commercial
+PRD-018,2026-08,International,Ventes,5335,Consensus S&OP
+PRD-018,2026-09,France,Ventes,12398,Consensus S&OP
+PRD-018,2026-09,Europe (hors FR),Ventes,10626,Consensus S&OP
+PRD-018,2026-09,US,Ventes,7084,Statistique
+PRD-018,2026-09,International,Ventes,5313,Ajustement commercial
+PRD-018,2026-10,France,Ventes,12354,Consensus S&OP
+PRD-018,2026-10,Europe (hors FR),Ventes,10589,Consensus S&OP
+PRD-018,2026-10,US,Ventes,7060,Statistique
+PRD-018,2026-10,International,Ventes,5295,Ajustement commercial
+PRD-018,2026-11,France,Ventes,14456,Consensus S&OP
+PRD-018,2026-11,Europe (hors FR),Ventes,12391,Ajustement commercial
+PRD-018,2026-11,US,Ventes,8260,Consensus S&OP
+PRD-018,2026-11,International,Ventes,6195,Statistique
+PRD-018,2026-12,France,Ventes,15951,Statistique
+PRD-018,2026-12,Europe (hors FR),Ventes,13672,Ajustement commercial
+PRD-018,2026-12,US,Ventes,9115,Statistique
+PRD-018,2026-12,International,Ventes,6836,Ajustement commercial
+PRD-018,2027-01,France,Ventes,18792,Consensus S&OP
+PRD-018,2027-01,Europe (hors FR),Ventes,16107,Statistique
+PRD-018,2027-01,US,Ventes,10738,Consensus S&OP
+PRD-018,2027-01,International,Ventes,8054,Consensus S&OP
+PRD-018,2027-02,France,Ventes,20164,Statistique
+PRD-018,2027-02,Europe (hors FR),Ventes,17283,Statistique
+PRD-018,2027-02,US,Ventes,11522,Statistique
+PRD-018,2027-02,International,Ventes,8642,Consensus S&OP
+PRD-018,2027-03,France,Ventes,21280,Ajustement commercial
+PRD-018,2027-03,Europe (hors FR),Ventes,18240,Ajustement commercial
+PRD-018,2027-03,US,Ventes,12160,Consensus S&OP
+PRD-018,2027-03,International,Ventes,9120,Consensus S&OP
+PRD-018,2027-04,France,Ventes,21562,Consensus S&OP
+PRD-018,2027-04,Europe (hors FR),Ventes,18482,Statistique
+PRD-018,2027-04,US,Ventes,12321,Ajustement commercial
+PRD-018,2027-04,International,Ventes,9241,Ajustement commercial
+PRD-018,2027-05,France,Ventes,18877,Ajustement commercial
+PRD-018,2027-05,Europe (hors FR),Ventes,16181,Ajustement commercial
+PRD-018,2027-05,US,Ventes,10787,Ajustement commercial
+PRD-018,2027-05,International,Ventes,8090,Ajustement commercial
+PRD-018,2027-06,France,Ventes,19653,Consensus S&OP
+PRD-018,2027-06,Europe (hors FR),Ventes,16846,Consensus S&OP
+PRD-018,2027-06,US,Ventes,11230,Statistique
+PRD-018,2027-06,International,Ventes,8423,Consensus S&OP
+PRD-019,2026-01,France,Ventes,15621,Consensus S&OP
+PRD-019,2026-01,Europe (hors FR),Ventes,13390,Consensus S&OP
+PRD-019,2026-01,US,Ventes,8926,Ajustement commercial
+PRD-019,2026-01,International,Ventes,6695,Ajustement commercial
+PRD-019,2026-02,France,Ventes,16124,Ajustement commercial
+PRD-019,2026-02,Europe (hors FR),Ventes,13821,Consensus S&OP
+PRD-019,2026-02,US,Ventes,9214,Consensus S&OP
+PRD-019,2026-02,International,Ventes,6910,Consensus S&OP
+PRD-019,2026-03,France,Ventes,18479,Statistique
+PRD-019,2026-03,Europe (hors FR),Ventes,15839,Ajustement commercial
+PRD-019,2026-03,US,Ventes,10559,Statistique
+PRD-019,2026-03,International,Ventes,7920,Consensus S&OP
+PRD-019,2026-04,France,Ventes,17967,Consensus S&OP
+PRD-019,2026-04,Europe (hors FR),Ventes,15400,Statistique
+PRD-019,2026-04,US,Ventes,10267,Ajustement commercial
+PRD-019,2026-04,International,Ventes,7700,Ajustement commercial
+PRD-019,2026-05,France,Ventes,17193,Consensus S&OP
+PRD-019,2026-05,Europe (hors FR),Ventes,14737,Consensus S&OP
+PRD-019,2026-05,US,Ventes,9824,Consensus S&OP
+PRD-019,2026-05,International,Ventes,7368,Ajustement commercial
+PRD-019,2026-06,France,Ventes,16309,Statistique
+PRD-019,2026-06,Europe (hors FR),Ventes,13979,Consensus S&OP
+PRD-019,2026-06,US,Ventes,9320,Consensus S&OP
+PRD-019,2026-06,International,Ventes,6990,Statistique
+PRD-019,2026-07,France,Ventes,14937,Ajustement commercial
+PRD-019,2026-07,Europe (hors FR),Ventes,12803,Consensus S&OP
+PRD-019,2026-07,US,Ventes,8535,Ajustement commercial
+PRD-019,2026-07,International,Ventes,6402,Consensus S&OP
+PRD-019,2026-08,France,Ventes,13679,Ajustement commercial
+PRD-019,2026-08,Europe (hors FR),Ventes,11725,Statistique
+PRD-019,2026-08,US,Ventes,7816,Consensus S&OP
+PRD-019,2026-08,International,Ventes,5862,Consensus S&OP
+PRD-019,2026-09,France,Ventes,14175,Consensus S&OP
+PRD-019,2026-09,Europe (hors FR),Ventes,12150,Consensus S&OP
+PRD-019,2026-09,US,Ventes,8100,Consensus S&OP
+PRD-019,2026-09,International,Ventes,6075,Statistique
+PRD-019,2026-10,France,Ventes,13930,Consensus S&OP
+PRD-019,2026-10,Europe (hors FR),Ventes,11940,Consensus S&OP
+PRD-019,2026-10,US,Ventes,7960,Ajustement commercial
+PRD-019,2026-10,International,Ventes,5970,Consensus S&OP
+PRD-019,2026-11,France,Ventes,15888,Ajustement commercial
+PRD-019,2026-11,Europe (hors FR),Ventes,13619,Statistique
+PRD-019,2026-11,US,Ventes,9079,Ajustement commercial
+PRD-019,2026-11,International,Ventes,6809,Ajustement commercial
+PRD-019,2026-12,France,Ventes,16018,Statistique
+PRD-019,2026-12,Europe (hors FR),Ventes,13729,Statistique
+PRD-019,2026-12,US,Ventes,9153,Ajustement commercial
+PRD-019,2026-12,International,Ventes,6865,Ajustement commercial
+PRD-019,2027-01,France,Ventes,16423,Statistique
+PRD-019,2027-01,Europe (hors FR),Ventes,14076,Statistique
+PRD-019,2027-01,US,Ventes,9384,Statistique
+PRD-019,2027-01,International,Ventes,7038,Statistique
+PRD-019,2027-02,France,Ventes,17590,Statistique
+PRD-019,2027-02,Europe (hors FR),Ventes,15077,Ajustement commercial
+PRD-019,2027-02,US,Ventes,10051,Statistique
+PRD-019,2027-02,International,Ventes,7538,Consensus S&OP
+PRD-019,2027-03,France,Ventes,18566,Consensus S&OP
+PRD-019,2027-03,Europe (hors FR),Ventes,15914,Consensus S&OP
+PRD-019,2027-03,US,Ventes,10609,Consensus S&OP
+PRD-019,2027-03,International,Ventes,7957,Statistique
+PRD-019,2027-04,France,Ventes,17491,Consensus S&OP
+PRD-019,2027-04,Europe (hors FR),Ventes,14992,Ajustement commercial
+PRD-019,2027-04,US,Ventes,9995,Consensus S&OP
+PRD-019,2027-04,International,Ventes,7496,Statistique
+PRD-019,2027-05,France,Ventes,16649,Consensus S&OP
+PRD-019,2027-05,Europe (hors FR),Ventes,14271,Ajustement commercial
+PRD-019,2027-05,US,Ventes,9514,Statistique
+PRD-019,2027-05,International,Ventes,7135,Statistique
+PRD-019,2027-06,France,Ventes,16668,Statistique
+PRD-019,2027-06,Europe (hors FR),Ventes,14286,Consensus S&OP
+PRD-019,2027-06,US,Ventes,9524,Consensus S&OP
+PRD-019,2027-06,International,Ventes,7143,Statistique
+PRD-020,2026-01,France,Ventes,18607,Consensus S&OP
+PRD-020,2026-01,Europe (hors FR),Ventes,15949,Consensus S&OP
+PRD-020,2026-01,US,Ventes,10632,Statistique
+PRD-020,2026-01,International,Ventes,7974,Ajustement commercial
+PRD-020,2026-02,France,Ventes,18869,Consensus S&OP
+PRD-020,2026-02,Europe (hors FR),Ventes,16174,Ajustement commercial
+PRD-020,2026-02,US,Ventes,10782,Consensus S&OP
+PRD-020,2026-02,International,Ventes,8087,Ajustement commercial
+PRD-020,2026-03,France,Ventes,19348,Statistique
+PRD-020,2026-03,Europe (hors FR),Ventes,16584,Consensus S&OP
+PRD-020,2026-03,US,Ventes,11056,Statistique
+PRD-020,2026-03,International,Ventes,8292,Ajustement commercial
+PRD-020,2026-04,France,Ventes,19880,Ajustement commercial
+PRD-020,2026-04,Europe (hors FR),Ventes,17040,Statistique
+PRD-020,2026-04,US,Ventes,11360,Ajustement commercial
+PRD-020,2026-04,International,Ventes,8520,Consensus S&OP
+PRD-020,2026-05,France,Ventes,17568,Consensus S&OP
+PRD-020,2026-05,Europe (hors FR),Ventes,15059,Ajustement commercial
+PRD-020,2026-05,US,Ventes,10039,Ajustement commercial
+PRD-020,2026-05,International,Ventes,7529,Ajustement commercial
+PRD-020,2026-06,France,Ventes,16639,Ajustement commercial
+PRD-020,2026-06,Europe (hors FR),Ventes,14262,Consensus S&OP
+PRD-020,2026-06,US,Ventes,9508,Consensus S&OP
+PRD-020,2026-06,International,Ventes,7131,Ajustement commercial
+PRD-020,2026-07,France,Ventes,16237,Statistique
+PRD-020,2026-07,Europe (hors FR),Ventes,13917,Statistique
+PRD-020,2026-07,US,Ventes,9278,Consensus S&OP
+PRD-020,2026-07,International,Ventes,6959,Statistique
+PRD-020,2026-08,France,Ventes,15917,Ajustement commercial
+PRD-020,2026-08,Europe (hors FR),Ventes,13643,Statistique
+PRD-020,2026-08,US,Ventes,9096,Consensus S&OP
+PRD-020,2026-08,International,Ventes,6822,Ajustement commercial
+PRD-020,2026-09,France,Ventes,16133,Ajustement commercial
+PRD-020,2026-09,Europe (hors FR),Ventes,13828,Consensus S&OP
+PRD-020,2026-09,US,Ventes,9219,Statistique
+PRD-020,2026-09,International,Ventes,6914,Consensus S&OP
+PRD-020,2026-10,France,Ventes,17536,Consensus S&OP
+PRD-020,2026-10,Europe (hors FR),Ventes,15031,Statistique
+PRD-020,2026-10,US,Ventes,10021,Ajustement commercial
+PRD-020,2026-10,International,Ventes,7516,Statistique
+PRD-020,2026-11,France,Ventes,18097,Statistique
+PRD-020,2026-11,Europe (hors FR),Ventes,15512,Ajustement commercial
+PRD-020,2026-11,US,Ventes,10341,Ajustement commercial
+PRD-020,2026-11,International,Ventes,7756,Consensus S&OP
+PRD-020,2026-12,France,Ventes,18571,Statistique
+PRD-020,2026-12,Europe (hors FR),Ventes,15918,Ajustement commercial
+PRD-020,2026-12,US,Ventes,10612,Statistique
+PRD-020,2026-12,International,Ventes,7959,Statistique
+PRD-020,2027-01,France,Ventes,20088,Ajustement commercial
+PRD-020,2027-01,Europe (hors FR),Ventes,17219,Ajustement commercial
+PRD-020,2027-01,US,Ventes,11479,Statistique
+PRD-020,2027-01,International,Ventes,8609,Ajustement commercial
+PRD-020,2027-02,France,Ventes,20116,Statistique
+PRD-020,2027-02,Europe (hors FR),Ventes,17242,Ajustement commercial
+PRD-020,2027-02,US,Ventes,11495,Consensus S&OP
+PRD-020,2027-02,International,Ventes,8621,Ajustement commercial
+PRD-020,2027-03,France,Ventes,21656,Statistique
+PRD-020,2027-03,Europe (hors FR),Ventes,18562,Ajustement commercial
+PRD-020,2027-03,US,Ventes,12375,Statistique
+PRD-020,2027-03,International,Ventes,9281,Ajustement commercial
+PRD-020,2027-04,France,Ventes,21187,Statistique
+PRD-020,2027-04,Europe (hors FR),Ventes,18160,Statistique
+PRD-020,2027-04,US,Ventes,12107,Ajustement commercial
+PRD-020,2027-04,International,Ventes,9080,Statistique
+PRD-020,2027-05,France,Ventes,21052,Consensus S&OP
+PRD-020,2027-05,Europe (hors FR),Ventes,18045,Consensus S&OP
+PRD-020,2027-05,US,Ventes,12030,Ajustement commercial
+PRD-020,2027-05,International,Ventes,9022,Statistique
+PRD-020,2027-06,France,Ventes,18770,Statistique
+PRD-020,2027-06,Europe (hors FR),Ventes,16088,Statistique
+PRD-020,2027-06,US,Ventes,10726,Ajustement commercial
+PRD-020,2027-06,International,Ventes,8044,Ajustement commercial
+PRD-021,2026-01,France,Ventes,18824,Ajustement commercial
+PRD-021,2026-01,Europe (hors FR),Ventes,16135,Ajustement commercial
+PRD-021,2026-01,US,Ventes,10756,Consensus S&OP
+PRD-021,2026-01,International,Ventes,8067,Statistique
+PRD-021,2026-02,France,Ventes,21568,Statistique
+PRD-021,2026-02,Europe (hors FR),Ventes,18487,Statistique
+PRD-021,2026-02,US,Ventes,12325,Ajustement commercial
+PRD-021,2026-02,International,Ventes,9244,Statistique
+PRD-021,2026-03,France,Ventes,20856,Statistique
+PRD-021,2026-03,Europe (hors FR),Ventes,17877,Consensus S&OP
+PRD-021,2026-03,US,Ventes,11918,Consensus S&OP
+PRD-021,2026-03,International,Ventes,8938,Consensus S&OP
+PRD-021,2026-04,France,Ventes,21397,Consensus S&OP
+PRD-021,2026-04,Europe (hors FR),Ventes,18340,Ajustement commercial
+PRD-021,2026-04,US,Ventes,12227,Statistique
+PRD-021,2026-04,International,Ventes,9170,Ajustement commercial
+PRD-021,2026-05,France,Ventes,20808,Statistique
+PRD-021,2026-05,Europe (hors FR),Ventes,17835,Ajustement commercial
+PRD-021,2026-05,US,Ventes,11890,Statistique
+PRD-021,2026-05,International,Ventes,8918,Statistique
+PRD-021,2026-06,France,Ventes,18320,Statistique
+PRD-021,2026-06,Europe (hors FR),Ventes,15703,Ajustement commercial
+PRD-021,2026-06,US,Ventes,10469,Consensus S&OP
+PRD-021,2026-06,International,Ventes,7851,Consensus S&OP
+PRD-021,2026-07,France,Ventes,17392,Ajustement commercial
+PRD-021,2026-07,Europe (hors FR),Ventes,14908,Statistique
+PRD-021,2026-07,US,Ventes,9939,Statistique
+PRD-021,2026-07,International,Ventes,7454,Ajustement commercial
+PRD-021,2026-08,France,Ventes,16164,Consensus S&OP
+PRD-021,2026-08,Europe (hors FR),Ventes,13855,Consensus S&OP
+PRD-021,2026-08,US,Ventes,9237,Statistique
+PRD-021,2026-08,International,Ventes,6927,Consensus S&OP
+PRD-021,2026-09,France,Ventes,16066,Consensus S&OP
+PRD-021,2026-09,Europe (hors FR),Ventes,13771,Consensus S&OP
+PRD-021,2026-09,US,Ventes,9181,Statistique
+PRD-021,2026-09,International,Ventes,6885,Consensus S&OP
+PRD-021,2026-10,France,Ventes,16260,Statistique
+PRD-021,2026-10,Europe (hors FR),Ventes,13937,Ajustement commercial
+PRD-021,2026-10,US,Ventes,9291,Ajustement commercial
+PRD-021,2026-10,International,Ventes,6969,Statistique
+PRD-021,2026-11,France,Ventes,18879,Consensus S&OP
+PRD-021,2026-11,Europe (hors FR),Ventes,16182,Ajustement commercial
+PRD-021,2026-11,US,Ventes,10788,Statistique
+PRD-021,2026-11,International,Ventes,8091,Consensus S&OP
+PRD-021,2026-12,France,Ventes,21993,Ajustement commercial
+PRD-021,2026-12,Europe (hors FR),Ventes,18851,Statistique
+PRD-021,2026-12,US,Ventes,12567,Consensus S&OP
+PRD-021,2026-12,International,Ventes,9426,Consensus S&OP
+PRD-021,2027-01,France,Ventes,25927,Statistique
+PRD-021,2027-01,Europe (hors FR),Ventes,22223,Consensus S&OP
+PRD-021,2027-01,US,Ventes,14815,Ajustement commercial
+PRD-021,2027-01,International,Ventes,11111,Statistique
+PRD-021,2027-02,France,Ventes,27660,Consensus S&OP
+PRD-021,2027-02,Europe (hors FR),Ventes,23708,Consensus S&OP
+PRD-021,2027-02,US,Ventes,15806,Consensus S&OP
+PRD-021,2027-02,International,Ventes,11854,Consensus S&OP
+PRD-021,2027-03,France,Ventes,30603,Consensus S&OP
+PRD-021,2027-03,Europe (hors FR),Ventes,26231,Statistique
+PRD-021,2027-03,US,Ventes,17488,Ajustement commercial
+PRD-021,2027-03,International,Ventes,13116,Ajustement commercial
+PRD-021,2027-04,France,Ventes,26575,Statistique
+PRD-021,2027-04,Europe (hors FR),Ventes,22778,Consensus S&OP
+PRD-021,2027-04,US,Ventes,15186,Ajustement commercial
+PRD-021,2027-04,International,Ventes,11389,Ajustement commercial
+PRD-021,2027-05,France,Ventes,27656,Ajustement commercial
+PRD-021,2027-05,Europe (hors FR),Ventes,23705,Consensus S&OP
+PRD-021,2027-05,US,Ventes,15803,Statistique
+PRD-021,2027-05,International,Ventes,11852,Ajustement commercial
+PRD-021,2027-06,France,Ventes,24857,Statistique
+PRD-021,2027-06,Europe (hors FR),Ventes,21306,Ajustement commercial
+PRD-021,2027-06,US,Ventes,14204,Statistique
+PRD-021,2027-06,International,Ventes,10653,Consensus S&OP
+PRD-022,2026-01,France,Ventes,19286,Consensus S&OP
+PRD-022,2026-01,Europe (hors FR),Ventes,16531,Ajustement commercial
+PRD-022,2026-01,US,Ventes,11021,Statistique
+PRD-022,2026-01,International,Ventes,8266,Statistique
+PRD-022,2026-02,France,Ventes,18082,Ajustement commercial
+PRD-022,2026-02,Europe (hors FR),Ventes,15499,Consensus S&OP
+PRD-022,2026-02,US,Ventes,10333,Ajustement commercial
+PRD-022,2026-02,International,Ventes,7749,Consensus S&OP
+PRD-022,2026-03,France,Ventes,18752,Statistique
+PRD-022,2026-03,Europe (hors FR),Ventes,16073,Consensus S&OP
+PRD-022,2026-03,US,Ventes,10715,Ajustement commercial
+PRD-022,2026-03,International,Ventes,8036,Consensus S&OP
+PRD-022,2026-04,France,Ventes,18836,Ajustement commercial
+PRD-022,2026-04,Europe (hors FR),Ventes,16145,Consensus S&OP
+PRD-022,2026-04,US,Ventes,10763,Statistique
+PRD-022,2026-04,International,Ventes,8073,Statistique
+PRD-022,2026-05,France,Ventes,16499,Statistique
+PRD-022,2026-05,Europe (hors FR),Ventes,14142,Consensus S&OP
+PRD-022,2026-05,US,Ventes,9428,Ajustement commercial
+PRD-022,2026-05,International,Ventes,7071,Statistique
+PRD-022,2026-06,France,Ventes,16555,Ajustement commercial
+PRD-022,2026-06,Europe (hors FR),Ventes,14190,Statistique
+PRD-022,2026-06,US,Ventes,9460,Statistique
+PRD-022,2026-06,International,Ventes,7095,Statistique
+PRD-022,2026-07,France,Ventes,14908,Statistique
+PRD-022,2026-07,Europe (hors FR),Ventes,12778,Ajustement commercial
+PRD-022,2026-07,US,Ventes,8519,Ajustement commercial
+PRD-022,2026-07,International,Ventes,6389,Consensus S&OP
+PRD-022,2026-08,France,Ventes,14529,Ajustement commercial
+PRD-022,2026-08,Europe (hors FR),Ventes,12453,Consensus S&OP
+PRD-022,2026-08,US,Ventes,8302,Ajustement commercial
+PRD-022,2026-08,International,Ventes,6227,Ajustement commercial
+PRD-022,2026-09,France,Ventes,14394,Statistique
+PRD-022,2026-09,Europe (hors FR),Ventes,12337,Consensus S&OP
+PRD-022,2026-09,US,Ventes,8225,Statistique
+PRD-022,2026-09,International,Ventes,6169,Ajustement commercial
+PRD-022,2026-10,France,Ventes,16254,Ajustement commercial
+PRD-022,2026-10,Europe (hors FR),Ventes,13932,Statistique
+PRD-022,2026-10,US,Ventes,9288,Consensus S&OP
+PRD-022,2026-10,International,Ventes,6966,Ajustement commercial
+PRD-022,2026-11,France,Ventes,17237,Ajustement commercial
+PRD-022,2026-11,Europe (hors FR),Ventes,14775,Statistique
+PRD-022,2026-11,US,Ventes,9850,Ajustement commercial
+PRD-022,2026-11,International,Ventes,7387,Ajustement commercial
+PRD-022,2026-12,France,Ventes,18068,Ajustement commercial
+PRD-022,2026-12,Europe (hors FR),Ventes,15487,Consensus S&OP
+PRD-022,2026-12,US,Ventes,10325,Ajustement commercial
+PRD-022,2026-12,International,Ventes,7744,Ajustement commercial
+PRD-022,2027-01,France,Ventes,19881,Ajustement commercial
+PRD-022,2027-01,Europe (hors FR),Ventes,17041,Statistique
+PRD-022,2027-01,US,Ventes,11360,Ajustement commercial
+PRD-022,2027-01,International,Ventes,8520,Consensus S&OP
+PRD-022,2027-02,France,Ventes,23119,Ajustement commercial
+PRD-022,2027-02,Europe (hors FR),Ventes,19817,Ajustement commercial
+PRD-022,2027-02,US,Ventes,13211,Consensus S&OP
+PRD-022,2027-02,International,Ventes,9908,Ajustement commercial
+PRD-022,2027-03,France,Ventes,21891,Statistique
+PRD-022,2027-03,Europe (hors FR),Ventes,18764,Consensus S&OP
+PRD-022,2027-03,US,Ventes,12509,Ajustement commercial
+PRD-022,2027-03,International,Ventes,9382,Statistique
+PRD-022,2027-04,France,Ventes,25382,Ajustement commercial
+PRD-022,2027-04,Europe (hors FR),Ventes,21756,Consensus S&OP
+PRD-022,2027-04,US,Ventes,14504,Statistique
+PRD-022,2027-04,International,Ventes,10878,Consensus S&OP
+PRD-022,2027-05,France,Ventes,23408,Ajustement commercial
+PRD-022,2027-05,Europe (hors FR),Ventes,20064,Ajustement commercial
+PRD-022,2027-05,US,Ventes,13376,Statistique
+PRD-022,2027-05,International,Ventes,10032,Statistique
+PRD-022,2027-06,France,Ventes,19881,Ajustement commercial
+PRD-022,2027-06,Europe (hors FR),Ventes,17041,Consensus S&OP
+PRD-022,2027-06,US,Ventes,11361,Ajustement commercial
+PRD-022,2027-06,International,Ventes,8521,Ajustement commercial
+PRD-023,2026-01,France,Ventes,10668,Consensus S&OP
+PRD-023,2026-01,Europe (hors FR),Ventes,9144,Ajustement commercial
+PRD-023,2026-01,US,Ventes,6096,Ajustement commercial
+PRD-023,2026-01,International,Ventes,4572,Ajustement commercial
+PRD-023,2026-02,France,Ventes,13218,Statistique
+PRD-023,2026-02,Europe (hors FR),Ventes,11330,Consensus S&OP
+PRD-023,2026-02,US,Ventes,7553,Ajustement commercial
+PRD-023,2026-02,International,Ventes,5665,Consensus S&OP
+PRD-023,2026-03,France,Ventes,12685,Ajustement commercial
+PRD-023,2026-03,Europe (hors FR),Ventes,10873,Ajustement commercial
+PRD-023,2026-03,US,Ventes,7249,Consensus S&OP
+PRD-023,2026-03,International,Ventes,5436,Statistique
+PRD-023,2026-04,France,Ventes,13520,Statistique
+PRD-023,2026-04,Europe (hors FR),Ventes,11588,Consensus S&OP
+PRD-023,2026-04,US,Ventes,7726,Consensus S&OP
+PRD-023,2026-04,International,Ventes,5794,Ajustement commercial
+PRD-023,2026-05,France,Ventes,11356,Ajustement commercial
+PRD-023,2026-05,Europe (hors FR),Ventes,9733,Consensus S&OP
+PRD-023,2026-05,US,Ventes,6489,Consensus S&OP
+PRD-023,2026-05,International,Ventes,4867,Consensus S&OP
+PRD-023,2026-06,France,Ventes,11370,Statistique
+PRD-023,2026-06,Europe (hors FR),Ventes,9745,Statistique
+PRD-023,2026-06,US,Ventes,6497,Statistique
+PRD-023,2026-06,International,Ventes,4873,Consensus S&OP
+PRD-023,2026-07,France,Ventes,11085,Consensus S&OP
+PRD-023,2026-07,Europe (hors FR),Ventes,9502,Ajustement commercial
+PRD-023,2026-07,US,Ventes,6335,Statistique
+PRD-023,2026-07,International,Ventes,4751,Statistique
+PRD-023,2026-08,France,Ventes,10667,Statistique
+PRD-023,2026-08,Europe (hors FR),Ventes,9143,Statistique
+PRD-023,2026-08,US,Ventes,6096,Consensus S&OP
+PRD-023,2026-08,International,Ventes,4572,Ajustement commercial
+PRD-023,2026-09,France,Ventes,10333,Ajustement commercial
+PRD-023,2026-09,Europe (hors FR),Ventes,8857,Ajustement commercial
+PRD-023,2026-09,US,Ventes,5905,Consensus S&OP
+PRD-023,2026-09,International,Ventes,4428,Statistique
+PRD-023,2026-10,France,Ventes,11285,Consensus S&OP
+PRD-023,2026-10,Europe (hors FR),Ventes,9673,Statistique
+PRD-023,2026-10,US,Ventes,6449,Consensus S&OP
+PRD-023,2026-10,International,Ventes,4837,Ajustement commercial
+PRD-023,2026-11,France,Ventes,11095,Ajustement commercial
+PRD-023,2026-11,Europe (hors FR),Ventes,9510,Ajustement commercial
+PRD-023,2026-11,US,Ventes,6340,Ajustement commercial
+PRD-023,2026-11,International,Ventes,4755,Statistique
+PRD-023,2026-12,France,Ventes,12658,Consensus S&OP
+PRD-023,2026-12,Europe (hors FR),Ventes,10849,Statistique
+PRD-023,2026-12,US,Ventes,7233,Consensus S&OP
+PRD-023,2026-12,International,Ventes,5425,Ajustement commercial
+PRD-023,2027-01,France,Ventes,13885,Ajustement commercial
+PRD-023,2027-01,Europe (hors FR),Ventes,11902,Ajustement commercial
+PRD-023,2027-01,US,Ventes,7934,Consensus S&OP
+PRD-023,2027-01,International,Ventes,5951,Ajustement commercial
+PRD-023,2027-02,France,Ventes,15023,Statistique
+PRD-023,2027-02,Europe (hors FR),Ventes,12876,Statistique
+PRD-023,2027-02,US,Ventes,8584,Statistique
+PRD-023,2027-02,International,Ventes,6438,Consensus S&OP
+PRD-023,2027-03,France,Ventes,15630,Statistique
+PRD-023,2027-03,Europe (hors FR),Ventes,13397,Ajustement commercial
+PRD-023,2027-03,US,Ventes,8932,Consensus S&OP
+PRD-023,2027-03,International,Ventes,6699,Ajustement commercial
+PRD-023,2027-04,France,Ventes,14215,Consensus S&OP
+PRD-023,2027-04,Europe (hors FR),Ventes,12184,Statistique
+PRD-023,2027-04,US,Ventes,8123,Ajustement commercial
+PRD-023,2027-04,International,Ventes,6092,Ajustement commercial
+PRD-023,2027-05,France,Ventes,13478,Consensus S&OP
+PRD-023,2027-05,Europe (hors FR),Ventes,11552,Ajustement commercial
+PRD-023,2027-05,US,Ventes,7702,Statistique
+PRD-023,2027-05,International,Ventes,5776,Consensus S&OP
+PRD-023,2027-06,France,Ventes,14752,Ajustement commercial
+PRD-023,2027-06,Europe (hors FR),Ventes,12644,Consensus S&OP
+PRD-023,2027-06,US,Ventes,8430,Ajustement commercial
+PRD-023,2027-06,International,Ventes,6322,Statistique
+PRD-024,2026-01,France,Ventes,3687,Statistique
+PRD-024,2026-01,Europe (hors FR),Ventes,3160,Consensus S&OP
+PRD-024,2026-01,US,Ventes,2107,Ajustement commercial
+PRD-024,2026-01,International,Ventes,1580,Statistique
+PRD-024,2026-02,France,Ventes,3555,Consensus S&OP
+PRD-024,2026-02,Europe (hors FR),Ventes,3047,Ajustement commercial
+PRD-024,2026-02,US,Ventes,2031,Consensus S&OP
+PRD-024,2026-02,International,Ventes,1524,Ajustement commercial
+PRD-024,2026-03,France,Ventes,3994,Consensus S&OP
+PRD-024,2026-03,Europe (hors FR),Ventes,3423,Statistique
+PRD-024,2026-03,US,Ventes,2282,Consensus S&OP
+PRD-024,2026-03,International,Ventes,1712,Consensus S&OP
+PRD-024,2026-04,France,Ventes,3681,Ajustement commercial
+PRD-024,2026-04,Europe (hors FR),Ventes,3155,Ajustement commercial
+PRD-024,2026-04,US,Ventes,2103,Statistique
+PRD-024,2026-04,International,Ventes,1577,Consensus S&OP
+PRD-024,2026-05,France,Ventes,3771,Consensus S&OP
+PRD-024,2026-05,Europe (hors FR),Ventes,3232,Consensus S&OP
+PRD-024,2026-05,US,Ventes,2155,Consensus S&OP
+PRD-024,2026-05,International,Ventes,1616,Statistique
+PRD-024,2026-06,France,Ventes,3445,Ajustement commercial
+PRD-024,2026-06,Europe (hors FR),Ventes,2953,Consensus S&OP
+PRD-024,2026-06,US,Ventes,1969,Statistique
+PRD-024,2026-06,International,Ventes,1476,Statistique
+PRD-024,2026-07,France,Ventes,3648,Statistique
+PRD-024,2026-07,Europe (hors FR),Ventes,3127,Statistique
+PRD-024,2026-07,US,Ventes,2084,Statistique
+PRD-024,2026-07,International,Ventes,1563,Ajustement commercial
+PRD-024,2026-08,France,Ventes,3493,Statistique
+PRD-024,2026-08,Europe (hors FR),Ventes,2994,Ajustement commercial
+PRD-024,2026-08,US,Ventes,1996,Consensus S&OP
+PRD-024,2026-08,International,Ventes,1497,Consensus S&OP
+PRD-024,2026-09,France,Ventes,3128,Ajustement commercial
+PRD-024,2026-09,Europe (hors FR),Ventes,2681,Ajustement commercial
+PRD-024,2026-09,US,Ventes,1787,Consensus S&OP
+PRD-024,2026-09,International,Ventes,1340,Statistique
+PRD-024,2026-10,France,Ventes,3336,Consensus S&OP
+PRD-024,2026-10,Europe (hors FR),Ventes,2860,Statistique
+PRD-024,2026-10,US,Ventes,1907,Statistique
+PRD-024,2026-10,International,Ventes,1430,Ajustement commercial
+PRD-024,2026-11,France,Ventes,3352,Ajustement commercial
+PRD-024,2026-11,Europe (hors FR),Ventes,2873,Consensus S&OP
+PRD-024,2026-11,US,Ventes,1915,Consensus S&OP
+PRD-024,2026-11,International,Ventes,1436,Ajustement commercial
+PRD-024,2026-12,France,Ventes,3569,Consensus S&OP
+PRD-024,2026-12,Europe (hors FR),Ventes,3059,Ajustement commercial
+PRD-024,2026-12,US,Ventes,2039,Ajustement commercial
+PRD-024,2026-12,International,Ventes,1530,Consensus S&OP
+PRD-024,2027-01,France,Ventes,3267,Statistique
+PRD-024,2027-01,Europe (hors FR),Ventes,2800,Statistique
+PRD-024,2027-01,US,Ventes,1867,Ajustement commercial
+PRD-024,2027-01,International,Ventes,1400,Consensus S&OP
+PRD-024,2027-02,France,Ventes,3616,Statistique
+PRD-024,2027-02,Europe (hors FR),Ventes,3099,Ajustement commercial
+PRD-024,2027-02,US,Ventes,2066,Ajustement commercial
+PRD-024,2027-02,International,Ventes,1550,Consensus S&OP
+PRD-024,2027-03,France,Ventes,3694,Consensus S&OP
+PRD-024,2027-03,Europe (hors FR),Ventes,3166,Ajustement commercial
+PRD-024,2027-03,US,Ventes,2111,Statistique
+PRD-024,2027-03,International,Ventes,1583,Consensus S&OP
+PRD-024,2027-04,France,Ventes,3159,Consensus S&OP
+PRD-024,2027-04,Europe (hors FR),Ventes,2708,Consensus S&OP
+PRD-024,2027-04,US,Ventes,1805,Statistique
+PRD-024,2027-04,International,Ventes,1354,Statistique
+PRD-024,2027-05,France,Ventes,3171,Ajustement commercial
+PRD-024,2027-05,Europe (hors FR),Ventes,2718,Consensus S&OP
+PRD-024,2027-05,US,Ventes,1812,Statistique
+PRD-024,2027-05,International,Ventes,1359,Statistique
+PRD-024,2027-06,France,Ventes,2918,Consensus S&OP
+PRD-024,2027-06,Europe (hors FR),Ventes,2501,Statistique
+PRD-024,2027-06,US,Ventes,1668,Ajustement commercial
+PRD-024,2027-06,International,Ventes,1251,Statistique
+PRD-025,2026-01,France,Ventes,4773,Ajustement commercial
+PRD-025,2026-01,Europe (hors FR),Ventes,4091,Consensus S&OP
+PRD-025,2026-01,US,Ventes,2728,Ajustement commercial
+PRD-025,2026-01,International,Ventes,2046,Statistique
+PRD-025,2026-02,France,Ventes,5349,Ajustement commercial
+PRD-025,2026-02,Europe (hors FR),Ventes,4585,Statistique
+PRD-025,2026-02,US,Ventes,3056,Consensus S&OP
+PRD-025,2026-02,International,Ventes,2292,Consensus S&OP
+PRD-025,2026-03,France,Ventes,5690,Ajustement commercial
+PRD-025,2026-03,Europe (hors FR),Ventes,4877,Statistique
+PRD-025,2026-03,US,Ventes,3252,Consensus S&OP
+PRD-025,2026-03,International,Ventes,2439,Ajustement commercial
+PRD-025,2026-04,France,Ventes,5213,Consensus S&OP
+PRD-025,2026-04,Europe (hors FR),Ventes,4468,Consensus S&OP
+PRD-025,2026-04,US,Ventes,2979,Statistique
+PRD-025,2026-04,International,Ventes,2234,Consensus S&OP
+PRD-025,2026-05,France,Ventes,5294,Consensus S&OP
+PRD-025,2026-05,Europe (hors FR),Ventes,4537,Statistique
+PRD-025,2026-05,US,Ventes,3025,Consensus S&OP
+PRD-025,2026-05,International,Ventes,2269,Consensus S&OP
+PRD-025,2026-06,France,Ventes,4170,Statistique
+PRD-025,2026-06,Europe (hors FR),Ventes,3575,Statistique
+PRD-025,2026-06,US,Ventes,2383,Consensus S&OP
+PRD-025,2026-06,International,Ventes,1787,Consensus S&OP
+PRD-025,2026-07,France,Ventes,3716,Consensus S&OP
+PRD-025,2026-07,Europe (hors FR),Ventes,3185,Consensus S&OP
+PRD-025,2026-07,US,Ventes,2123,Ajustement commercial
+PRD-025,2026-07,International,Ventes,1592,Consensus S&OP
+PRD-025,2026-08,France,Ventes,3746,Statistique
+PRD-025,2026-08,Europe (hors FR),Ventes,3211,Statistique
+PRD-025,2026-08,US,Ventes,2141,Statistique
+PRD-025,2026-08,International,Ventes,1606,Statistique
+PRD-025,2026-09,France,Ventes,3722,Consensus S&OP
+PRD-025,2026-09,Europe (hors FR),Ventes,3190,Consensus S&OP
+PRD-025,2026-09,US,Ventes,2127,Ajustement commercial
+PRD-025,2026-09,International,Ventes,1595,Consensus S&OP
+PRD-025,2026-10,France,Ventes,3773,Statistique
+PRD-025,2026-10,Europe (hors FR),Ventes,3234,Consensus S&OP
+PRD-025,2026-10,US,Ventes,2156,Ajustement commercial
+PRD-025,2026-10,International,Ventes,1617,Consensus S&OP
+PRD-025,2026-11,France,Ventes,3684,Consensus S&OP
+PRD-025,2026-11,Europe (hors FR),Ventes,3158,Statistique
+PRD-025,2026-11,US,Ventes,2105,Ajustement commercial
+PRD-025,2026-11,International,Ventes,1579,Consensus S&OP
+PRD-025,2026-12,France,Ventes,4538,Consensus S&OP
+PRD-025,2026-12,Europe (hors FR),Ventes,3890,Ajustement commercial
+PRD-025,2026-12,US,Ventes,2593,Consensus S&OP
+PRD-025,2026-12,International,Ventes,1945,Ajustement commercial
+PRD-025,2027-01,France,Ventes,4683,Ajustement commercial
+PRD-025,2027-01,Europe (hors FR),Ventes,4014,Statistique
+PRD-025,2027-01,US,Ventes,2676,Consensus S&OP
+PRD-025,2027-01,International,Ventes,2007,Ajustement commercial
+PRD-025,2027-02,France,Ventes,5525,Ajustement commercial
+PRD-025,2027-02,Europe (hors FR),Ventes,4736,Ajustement commercial
+PRD-025,2027-02,US,Ventes,3157,Statistique
+PRD-025,2027-02,International,Ventes,2368,Consensus S&OP
+PRD-025,2027-03,France,Ventes,5581,Statistique
+PRD-025,2027-03,Europe (hors FR),Ventes,4783,Statistique
+PRD-025,2027-03,US,Ventes,3189,Ajustement commercial
+PRD-025,2027-03,International,Ventes,2392,Ajustement commercial
+PRD-025,2027-04,France,Ventes,5125,Ajustement commercial
+PRD-025,2027-04,Europe (hors FR),Ventes,4393,Ajustement commercial
+PRD-025,2027-04,US,Ventes,2928,Statistique
+PRD-025,2027-04,International,Ventes,2196,Ajustement commercial
+PRD-025,2027-05,France,Ventes,4938,Consensus S&OP
+PRD-025,2027-05,Europe (hors FR),Ventes,4233,Statistique
+PRD-025,2027-05,US,Ventes,2822,Ajustement commercial
+PRD-025,2027-05,International,Ventes,2116,Consensus S&OP
+PRD-025,2027-06,France,Ventes,4393,Ajustement commercial
+PRD-025,2027-06,Europe (hors FR),Ventes,3765,Consensus S&OP
+PRD-025,2027-06,US,Ventes,2510,Ajustement commercial
+PRD-025,2027-06,International,Ventes,1883,Ajustement commercial
+PRD-026,2026-01,France,Ventes,3970,Statistique
+PRD-026,2026-01,Europe (hors FR),Ventes,3403,Ajustement commercial
+PRD-026,2026-01,US,Ventes,2268,Statistique
+PRD-026,2026-01,International,Ventes,1701,Ajustement commercial
+PRD-026,2026-02,France,Ventes,4479,Statistique
+PRD-026,2026-02,Europe (hors FR),Ventes,3839,Ajustement commercial
+PRD-026,2026-02,US,Ventes,2559,Ajustement commercial
+PRD-026,2026-02,International,Ventes,1920,Statistique
+PRD-026,2026-03,France,Ventes,4222,Statistique
+PRD-026,2026-03,Europe (hors FR),Ventes,3619,Statistique
+PRD-026,2026-03,US,Ventes,2413,Statistique
+PRD-026,2026-03,International,Ventes,1810,Ajustement commercial
+PRD-026,2026-04,France,Ventes,4563,Ajustement commercial
+PRD-026,2026-04,Europe (hors FR),Ventes,3912,Consensus S&OP
+PRD-026,2026-04,US,Ventes,2608,Ajustement commercial
+PRD-026,2026-04,International,Ventes,1956,Statistique
+PRD-026,2026-05,France,Ventes,4203,Statistique
+PRD-026,2026-05,Europe (hors FR),Ventes,3603,Ajustement commercial
+PRD-026,2026-05,US,Ventes,2402,Consensus S&OP
+PRD-026,2026-05,International,Ventes,1801,Consensus S&OP
+PRD-026,2026-06,France,Ventes,3930,Ajustement commercial
+PRD-026,2026-06,Europe (hors FR),Ventes,3369,Statistique
+PRD-026,2026-06,US,Ventes,2246,Statistique
+PRD-026,2026-06,International,Ventes,1684,Ajustement commercial
+PRD-026,2026-07,France,Ventes,3836,Consensus S&OP
+PRD-026,2026-07,Europe (hors FR),Ventes,3288,Ajustement commercial
+PRD-026,2026-07,US,Ventes,2192,Ajustement commercial
+PRD-026,2026-07,International,Ventes,1644,Ajustement commercial
+PRD-026,2026-08,France,Ventes,3506,Ajustement commercial
+PRD-026,2026-08,Europe (hors FR),Ventes,3005,Statistique
+PRD-026,2026-08,US,Ventes,2003,Statistique
+PRD-026,2026-08,International,Ventes,1502,Ajustement commercial
+PRD-026,2026-09,France,Ventes,3581,Consensus S&OP
+PRD-026,2026-09,Europe (hors FR),Ventes,3070,Ajustement commercial
+PRD-026,2026-09,US,Ventes,2046,Statistique
+PRD-026,2026-09,International,Ventes,1535,Statistique
+PRD-026,2026-10,France,Ventes,3619,Consensus S&OP
+PRD-026,2026-10,Europe (hors FR),Ventes,3102,Ajustement commercial
+PRD-026,2026-10,US,Ventes,2068,Statistique
+PRD-026,2026-10,International,Ventes,1551,Statistique
+PRD-026,2026-11,France,Ventes,4593,Ajustement commercial
+PRD-026,2026-11,Europe (hors FR),Ventes,3936,Ajustement commercial
+PRD-026,2026-11,US,Ventes,2624,Consensus S&OP
+PRD-026,2026-11,International,Ventes,1968,Consensus S&OP
+PRD-026,2026-12,France,Ventes,4629,Consensus S&OP
+PRD-026,2026-12,Europe (hors FR),Ventes,3968,Ajustement commercial
+PRD-026,2026-12,US,Ventes,2645,Ajustement commercial
+PRD-026,2026-12,International,Ventes,1984,Consensus S&OP
+PRD-026,2027-01,France,Ventes,4898,Statistique
+PRD-026,2027-01,Europe (hors FR),Ventes,4198,Statistique
+PRD-026,2027-01,US,Ventes,2799,Ajustement commercial
+PRD-026,2027-01,International,Ventes,2099,Statistique
+PRD-026,2027-02,France,Ventes,5507,Ajustement commercial
+PRD-026,2027-02,Europe (hors FR),Ventes,4720,Consensus S&OP
+PRD-026,2027-02,US,Ventes,3147,Ajustement commercial
+PRD-026,2027-02,International,Ventes,2360,Ajustement commercial
+PRD-026,2027-03,France,Ventes,5629,Ajustement commercial
+PRD-026,2027-03,Europe (hors FR),Ventes,4825,Statistique
+PRD-026,2027-03,US,Ventes,3217,Ajustement commercial
+PRD-026,2027-03,International,Ventes,2412,Statistique
+PRD-026,2027-04,France,Ventes,5611,Consensus S&OP
+PRD-026,2027-04,Europe (hors FR),Ventes,4809,Consensus S&OP
+PRD-026,2027-04,US,Ventes,3206,Statistique
+PRD-026,2027-04,International,Ventes,2405,Ajustement commercial
+PRD-026,2027-05,France,Ventes,5672,Consensus S&OP
+PRD-026,2027-05,Europe (hors FR),Ventes,4862,Ajustement commercial
+PRD-026,2027-05,US,Ventes,3241,Statistique
+PRD-026,2027-05,International,Ventes,2431,Ajustement commercial
+PRD-026,2027-06,France,Ventes,5414,Consensus S&OP
+PRD-026,2027-06,Europe (hors FR),Ventes,4641,Ajustement commercial
+PRD-026,2027-06,US,Ventes,3094,Consensus S&OP
+PRD-026,2027-06,International,Ventes,2320,Ajustement commercial
+PRD-027,2026-01,France,Ventes,15136,Statistique
+PRD-027,2026-01,Europe (hors FR),Ventes,12974,Ajustement commercial
+PRD-027,2026-01,US,Ventes,8649,Ajustement commercial
+PRD-027,2026-01,International,Ventes,6487,Ajustement commercial
+PRD-027,2026-02,France,Ventes,15761,Consensus S&OP
+PRD-027,2026-02,Europe (hors FR),Ventes,13509,Ajustement commercial
+PRD-027,2026-02,US,Ventes,9006,Statistique
+PRD-027,2026-02,International,Ventes,6755,Statistique
+PRD-027,2026-03,France,Ventes,16432,Consensus S&OP
+PRD-027,2026-03,Europe (hors FR),Ventes,14084,Consensus S&OP
+PRD-027,2026-03,US,Ventes,9389,Ajustement commercial
+PRD-027,2026-03,International,Ventes,7042,Consensus S&OP
+PRD-027,2026-04,France,Ventes,14859,Statistique
+PRD-027,2026-04,Europe (hors FR),Ventes,12736,Statistique
+PRD-027,2026-04,US,Ventes,8491,Statistique
+PRD-027,2026-04,International,Ventes,6368,Statistique
+PRD-027,2026-05,France,Ventes,15386,Consensus S&OP
+PRD-027,2026-05,Europe (hors FR),Ventes,13188,Ajustement commercial
+PRD-027,2026-05,US,Ventes,8792,Ajustement commercial
+PRD-027,2026-05,International,Ventes,6594,Consensus S&OP
+PRD-027,2026-06,France,Ventes,17448,Ajustement commercial
+PRD-027,2026-06,Europe (hors FR),Ventes,14955,Statistique
+PRD-027,2026-06,US,Ventes,9970,Consensus S&OP
+PRD-027,2026-06,International,Ventes,7478,Consensus S&OP
+PRD-027,2026-07,France,Ventes,17316,Statistique
+PRD-027,2026-07,Europe (hors FR),Ventes,14842,Ajustement commercial
+PRD-027,2026-07,US,Ventes,9895,Consensus S&OP
+PRD-027,2026-07,International,Ventes,7421,Ajustement commercial
+PRD-027,2026-08,France,Ventes,15622,Statistique
+PRD-027,2026-08,Europe (hors FR),Ventes,13390,Ajustement commercial
+PRD-027,2026-08,US,Ventes,8927,Consensus S&OP
+PRD-027,2026-08,International,Ventes,6695,Consensus S&OP
+PRD-027,2026-09,France,Ventes,16381,Ajustement commercial
+PRD-027,2026-09,Europe (hors FR),Ventes,14040,Consensus S&OP
+PRD-027,2026-09,US,Ventes,9360,Ajustement commercial
+PRD-027,2026-09,International,Ventes,7020,Consensus S&OP
+PRD-027,2026-10,France,Ventes,16623,Consensus S&OP
+PRD-027,2026-10,Europe (hors FR),Ventes,14248,Consensus S&OP
+PRD-027,2026-10,US,Ventes,9499,Ajustement commercial
+PRD-027,2026-10,International,Ventes,7124,Consensus S&OP
+PRD-027,2026-11,France,Ventes,19768,Consensus S&OP
+PRD-027,2026-11,Europe (hors FR),Ventes,16944,Ajustement commercial
+PRD-027,2026-11,US,Ventes,11296,Ajustement commercial
+PRD-027,2026-11,International,Ventes,8472,Statistique
+PRD-027,2026-12,France,Ventes,19105,Ajustement commercial
+PRD-027,2026-12,Europe (hors FR),Ventes,16376,Ajustement commercial
+PRD-027,2026-12,US,Ventes,10917,Consensus S&OP
+PRD-027,2026-12,International,Ventes,8188,Statistique
+PRD-027,2027-01,France,Ventes,18961,Ajustement commercial
+PRD-027,2027-01,Europe (hors FR),Ventes,16252,Consensus S&OP
+PRD-027,2027-01,US,Ventes,10835,Ajustement commercial
+PRD-027,2027-01,International,Ventes,8126,Consensus S&OP
+PRD-027,2027-02,France,Ventes,18965,Consensus S&OP
+PRD-027,2027-02,Europe (hors FR),Ventes,16256,Consensus S&OP
+PRD-027,2027-02,US,Ventes,10837,Statistique
+PRD-027,2027-02,International,Ventes,8128,Consensus S&OP
+PRD-027,2027-03,France,Ventes,18806,Ajustement commercial
+PRD-027,2027-03,Europe (hors FR),Ventes,16119,Ajustement commercial
+PRD-027,2027-03,US,Ventes,10746,Consensus S&OP
+PRD-027,2027-03,International,Ventes,8060,Consensus S&OP
+PRD-027,2027-04,France,Ventes,20818,Consensus S&OP
+PRD-027,2027-04,Europe (hors FR),Ventes,17844,Statistique
+PRD-027,2027-04,US,Ventes,11896,Consensus S&OP
+PRD-027,2027-04,International,Ventes,8922,Statistique
+PRD-027,2027-05,France,Ventes,19659,Consensus S&OP
+PRD-027,2027-05,Europe (hors FR),Ventes,16850,Ajustement commercial
+PRD-027,2027-05,US,Ventes,11234,Statistique
+PRD-027,2027-05,International,Ventes,8425,Consensus S&OP
+PRD-027,2027-06,France,Ventes,18619,Consensus S&OP
+PRD-027,2027-06,Europe (hors FR),Ventes,15959,Consensus S&OP
+PRD-027,2027-06,US,Ventes,10639,Consensus S&OP
+PRD-027,2027-06,International,Ventes,7979,Ajustement commercial
+PRD-028,2026-01,France,Ventes,4152,Consensus S&OP
+PRD-028,2026-01,Europe (hors FR),Ventes,3559,Consensus S&OP
+PRD-028,2026-01,US,Ventes,2373,Statistique
+PRD-028,2026-01,International,Ventes,1779,Statistique
+PRD-028,2026-02,France,Ventes,4294,Statistique
+PRD-028,2026-02,Europe (hors FR),Ventes,3681,Ajustement commercial
+PRD-028,2026-02,US,Ventes,2454,Ajustement commercial
+PRD-028,2026-02,International,Ventes,1840,Ajustement commercial
+PRD-028,2026-03,France,Ventes,5096,Statistique
+PRD-028,2026-03,Europe (hors FR),Ventes,4368,Ajustement commercial
+PRD-028,2026-03,US,Ventes,2912,Consensus S&OP
+PRD-028,2026-03,International,Ventes,2184,Statistique
+PRD-028,2026-04,France,Ventes,4959,Ajustement commercial
+PRD-028,2026-04,Europe (hors FR),Ventes,4250,Consensus S&OP
+PRD-028,2026-04,US,Ventes,2834,Consensus S&OP
+PRD-028,2026-04,International,Ventes,2125,Ajustement commercial
+PRD-028,2026-05,France,Ventes,4695,Consensus S&OP
+PRD-028,2026-05,Europe (hors FR),Ventes,4024,Consensus S&OP
+PRD-028,2026-05,US,Ventes,2683,Statistique
+PRD-028,2026-05,International,Ventes,2012,Consensus S&OP
+PRD-028,2026-06,France,Ventes,4918,Statistique
+PRD-028,2026-06,Europe (hors FR),Ventes,4215,Consensus S&OP
+PRD-028,2026-06,US,Ventes,2810,Statistique
+PRD-028,2026-06,International,Ventes,2108,Consensus S&OP
+PRD-028,2026-07,France,Ventes,4470,Ajustement commercial
+PRD-028,2026-07,Europe (hors FR),Ventes,3832,Consensus S&OP
+PRD-028,2026-07,US,Ventes,2554,Ajustement commercial
+PRD-028,2026-07,International,Ventes,1916,Consensus S&OP
+PRD-028,2026-08,France,Ventes,4194,Ajustement commercial
+PRD-028,2026-08,Europe (hors FR),Ventes,3594,Ajustement commercial
+PRD-028,2026-08,US,Ventes,2396,Statistique
+PRD-028,2026-08,International,Ventes,1797,Ajustement commercial
+PRD-028,2026-09,France,Ventes,4754,Consensus S&OP
+PRD-028,2026-09,Europe (hors FR),Ventes,4075,Ajustement commercial
+PRD-028,2026-09,US,Ventes,2717,Consensus S&OP
+PRD-028,2026-09,International,Ventes,2038,Ajustement commercial
+PRD-028,2026-10,France,Ventes,4708,Consensus S&OP
+PRD-028,2026-10,Europe (hors FR),Ventes,4036,Consensus S&OP
+PRD-028,2026-10,US,Ventes,2691,Consensus S&OP
+PRD-028,2026-10,International,Ventes,2018,Consensus S&OP
+PRD-028,2026-11,France,Ventes,4622,Consensus S&OP
+PRD-028,2026-11,Europe (hors FR),Ventes,3961,Ajustement commercial
+PRD-028,2026-11,US,Ventes,2641,Consensus S&OP
+PRD-028,2026-11,International,Ventes,1981,Ajustement commercial
+PRD-028,2026-12,France,Ventes,5194,Statistique
+PRD-028,2026-12,Europe (hors FR),Ventes,4452,Statistique
+PRD-028,2026-12,US,Ventes,2968,Ajustement commercial
+PRD-028,2026-12,International,Ventes,2226,Consensus S&OP
+PRD-028,2027-01,France,Ventes,5382,Ajustement commercial
+PRD-028,2027-01,Europe (hors FR),Ventes,4613,Statistique
+PRD-028,2027-01,US,Ventes,3075,Ajustement commercial
+PRD-028,2027-01,International,Ventes,2306,Ajustement commercial
+PRD-028,2027-02,France,Ventes,5543,Consensus S&OP
+PRD-028,2027-02,Europe (hors FR),Ventes,4751,Statistique
+PRD-028,2027-02,US,Ventes,3167,Consensus S&OP
+PRD-028,2027-02,International,Ventes,2375,Consensus S&OP
+PRD-028,2027-03,France,Ventes,6450,Ajustement commercial
+PRD-028,2027-03,Europe (hors FR),Ventes,5529,Ajustement commercial
+PRD-028,2027-03,US,Ventes,3686,Ajustement commercial
+PRD-028,2027-03,International,Ventes,2764,Ajustement commercial
+PRD-028,2027-04,France,Ventes,6825,Consensus S&OP
+PRD-028,2027-04,Europe (hors FR),Ventes,5850,Consensus S&OP
+PRD-028,2027-04,US,Ventes,3900,Ajustement commercial
+PRD-028,2027-04,International,Ventes,2925,Ajustement commercial
+PRD-028,2027-05,France,Ventes,5730,Statistique
+PRD-028,2027-05,Europe (hors FR),Ventes,4911,Consensus S&OP
+PRD-028,2027-05,US,Ventes,3274,Consensus S&OP
+PRD-028,2027-05,International,Ventes,2456,Consensus S&OP
+PRD-028,2027-06,France,Ventes,6175,Ajustement commercial
+PRD-028,2027-06,Europe (hors FR),Ventes,5293,Ajustement commercial
+PRD-028,2027-06,US,Ventes,3529,Ajustement commercial
+PRD-028,2027-06,International,Ventes,2646,Statistique
+PRD-029,2026-01,France,Ventes,7981,Statistique
+PRD-029,2026-01,Europe (hors FR),Ventes,6841,Ajustement commercial
+PRD-029,2026-01,US,Ventes,4561,Ajustement commercial
+PRD-029,2026-01,International,Ventes,3421,Consensus S&OP
+PRD-029,2026-02,France,Ventes,8610,Ajustement commercial
+PRD-029,2026-02,Europe (hors FR),Ventes,7380,Consensus S&OP
+PRD-029,2026-02,US,Ventes,4920,Ajustement commercial
+PRD-029,2026-02,International,Ventes,3690,Statistique
+PRD-029,2026-03,France,Ventes,8720,Statistique
+PRD-029,2026-03,Europe (hors FR),Ventes,7474,Consensus S&OP
+PRD-029,2026-03,US,Ventes,4983,Ajustement commercial
+PRD-029,2026-03,International,Ventes,3737,Consensus S&OP
+PRD-029,2026-04,France,Ventes,8304,Consensus S&OP
+PRD-029,2026-04,Europe (hors FR),Ventes,7118,Ajustement commercial
+PRD-029,2026-04,US,Ventes,4745,Statistique
+PRD-029,2026-04,International,Ventes,3559,Statistique
+PRD-029,2026-05,France,Ventes,7998,Consensus S&OP
+PRD-029,2026-05,Europe (hors FR),Ventes,6855,Consensus S&OP
+PRD-029,2026-05,US,Ventes,4570,Consensus S&OP
+PRD-029,2026-05,International,Ventes,3428,Statistique
+PRD-029,2026-06,France,Ventes,6768,Statistique
+PRD-029,2026-06,Europe (hors FR),Ventes,5801,Statistique
+PRD-029,2026-06,US,Ventes,3867,Consensus S&OP
+PRD-029,2026-06,International,Ventes,2900,Consensus S&OP
+PRD-029,2026-07,France,Ventes,6242,Statistique
+PRD-029,2026-07,Europe (hors FR),Ventes,5350,Consensus S&OP
+PRD-029,2026-07,US,Ventes,3567,Statistique
+PRD-029,2026-07,International,Ventes,2675,Statistique
+PRD-029,2026-08,France,Ventes,5481,Statistique
+PRD-029,2026-08,Europe (hors FR),Ventes,4698,Ajustement commercial
+PRD-029,2026-08,US,Ventes,3132,Ajustement commercial
+PRD-029,2026-08,International,Ventes,2349,Consensus S&OP
+PRD-029,2026-09,France,Ventes,5164,Ajustement commercial
+PRD-029,2026-09,Europe (hors FR),Ventes,4426,Statistique
+PRD-029,2026-09,US,Ventes,2951,Consensus S&OP
+PRD-029,2026-09,International,Ventes,2213,Statistique
+PRD-029,2026-10,France,Ventes,5158,Statistique
+PRD-029,2026-10,Europe (hors FR),Ventes,4421,Consensus S&OP
+PRD-029,2026-10,US,Ventes,2948,Statistique
+PRD-029,2026-10,International,Ventes,2211,Ajustement commercial
+PRD-029,2026-11,France,Ventes,5784,Consensus S&OP
+PRD-029,2026-11,Europe (hors FR),Ventes,4958,Ajustement commercial
+PRD-029,2026-11,US,Ventes,3305,Ajustement commercial
+PRD-029,2026-11,International,Ventes,2479,Consensus S&OP
+PRD-029,2026-12,France,Ventes,6970,Statistique
+PRD-029,2026-12,Europe (hors FR),Ventes,5974,Ajustement commercial
+PRD-029,2026-12,US,Ventes,3983,Ajustement commercial
+PRD-029,2026-12,International,Ventes,2987,Ajustement commercial
+PRD-029,2027-01,France,Ventes,7650,Consensus S&OP
+PRD-029,2027-01,Europe (hors FR),Ventes,6557,Statistique
+PRD-029,2027-01,US,Ventes,4371,Statistique
+PRD-029,2027-01,International,Ventes,3278,Consensus S&OP
+PRD-029,2027-02,France,Ventes,7593,Consensus S&OP
+PRD-029,2027-02,Europe (hors FR),Ventes,6509,Statistique
+PRD-029,2027-02,US,Ventes,4339,Consensus S&OP
+PRD-029,2027-02,International,Ventes,3254,Consensus S&OP
+PRD-029,2027-03,France,Ventes,8169,Consensus S&OP
+PRD-029,2027-03,Europe (hors FR),Ventes,7002,Statistique
+PRD-029,2027-03,US,Ventes,4668,Statistique
+PRD-029,2027-03,International,Ventes,3501,Ajustement commercial
+PRD-029,2027-04,France,Ventes,8146,Statistique
+PRD-029,2027-04,Europe (hors FR),Ventes,6983,Statistique
+PRD-029,2027-04,US,Ventes,4655,Ajustement commercial
+PRD-029,2027-04,International,Ventes,3491,Ajustement commercial
+PRD-029,2027-05,France,Ventes,6615,Statistique
+PRD-029,2027-05,Europe (hors FR),Ventes,5670,Consensus S&OP
+PRD-029,2027-05,US,Ventes,3780,Ajustement commercial
+PRD-029,2027-05,International,Ventes,2835,Statistique
+PRD-029,2027-06,France,Ventes,6561,Statistique
+PRD-029,2027-06,Europe (hors FR),Ventes,5624,Ajustement commercial
+PRD-029,2027-06,US,Ventes,3749,Consensus S&OP
+PRD-029,2027-06,International,Ventes,2812,Consensus S&OP
+PRD-030,2026-01,France,Ventes,3235,Ajustement commercial
+PRD-030,2026-01,Europe (hors FR),Ventes,2773,Consensus S&OP
+PRD-030,2026-01,US,Ventes,1849,Consensus S&OP
+PRD-030,2026-01,International,Ventes,1387,Consensus S&OP
+PRD-030,2026-02,France,Ventes,3678,Ajustement commercial
+PRD-030,2026-02,Europe (hors FR),Ventes,3153,Statistique
+PRD-030,2026-02,US,Ventes,2102,Consensus S&OP
+PRD-030,2026-02,International,Ventes,1576,Ajustement commercial
+PRD-030,2026-03,France,Ventes,3583,Ajustement commercial
+PRD-030,2026-03,Europe (hors FR),Ventes,3071,Statistique
+PRD-030,2026-03,US,Ventes,2048,Statistique
+PRD-030,2026-03,International,Ventes,1536,Ajustement commercial
+PRD-030,2026-04,France,Ventes,3432,Statistique
+PRD-030,2026-04,Europe (hors FR),Ventes,2942,Consensus S&OP
+PRD-030,2026-04,US,Ventes,1961,Ajustement commercial
+PRD-030,2026-04,International,Ventes,1471,Consensus S&OP
+PRD-030,2026-05,France,Ventes,3421,Ajustement commercial
+PRD-030,2026-05,Europe (hors FR),Ventes,2933,Consensus S&OP
+PRD-030,2026-05,US,Ventes,1955,Statistique
+PRD-030,2026-05,International,Ventes,1466,Statistique
+PRD-030,2026-06,France,Ventes,3623,Consensus S&OP
+PRD-030,2026-06,Europe (hors FR),Ventes,3105,Ajustement commercial
+PRD-030,2026-06,US,Ventes,2070,Ajustement commercial
+PRD-030,2026-06,International,Ventes,1553,Consensus S&OP
+PRD-030,2026-07,France,Ventes,3540,Consensus S&OP
+PRD-030,2026-07,Europe (hors FR),Ventes,3035,Statistique
+PRD-030,2026-07,US,Ventes,2023,Statistique
+PRD-030,2026-07,International,Ventes,1517,Consensus S&OP
+PRD-030,2026-08,France,Ventes,3272,Consensus S&OP
+PRD-030,2026-08,Europe (hors FR),Ventes,2804,Ajustement commercial
+PRD-030,2026-08,US,Ventes,1869,Ajustement commercial
+PRD-030,2026-08,International,Ventes,1402,Consensus S&OP
+PRD-030,2026-09,France,Ventes,3569,Ajustement commercial
+PRD-030,2026-09,Europe (hors FR),Ventes,3059,Statistique
+PRD-030,2026-09,US,Ventes,2039,Ajustement commercial
+PRD-030,2026-09,International,Ventes,1529,Consensus S&OP
+PRD-030,2026-10,France,Ventes,3315,Statistique
+PRD-030,2026-10,Europe (hors FR),Ventes,2841,Statistique
+PRD-030,2026-10,US,Ventes,1894,Statistique
+PRD-030,2026-10,International,Ventes,1421,Ajustement commercial
+PRD-030,2026-11,France,Ventes,3877,Ajustement commercial
+PRD-030,2026-11,Europe (hors FR),Ventes,3323,Statistique
+PRD-030,2026-11,US,Ventes,2216,Statistique
+PRD-030,2026-11,International,Ventes,1662,Ajustement commercial
+PRD-030,2026-12,France,Ventes,3987,Ajustement commercial
+PRD-030,2026-12,Europe (hors FR),Ventes,3417,Statistique
+PRD-030,2026-12,US,Ventes,2278,Ajustement commercial
+PRD-030,2026-12,International,Ventes,1709,Ajustement commercial
+PRD-030,2027-01,France,Ventes,4464,Ajustement commercial
+PRD-030,2027-01,Europe (hors FR),Ventes,3826,Ajustement commercial
+PRD-030,2027-01,US,Ventes,2551,Consensus S&OP
+PRD-030,2027-01,International,Ventes,1913,Consensus S&OP
+PRD-030,2027-02,France,Ventes,4943,Consensus S&OP
+PRD-030,2027-02,Europe (hors FR),Ventes,4237,Statistique
+PRD-030,2027-02,US,Ventes,2824,Ajustement commercial
+PRD-030,2027-02,International,Ventes,2118,Consensus S&OP
+PRD-030,2027-03,France,Ventes,4916,Ajustement commercial
+PRD-030,2027-03,Europe (hors FR),Ventes,4214,Consensus S&OP
+PRD-030,2027-03,US,Ventes,2809,Statistique
+PRD-030,2027-03,International,Ventes,2107,Statistique
+PRD-030,2027-04,France,Ventes,5102,Consensus S&OP
+PRD-030,2027-04,Europe (hors FR),Ventes,4373,Statistique
+PRD-030,2027-04,US,Ventes,2916,Ajustement commercial
+PRD-030,2027-04,International,Ventes,2187,Ajustement commercial
+PRD-030,2027-05,France,Ventes,5394,Statistique
+PRD-030,2027-05,Europe (hors FR),Ventes,4624,Ajustement commercial
+PRD-030,2027-05,US,Ventes,3082,Consensus S&OP
+PRD-030,2027-05,International,Ventes,2312,Consensus S&OP
+PRD-030,2027-06,France,Ventes,4840,Consensus S&OP
+PRD-030,2027-06,Europe (hors FR),Ventes,4148,Ajustement commercial
+PRD-030,2027-06,US,Ventes,2766,Consensus S&OP
+PRD-030,2027-06,International,Ventes,2074,Statistique
+PRD-031,2026-01,France,Ventes,16863,Consensus S&OP
+PRD-031,2026-01,Europe (hors FR),Ventes,14454,Statistique
+PRD-031,2026-01,US,Ventes,9636,Statistique
+PRD-031,2026-01,International,Ventes,7227,Statistique
+PRD-031,2026-02,France,Ventes,16273,Ajustement commercial
+PRD-031,2026-02,Europe (hors FR),Ventes,13948,Statistique
+PRD-031,2026-02,US,Ventes,9299,Ajustement commercial
+PRD-031,2026-02,International,Ventes,6974,Consensus S&OP
+PRD-031,2026-03,France,Ventes,18418,Consensus S&OP
+PRD-031,2026-03,Europe (hors FR),Ventes,15787,Ajustement commercial
+PRD-031,2026-03,US,Ventes,10525,Ajustement commercial
+PRD-031,2026-03,International,Ventes,7894,Consensus S&OP
+PRD-031,2026-04,France,Ventes,19489,Consensus S&OP
+PRD-031,2026-04,Europe (hors FR),Ventes,16705,Ajustement commercial
+PRD-031,2026-04,US,Ventes,11136,Consensus S&OP
+PRD-031,2026-04,International,Ventes,8352,Consensus S&OP
+PRD-031,2026-05,France,Ventes,15760,Statistique
+PRD-031,2026-05,Europe (hors FR),Ventes,13509,Statistique
+PRD-031,2026-05,US,Ventes,9006,Consensus S&OP
+PRD-031,2026-05,International,Ventes,6754,Consensus S&OP
+PRD-031,2026-06,France,Ventes,16810,Statistique
+PRD-031,2026-06,Europe (hors FR),Ventes,14408,Consensus S&OP
+PRD-031,2026-06,US,Ventes,9606,Ajustement commercial
+PRD-031,2026-06,International,Ventes,7204,Consensus S&OP
+PRD-031,2026-07,France,Ventes,17484,Consensus S&OP
+PRD-031,2026-07,Europe (hors FR),Ventes,14987,Ajustement commercial
+PRD-031,2026-07,US,Ventes,9991,Statistique
+PRD-031,2026-07,International,Ventes,7493,Consensus S&OP
+PRD-031,2026-08,France,Ventes,16541,Statistique
+PRD-031,2026-08,Europe (hors FR),Ventes,14178,Statistique
+PRD-031,2026-08,US,Ventes,9452,Consensus S&OP
+PRD-031,2026-08,International,Ventes,7089,Consensus S&OP
+PRD-031,2026-09,France,Ventes,17193,Statistique
+PRD-031,2026-09,Europe (hors FR),Ventes,14736,Consensus S&OP
+PRD-031,2026-09,US,Ventes,9824,Consensus S&OP
+PRD-031,2026-09,International,Ventes,7368,Statistique
+PRD-031,2026-10,France,Ventes,17081,Statistique
+PRD-031,2026-10,Europe (hors FR),Ventes,14641,Ajustement commercial
+PRD-031,2026-10,US,Ventes,9761,Consensus S&OP
+PRD-031,2026-10,International,Ventes,7321,Ajustement commercial
+PRD-031,2026-11,France,Ventes,18961,Statistique
+PRD-031,2026-11,Europe (hors FR),Ventes,16252,Consensus S&OP
+PRD-031,2026-11,US,Ventes,10835,Statistique
+PRD-031,2026-11,International,Ventes,8126,Consensus S&OP
+PRD-031,2026-12,France,Ventes,20340,Consensus S&OP
+PRD-031,2026-12,Europe (hors FR),Ventes,17434,Ajustement commercial
+PRD-031,2026-12,US,Ventes,11623,Statistique
+PRD-031,2026-12,International,Ventes,8717,Consensus S&OP
+PRD-031,2027-01,France,Ventes,23488,Ajustement commercial
+PRD-031,2027-01,Europe (hors FR),Ventes,20133,Statistique
+PRD-031,2027-01,US,Ventes,13422,Ajustement commercial
+PRD-031,2027-01,International,Ventes,10066,Statistique
+PRD-031,2027-02,France,Ventes,23947,Consensus S&OP
+PRD-031,2027-02,Europe (hors FR),Ventes,20526,Ajustement commercial
+PRD-031,2027-02,US,Ventes,13684,Ajustement commercial
+PRD-031,2027-02,International,Ventes,10263,Consensus S&OP
+PRD-031,2027-03,France,Ventes,25015,Statistique
+PRD-031,2027-03,Europe (hors FR),Ventes,21442,Consensus S&OP
+PRD-031,2027-03,US,Ventes,14294,Ajustement commercial
+PRD-031,2027-03,International,Ventes,10721,Consensus S&OP
+PRD-031,2027-04,France,Ventes,24410,Ajustement commercial
+PRD-031,2027-04,Europe (hors FR),Ventes,20923,Consensus S&OP
+PRD-031,2027-04,US,Ventes,13948,Statistique
+PRD-031,2027-04,International,Ventes,10461,Ajustement commercial
+PRD-031,2027-05,France,Ventes,24053,Ajustement commercial
+PRD-031,2027-05,Europe (hors FR),Ventes,20617,Statistique
+PRD-031,2027-05,US,Ventes,13745,Consensus S&OP
+PRD-031,2027-05,International,Ventes,10308,Statistique
+PRD-031,2027-06,France,Ventes,23484,Consensus S&OP
+PRD-031,2027-06,Europe (hors FR),Ventes,20129,Statistique
+PRD-031,2027-06,US,Ventes,13419,Statistique
+PRD-031,2027-06,International,Ventes,10064,Ajustement commercial
+PRD-032,2026-01,France,Ventes,9466,Statistique
+PRD-032,2026-01,Europe (hors FR),Ventes,8114,Statistique
+PRD-032,2026-01,US,Ventes,5409,Ajustement commercial
+PRD-032,2026-01,International,Ventes,4057,Statistique
+PRD-032,2026-02,France,Ventes,9748,Ajustement commercial
+PRD-032,2026-02,Europe (hors FR),Ventes,8356,Ajustement commercial
+PRD-032,2026-02,US,Ventes,5570,Statistique
+PRD-032,2026-02,International,Ventes,4178,Statistique
+PRD-032,2026-03,France,Ventes,10476,Consensus S&OP
+PRD-032,2026-03,Europe (hors FR),Ventes,8979,Consensus S&OP
+PRD-032,2026-03,US,Ventes,5986,Consensus S&OP
+PRD-032,2026-03,International,Ventes,4490,Ajustement commercial
+PRD-032,2026-04,France,Ventes,11391,Ajustement commercial
+PRD-032,2026-04,Europe (hors FR),Ventes,9763,Ajustement commercial
+PRD-032,2026-04,US,Ventes,6509,Ajustement commercial
+PRD-032,2026-04,International,Ventes,4882,Ajustement commercial
+PRD-032,2026-05,France,Ventes,10405,Ajustement commercial
+PRD-032,2026-05,Europe (hors FR),Ventes,8918,Statistique
+PRD-032,2026-05,US,Ventes,5946,Consensus S&OP
+PRD-032,2026-05,International,Ventes,4459,Consensus S&OP
+PRD-032,2026-06,France,Ventes,9253,Consensus S&OP
+PRD-032,2026-06,Europe (hors FR),Ventes,7931,Statistique
+PRD-032,2026-06,US,Ventes,5287,Consensus S&OP
+PRD-032,2026-06,International,Ventes,3965,Ajustement commercial
+PRD-032,2026-07,France,Ventes,9347,Statistique
+PRD-032,2026-07,Europe (hors FR),Ventes,8012,Statistique
+PRD-032,2026-07,US,Ventes,5341,Consensus S&OP
+PRD-032,2026-07,International,Ventes,4006,Ajustement commercial
+PRD-032,2026-08,France,Ventes,8241,Consensus S&OP
+PRD-032,2026-08,Europe (hors FR),Ventes,7063,Statistique
+PRD-032,2026-08,US,Ventes,4709,Consensus S&OP
+PRD-032,2026-08,International,Ventes,3532,Statistique
+PRD-032,2026-09,France,Ventes,7502,Statistique
+PRD-032,2026-09,Europe (hors FR),Ventes,6430,Statistique
+PRD-032,2026-09,US,Ventes,4287,Ajustement commercial
+PRD-032,2026-09,International,Ventes,3215,Ajustement commercial
+PRD-032,2026-10,France,Ventes,8279,Consensus S&OP
+PRD-032,2026-10,Europe (hors FR),Ventes,7096,Consensus S&OP
+PRD-032,2026-10,US,Ventes,4731,Consensus S&OP
+PRD-032,2026-10,International,Ventes,3548,Ajustement commercial
+PRD-032,2026-11,France,Ventes,8585,Consensus S&OP
+PRD-032,2026-11,Europe (hors FR),Ventes,7358,Ajustement commercial
+PRD-032,2026-11,US,Ventes,4906,Statistique
+PRD-032,2026-11,International,Ventes,3679,Statistique
+PRD-032,2026-12,France,Ventes,10286,Ajustement commercial
+PRD-032,2026-12,Europe (hors FR),Ventes,8816,Ajustement commercial
+PRD-032,2026-12,US,Ventes,5877,Statistique
+PRD-032,2026-12,International,Ventes,4408,Ajustement commercial
+PRD-032,2027-01,France,Ventes,11512,Statistique
+PRD-032,2027-01,Europe (hors FR),Ventes,9867,Consensus S&OP
+PRD-032,2027-01,US,Ventes,6578,Statistique
+PRD-032,2027-01,International,Ventes,4934,Statistique
+PRD-032,2027-02,France,Ventes,13371,Consensus S&OP
+PRD-032,2027-02,Europe (hors FR),Ventes,11461,Ajustement commercial
+PRD-032,2027-02,US,Ventes,7641,Consensus S&OP
+PRD-032,2027-02,International,Ventes,5731,Statistique
+PRD-032,2027-03,France,Ventes,13003,Statistique
+PRD-032,2027-03,Europe (hors FR),Ventes,11145,Statistique
+PRD-032,2027-03,US,Ventes,7430,Statistique
+PRD-032,2027-03,International,Ventes,5573,Statistique
+PRD-032,2027-04,France,Ventes,12646,Consensus S&OP
+PRD-032,2027-04,Europe (hors FR),Ventes,10839,Statistique
+PRD-032,2027-04,US,Ventes,7226,Ajustement commercial
+PRD-032,2027-04,International,Ventes,5420,Consensus S&OP
+PRD-032,2027-05,France,Ventes,12865,Consensus S&OP
+PRD-032,2027-05,Europe (hors FR),Ventes,11027,Consensus S&OP
+PRD-032,2027-05,US,Ventes,7352,Statistique
+PRD-032,2027-05,International,Ventes,5514,Statistique
+PRD-032,2027-06,France,Ventes,10365,Consensus S&OP
+PRD-032,2027-06,Europe (hors FR),Ventes,8884,Statistique
+PRD-032,2027-06,US,Ventes,5923,Ajustement commercial
+PRD-032,2027-06,International,Ventes,4442,Ajustement commercial
+PRD-033,2026-01,France,Ventes,6764,Statistique
+PRD-033,2026-01,Europe (hors FR),Ventes,5798,Statistique
+PRD-033,2026-01,US,Ventes,3865,Consensus S&OP
+PRD-033,2026-01,International,Ventes,2899,Ajustement commercial
+PRD-033,2026-02,France,Ventes,7493,Statistique
+PRD-033,2026-02,Europe (hors FR),Ventes,6422,Consensus S&OP
+PRD-033,2026-02,US,Ventes,4281,Consensus S&OP
+PRD-033,2026-02,International,Ventes,3211,Ajustement commercial
+PRD-033,2026-03,France,Ventes,6913,Consensus S&OP
+PRD-033,2026-03,Europe (hors FR),Ventes,5926,Consensus S&OP
+PRD-033,2026-03,US,Ventes,3951,Consensus S&OP
+PRD-033,2026-03,International,Ventes,2963,Ajustement commercial
+PRD-033,2026-04,France,Ventes,7805,Statistique
+PRD-033,2026-04,Europe (hors FR),Ventes,6690,Ajustement commercial
+PRD-033,2026-04,US,Ventes,4460,Statistique
+PRD-033,2026-04,International,Ventes,3345,Consensus S&OP
+PRD-033,2026-05,France,Ventes,7119,Consensus S&OP
+PRD-033,2026-05,Europe (hors FR),Ventes,6102,Statistique
+PRD-033,2026-05,US,Ventes,4068,Ajustement commercial
+PRD-033,2026-05,International,Ventes,3051,Ajustement commercial
+PRD-033,2026-06,France,Ventes,6302,Ajustement commercial
+PRD-033,2026-06,Europe (hors FR),Ventes,5401,Statistique
+PRD-033,2026-06,US,Ventes,3601,Consensus S&OP
+PRD-033,2026-06,International,Ventes,2701,Consensus S&OP
+PRD-033,2026-07,France,Ventes,6041,Consensus S&OP
+PRD-033,2026-07,Europe (hors FR),Ventes,5178,Statistique
+PRD-033,2026-07,US,Ventes,3452,Consensus S&OP
+PRD-033,2026-07,International,Ventes,2589,Consensus S&OP
+PRD-033,2026-08,France,Ventes,6057,Ajustement commercial
+PRD-033,2026-08,Europe (hors FR),Ventes,5192,Consensus S&OP
+PRD-033,2026-08,US,Ventes,3461,Ajustement commercial
+PRD-033,2026-08,International,Ventes,2596,Statistique
+PRD-033,2026-09,France,Ventes,5372,Ajustement commercial
+PRD-033,2026-09,Europe (hors FR),Ventes,4604,Consensus S&OP
+PRD-033,2026-09,US,Ventes,3070,Consensus S&OP
+PRD-033,2026-09,International,Ventes,2302,Ajustement commercial
+PRD-033,2026-10,France,Ventes,5636,Consensus S&OP
+PRD-033,2026-10,Europe (hors FR),Ventes,4831,Ajustement commercial
+PRD-033,2026-10,US,Ventes,3220,Consensus S&OP
+PRD-033,2026-10,International,Ventes,2415,Ajustement commercial
+PRD-033,2026-11,France,Ventes,5991,Ajustement commercial
+PRD-033,2026-11,Europe (hors FR),Ventes,5135,Statistique
+PRD-033,2026-11,US,Ventes,3424,Ajustement commercial
+PRD-033,2026-11,International,Ventes,2568,Ajustement commercial
+PRD-033,2026-12,France,Ventes,6603,Statistique
+PRD-033,2026-12,Europe (hors FR),Ventes,5660,Consensus S&OP
+PRD-033,2026-12,US,Ventes,3773,Ajustement commercial
+PRD-033,2026-12,International,Ventes,2830,Statistique
+PRD-033,2027-01,France,Ventes,7995,Statistique
+PRD-033,2027-01,Europe (hors FR),Ventes,6853,Ajustement commercial
+PRD-033,2027-01,US,Ventes,4569,Consensus S&OP
+PRD-033,2027-01,International,Ventes,3427,Statistique
+PRD-033,2027-02,France,Ventes,7930,Ajustement commercial
+PRD-033,2027-02,Europe (hors FR),Ventes,6797,Statistique
+PRD-033,2027-02,US,Ventes,4531,Consensus S&OP
+PRD-033,2027-02,International,Ventes,3398,Ajustement commercial
+PRD-033,2027-03,France,Ventes,8603,Ajustement commercial
+PRD-033,2027-03,Europe (hors FR),Ventes,7374,Consensus S&OP
+PRD-033,2027-03,US,Ventes,4916,Consensus S&OP
+PRD-033,2027-03,International,Ventes,3687,Statistique
+PRD-033,2027-04,France,Ventes,8275,Ajustement commercial
+PRD-033,2027-04,Europe (hors FR),Ventes,7093,Statistique
+PRD-033,2027-04,US,Ventes,4729,Ajustement commercial
+PRD-033,2027-04,International,Ventes,3546,Statistique
+PRD-033,2027-05,France,Ventes,8231,Ajustement commercial
+PRD-033,2027-05,Europe (hors FR),Ventes,7055,Consensus S&OP
+PRD-033,2027-05,US,Ventes,4704,Statistique
+PRD-033,2027-05,International,Ventes,3528,Ajustement commercial
+PRD-033,2027-06,France,Ventes,7513,Ajustement commercial
+PRD-033,2027-06,Europe (hors FR),Ventes,6440,Statistique
+PRD-033,2027-06,US,Ventes,4293,Consensus S&OP
+PRD-033,2027-06,International,Ventes,3220,Consensus S&OP
+PRD-034,2026-01,France,Ventes,5666,Consensus S&OP
+PRD-034,2026-01,Europe (hors FR),Ventes,4857,Consensus S&OP
+PRD-034,2026-01,US,Ventes,3238,Statistique
+PRD-034,2026-01,International,Ventes,2428,Statistique
+PRD-034,2026-02,France,Ventes,5433,Statistique
+PRD-034,2026-02,Europe (hors FR),Ventes,4657,Consensus S&OP
+PRD-034,2026-02,US,Ventes,3105,Consensus S&OP
+PRD-034,2026-02,International,Ventes,2328,Consensus S&OP
+PRD-034,2026-03,France,Ventes,5539,Consensus S&OP
+PRD-034,2026-03,Europe (hors FR),Ventes,4748,Statistique
+PRD-034,2026-03,US,Ventes,3165,Ajustement commercial
+PRD-034,2026-03,International,Ventes,2374,Statistique
+PRD-034,2026-04,France,Ventes,5218,Ajustement commercial
+PRD-034,2026-04,Europe (hors FR),Ventes,4473,Ajustement commercial
+PRD-034,2026-04,US,Ventes,2982,Statistique
+PRD-034,2026-04,International,Ventes,2236,Statistique
+PRD-034,2026-05,France,Ventes,5102,Statistique
+PRD-034,2026-05,Europe (hors FR),Ventes,4373,Consensus S&OP
+PRD-034,2026-05,US,Ventes,2915,Statistique
+PRD-034,2026-05,International,Ventes,2187,Consensus S&OP
+PRD-034,2026-06,France,Ventes,4963,Ajustement commercial
+PRD-034,2026-06,Europe (hors FR),Ventes,4254,Statistique
+PRD-034,2026-06,US,Ventes,2836,Consensus S&OP
+PRD-034,2026-06,International,Ventes,2127,Consensus S&OP
+PRD-034,2026-07,France,Ventes,4701,Consensus S&OP
+PRD-034,2026-07,Europe (hors FR),Ventes,4029,Statistique
+PRD-034,2026-07,US,Ventes,2686,Ajustement commercial
+PRD-034,2026-07,International,Ventes,2015,Statistique
+PRD-034,2026-08,France,Ventes,4076,Consensus S&OP
+PRD-034,2026-08,Europe (hors FR),Ventes,3494,Ajustement commercial
+PRD-034,2026-08,US,Ventes,2329,Ajustement commercial
+PRD-034,2026-08,International,Ventes,1747,Ajustement commercial
+PRD-034,2026-09,France,Ventes,4340,Ajustement commercial
+PRD-034,2026-09,Europe (hors FR),Ventes,3720,Consensus S&OP
+PRD-034,2026-09,US,Ventes,2480,Consensus S&OP
+PRD-034,2026-09,International,Ventes,1860,Ajustement commercial
+PRD-034,2026-10,France,Ventes,4491,Ajustement commercial
+PRD-034,2026-10,Europe (hors FR),Ventes,3849,Ajustement commercial
+PRD-034,2026-10,US,Ventes,2566,Ajustement commercial
+PRD-034,2026-10,International,Ventes,1925,Consensus S&OP
+PRD-034,2026-11,France,Ventes,4478,Ajustement commercial
+PRD-034,2026-11,Europe (hors FR),Ventes,3838,Ajustement commercial
+PRD-034,2026-11,US,Ventes,2559,Statistique
+PRD-034,2026-11,International,Ventes,1919,Consensus S&OP
+PRD-034,2026-12,France,Ventes,5079,Ajustement commercial
+PRD-034,2026-12,Europe (hors FR),Ventes,4354,Ajustement commercial
+PRD-034,2026-12,US,Ventes,2902,Statistique
+PRD-034,2026-12,International,Ventes,2177,Ajustement commercial
+PRD-034,2027-01,France,Ventes,4706,Ajustement commercial
+PRD-034,2027-01,Europe (hors FR),Ventes,4034,Ajustement commercial
+PRD-034,2027-01,US,Ventes,2689,Statistique
+PRD-034,2027-01,International,Ventes,2017,Consensus S&OP
+PRD-034,2027-02,France,Ventes,4751,Statistique
+PRD-034,2027-02,Europe (hors FR),Ventes,4073,Consensus S&OP
+PRD-034,2027-02,US,Ventes,2715,Statistique
+PRD-034,2027-02,International,Ventes,2036,Statistique
+PRD-034,2027-03,France,Ventes,4649,Ajustement commercial
+PRD-034,2027-03,Europe (hors FR),Ventes,3985,Consensus S&OP
+PRD-034,2027-03,US,Ventes,2656,Consensus S&OP
+PRD-034,2027-03,International,Ventes,1992,Consensus S&OP
+PRD-034,2027-04,France,Ventes,5359,Consensus S&OP
+PRD-034,2027-04,Europe (hors FR),Ventes,4594,Ajustement commercial
+PRD-034,2027-04,US,Ventes,3063,Ajustement commercial
+PRD-034,2027-04,International,Ventes,2297,Statistique
+PRD-034,2027-05,France,Ventes,4897,Statistique
+PRD-034,2027-05,Europe (hors FR),Ventes,4198,Ajustement commercial
+PRD-034,2027-05,US,Ventes,2798,Statistique
+PRD-034,2027-05,International,Ventes,2099,Ajustement commercial
+PRD-034,2027-06,France,Ventes,4414,Consensus S&OP
+PRD-034,2027-06,Europe (hors FR),Ventes,3784,Statistique
+PRD-034,2027-06,US,Ventes,2523,Ajustement commercial
+PRD-034,2027-06,International,Ventes,1892,Consensus S&OP
+PRD-035,2026-01,France,Ventes,16871,Ajustement commercial
+PRD-035,2026-01,Europe (hors FR),Ventes,14461,Consensus S&OP
+PRD-035,2026-01,US,Ventes,9641,Consensus S&OP
+PRD-035,2026-01,International,Ventes,7231,Consensus S&OP
+PRD-035,2026-02,France,Ventes,16793,Ajustement commercial
+PRD-035,2026-02,Europe (hors FR),Ventes,14394,Ajustement commercial
+PRD-035,2026-02,US,Ventes,9596,Statistique
+PRD-035,2026-02,International,Ventes,7197,Consensus S&OP
+PRD-035,2026-03,France,Ventes,20818,Ajustement commercial
+PRD-035,2026-03,Europe (hors FR),Ventes,17844,Statistique
+PRD-035,2026-03,US,Ventes,11896,Statistique
+PRD-035,2026-03,International,Ventes,8922,Consensus S&OP
+PRD-035,2026-04,France,Ventes,18917,Consensus S&OP
+PRD-035,2026-04,Europe (hors FR),Ventes,16214,Ajustement commercial
+PRD-035,2026-04,US,Ventes,10810,Statistique
+PRD-035,2026-04,International,Ventes,8107,Consensus S&OP
+PRD-035,2026-05,France,Ventes,18664,Consensus S&OP
+PRD-035,2026-05,Europe (hors FR),Ventes,15998,Statistique
+PRD-035,2026-05,US,Ventes,10665,Consensus S&OP
+PRD-035,2026-05,International,Ventes,7999,Statistique
+PRD-035,2026-06,France,Ventes,18673,Statistique
+PRD-035,2026-06,Europe (hors FR),Ventes,16005,Consensus S&OP
+PRD-035,2026-06,US,Ventes,10670,Statistique
+PRD-035,2026-06,International,Ventes,8003,Statistique
+PRD-035,2026-07,France,Ventes,17850,Ajustement commercial
+PRD-035,2026-07,Europe (hors FR),Ventes,15300,Statistique
+PRD-035,2026-07,US,Ventes,10200,Consensus S&OP
+PRD-035,2026-07,International,Ventes,7650,Statistique
+PRD-035,2026-08,France,Ventes,17287,Statistique
+PRD-035,2026-08,Europe (hors FR),Ventes,14817,Consensus S&OP
+PRD-035,2026-08,US,Ventes,9878,Statistique
+PRD-035,2026-08,International,Ventes,7409,Statistique
+PRD-035,2026-09,France,Ventes,16579,Statistique
+PRD-035,2026-09,Europe (hors FR),Ventes,14211,Consensus S&OP
+PRD-035,2026-09,US,Ventes,9474,Ajustement commercial
+PRD-035,2026-09,International,Ventes,7105,Ajustement commercial
+PRD-035,2026-10,France,Ventes,18483,Statistique
+PRD-035,2026-10,Europe (hors FR),Ventes,15842,Consensus S&OP
+PRD-035,2026-10,US,Ventes,10562,Consensus S&OP
+PRD-035,2026-10,International,Ventes,7921,Consensus S&OP
+PRD-035,2026-11,France,Ventes,21277,Consensus S&OP
+PRD-035,2026-11,Europe (hors FR),Ventes,18237,Ajustement commercial
+PRD-035,2026-11,US,Ventes,12158,Consensus S&OP
+PRD-035,2026-11,International,Ventes,9119,Ajustement commercial
+PRD-035,2026-12,France,Ventes,22662,Statistique
+PRD-035,2026-12,Europe (hors FR),Ventes,19425,Statistique
+PRD-035,2026-12,US,Ventes,12950,Consensus S&OP
+PRD-035,2026-12,International,Ventes,9712,Consensus S&OP
+PRD-035,2027-01,France,Ventes,24945,Ajustement commercial
+PRD-035,2027-01,Europe (hors FR),Ventes,21382,Statistique
+PRD-035,2027-01,US,Ventes,14254,Statistique
+PRD-035,2027-01,International,Ventes,10691,Consensus S&OP
+PRD-035,2027-02,France,Ventes,24079,Consensus S&OP
+PRD-035,2027-02,Europe (hors FR),Ventes,20639,Ajustement commercial
+PRD-035,2027-02,US,Ventes,13759,Consensus S&OP
+PRD-035,2027-02,International,Ventes,10319,Ajustement commercial
+PRD-035,2027-03,France,Ventes,24484,Statistique
+PRD-035,2027-03,Europe (hors FR),Ventes,20986,Consensus S&OP
+PRD-035,2027-03,US,Ventes,13991,Consensus S&OP
+PRD-035,2027-03,International,Ventes,10493,Consensus S&OP
+PRD-035,2027-04,France,Ventes,25936,Ajustement commercial
+PRD-035,2027-04,Europe (hors FR),Ventes,22231,Statistique
+PRD-035,2027-04,US,Ventes,14821,Statistique
+PRD-035,2027-04,International,Ventes,11115,Statistique
+PRD-035,2027-05,France,Ventes,25849,Consensus S&OP
+PRD-035,2027-05,Europe (hors FR),Ventes,22156,Statistique
+PRD-035,2027-05,US,Ventes,14771,Statistique
+PRD-035,2027-05,International,Ventes,11078,Statistique
+PRD-035,2027-06,France,Ventes,26391,Consensus S&OP
+PRD-035,2027-06,Europe (hors FR),Ventes,22621,Consensus S&OP
+PRD-035,2027-06,US,Ventes,15080,Ajustement commercial
+PRD-035,2027-06,International,Ventes,11310,Ajustement commercial

@@ -1,0 +1,36 @@
+ref_produit,nom_produit,famille,forme_galenique,molecule_active,concentration,taille_lot,unite,cout_prod_euro,duree_conservation_mois,statut_qualite,usine
+PRD-001,Amoxiclav 100mg,API,Poudre,Amoxiclav,100mg,1000,kg,2.14,12,Approuvé - export only,Site C - Puurs
+PRD-002,Paracetamol 500,Packaging,Blister,Paracetamol,-,500,unités,0.5,18,Approuvé,Site C - Puurs
+PRD-003,Ibuprofen 50,Packaging,Blister,Ibuprofen,-,10000,unités,6.32,36,Approuvé - export only,Site B - Cork
+PRD-004,Metformin 500ml,API,Poudre,Metformin,500ml,2500,kg,2.37,24,Approuvé,Site A - Lyon
+PRD-005,Amlodipine 250ml,Formulation Injectable,Solution injectable,Amlodipine,250ml,10000,unités,4.0,12,Approuvé - export only,Site B - Cork
+PRD-006,Atorvastatin 500,Packaging,Blister,Atorvastatin,-,500,unités,8.3,24,Approuvé - export only,Site A - Lyon
+PRD-007,Omeprazole 50ml,API,Poudre,Omeprazole,50ml,500,kg,12.84,12,En cours de validation,Site B - Cork
+PRD-008,Losartan 25ml,Formulation Injectable,Lyophilisat,Losartan,25ml,2500,unités,3.18,24,Approuvé - export only,Site C - Puurs
+PRD-009,Levothyroxine 25g,API,Granulés,Levothyroxine,25g,1000,kg,2.49,36,En cours de validation,Site C - Puurs
+PRD-010,Sertraline 250,Packaging,Blister,Sertraline,-,500,unités,3.47,12,En cours de validation,Site B - Cork
+PRD-011,Ciprofloxacin 50g,Formulation Liquide,Sirop,Ciprofloxacin,50g,2500,unités,3.23,36,En cours de validation,Site C - Puurs
+PRD-012,Azithromycin 100mg,Formulation Injectable,Solution injectable,Azithromycin,100mg,1000,unités,11.19,24,Approuvé - export only,Site C - Puurs
+PRD-013,Cetirizine 250mg,Formulation Injectable,Lyophilisat,Cetirizine,250mg,1000,unités,7.67,12,Approuvé,Site A - Lyon
+PRD-014,Furosemide 25g,Formulation Solide,Comprimé pelliculé,Furosemide,25g,5000,unités,8.97,36,En cours de validation,Site C - Puurs
+PRD-015,Prednisone 5g,Formulation Injectable,Lyophilisat,Prednisone,5g,500,unités,10.24,24,Approuvé - export only,Site B - Cork
+PRD-016,Insulin-A 500mg,API,Cristaux,Insulin-A,500mg,5000,kg,0.1,24,Approuvé - export only,Site A - Lyon
+PRD-017,Salbutamol 100,Packaging,Blister,Salbutamol,-,10000,unités,9.15,18,En cours de validation,Site A - Lyon
+PRD-018,Clopidogrel 5,Packaging,Ampoule,Clopidogrel,-,10000,unités,4.9,12,Approuvé,Site B - Cork
+PRD-019,Rosuvastatin 5mg,Formulation Liquide,Sirop,Rosuvastatin,5mg,10000,unités,14.21,12,Approuvé - export only,Site B - Cork
+PRD-020,Metoprolol 25mg,API,Granulés,Metoprolol,25mg,5000,kg,14.21,18,En cours de validation,Site C - Puurs
+PRD-021,Diclofenac 50,Packaging,Flacon,Diclofenac,-,10000,unités,11.34,18,Approuvé - export only,Site B - Cork
+PRD-022,Ranitidine 1000g,Formulation Injectable,Lyophilisat,Ranitidine,1000g,5000,unités,1.86,18,Approuvé,Site B - Cork
+PRD-023,Doxycycline 50g,API,Granulés,Doxycycline,50g,1000,kg,0.16,12,Approuvé,Site A - Lyon
+PRD-024,Fluoxetine 10g,API,Cristaux,Fluoxetine,10g,1000,kg,4.21,36,Approuvé,Site C - Puurs
+PRD-025,Warfarin 1000mg,Formulation Solide,Comprimé pelliculé,Warfarin,1000mg,5000,unités,12.12,18,Approuvé,Site A - Lyon
+PRD-026,Tramadol 500ml,Formulation Injectable,Lyophilisat,Tramadol,500ml,5000,unités,12.96,12,Approuvé - export only,Site C - Puurs
+PRD-027,Simvastatin 500g,API,Poudre,Simvastatin,500g,2500,kg,12.02,12,Approuvé,Site A - Lyon
+PRD-028,Pantoprazole 1000mg,Formulation Solide,Comprimé pelliculé,Pantoprazole,1000mg,5000,unités,2.79,36,Approuvé,Site A - Lyon
+PRD-029,Gabapentin 5g,Formulation Injectable,Solution injectable,Gabapentin,5g,10000,unités,12.55,12,Approuvé,Site A - Lyon
+PRD-030,Hydrochlorothiazide 1000mg,Formulation Injectable,Lyophilisat,Hydrochlorothiazide,1000mg,5000,unités,13.54,18,En cours de validation,Site A - Lyon
+PRD-031,Enalapril 1000ml,Formulation Injectable,Lyophilisat,Enalapril,1000ml,5000,unités,10.46,36,Approuvé,Site A - Lyon
+PRD-032,Venlafaxine 5g,Formulation Liquide,Sirop,Venlafaxine,5g,10000,unités,0.96,24,Approuvé,Site A - Lyon
+PRD-033,Bisoprolol 25,Packaging,Flacon,Bisoprolol,-,500,unités,14.41,12,Approuvé,Site A - Lyon
+PRD-034,Naproxen 50,Packaging,Blister,Naproxen,-,5000,unités,1.84,18,Approuvé - export only,Site C - Puurs
+PRD-035,Mirtazapine 10ml,API,Granulés,Mirtazapine,10ml,10000,kg,8.5,24,En cours de validation,Site A - Lyon

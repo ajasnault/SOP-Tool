@@ -1,0 +1,19 @@
+ref_machine,nom_machine,type_machine,famille_process,usine,ligne,capacite_horaire,temps_changeover,oee_cible,statut,annee_mise_en_service
+MCH-001,Sécheur 1,Sécheur,API,Site A - Lyon,Ligne 3,500,1.9,85,Opérationnelle,2018
+MCH-002,Granulateur 2,Granulateur,Formulation Solide,Site A - Lyon,Ligne 4,1000,8.0,75,Opérationnelle,2014
+MCH-003,Ligne de remplissage liquide 3,Ligne de remplissage liquide,Formulation Liquide,Site A - Lyon,Ligne 3,50,7.2,80,Opérationnelle,2022
+MCH-004,Lyophilisateur 4,Lyophilisateur,Formulation Injectable,Site C - Puurs,Ligne 3,1000,7.9,85,Opérationnelle,2017
+MCH-005,Encartonneuse 5,Encartonneuse,Packaging,Site A - Lyon,Ligne 2,200,1.8,75,Opérationnelle,2012
+MCH-006,Sécheur 6,Sécheur,API,Site B - Cork,Ligne 2,200,2.4,85,En maintenance,2023
+MCH-007,Enrobeuse 7,Enrobeuse,Formulation Solide,Site A - Lyon,Ligne 1,500,6.8,75,Opérationnelle,2012
+MCH-008,Ligne de remplissage liquide 8,Ligne de remplissage liquide,Formulation Liquide,Site A - Lyon,Ligne 4,1000,5.9,85,Opérationnelle,2010
+MCH-009,Lyophilisateur 9,Lyophilisateur,Formulation Injectable,Site A - Lyon,Ligne 1,200,5.1,75,Opérationnelle,2009
+MCH-010,Ligne de conditionnement flacons 10,Ligne de conditionnement flacons,Packaging,Site B - Cork,Ligne 1,200,2.5,75,Opérationnelle,2019
+MCH-011,Broyeur 11,Broyeur,API,Site C - Puurs,Ligne 2,100,7.1,75,En maintenance,2008
+MCH-012,Presse à comprimés 12,Presse à comprimés,Formulation Solide,Site C - Puurs,Ligne 3,500,6.6,85,Opérationnelle,2016
+MCH-013,Cuve de mélange 13,Cuve de mélange,Formulation Liquide,Site C - Puurs,Ligne 1,500,7.1,80,Opérationnelle,2022
+MCH-014,Autoclave 14,Autoclave,Formulation Injectable,Site B - Cork,Ligne 2,100,1.2,75,Opérationnelle,2016
+MCH-015,Ligne de blistérisation 15,Ligne de blistérisation,Packaging,Site B - Cork,Ligne 3,1000,3.8,85,Opérationnelle,2008
+MCH-016,Réacteur 16,Réacteur,API,Site B - Cork,Ligne 2,1000,7.7,80,Opérationnelle,2021
+MCH-017,Enrobeuse 17,Enrobeuse,Formulation Solide,Site C - Puurs,Ligne 3,500,5.2,85,Opérationnelle,2014
+MCH-018,Ligne de remplissage liquide 18,Ligne de remplissage liquide,Formulation Liquide,Site A - Lyon,Ligne 4,50,4.6,85,Opérationnelle,2014

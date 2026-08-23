@@ -1,0 +1,22 @@
+ref_arret,usine,ligne,date_debut,date_fin,motif,impact_capacite
+SD-0001,Site A - Lyon,Ligne 4,2026-11-03,2026-11-04,Requalification GMP,100
+SD-0002,Site A - Lyon,Ligne 3,2026-01-08,2026-01-15,Changement de campagne produit,100
+SD-0003,Site A - Lyon,Ligne 2,2027-03-24,2027-03-29,Changement de campagne produit,75
+SD-0004,Site A - Lyon,Ligne 4,2027-02-04,2027-02-18,Changement de campagne produit,100
+SD-0005,Site A - Lyon,Ligne 2,2027-03-09,2027-03-19,Inventaire annuel,75
+SD-0006,Site A - Lyon,Toutes lignes,2026-10-06,2026-10-09,Requalification GMP,100
+SD-0007,Site A - Lyon,Ligne 2,2026-03-12,2026-03-14,Requalification GMP,100
+SD-0008,Site B - Cork,Toutes lignes,2027-04-09,2027-04-12,Arrêt technique maintenance lourde,100
+SD-0009,Site B - Cork,Ligne 1,2026-01-20,2026-01-22,Inventaire annuel,100
+SD-0010,Site B - Cork,Ligne 3,2026-04-15,2026-04-18,Changement de campagne produit,75
+SD-0011,Site B - Cork,Ligne 1,2026-01-09,2026-01-11,Changement de campagne produit,100
+SD-0012,Site B - Cork,Ligne 4,2026-08-11,2026-08-14,Requalification GMP,50
+SD-0013,Site B - Cork,Ligne 1,2027-01-16,2027-01-21,Requalification GMP,100
+SD-0014,Site B - Cork,Ligne 3,2026-05-30,2026-05-31,Arrêt technique maintenance lourde,100
+SD-0015,Site C - Puurs,Ligne 3,2026-07-05,2026-07-07,Arrêt technique maintenance lourde,25
+SD-0016,Site C - Puurs,Ligne 4,2026-09-12,2026-09-17,Changement de campagne produit,25
+SD-0017,Site C - Puurs,Ligne 1,2026-07-23,2026-07-28,Inventaire annuel,25
+SD-0018,Site C - Puurs,Ligne 3,2027-04-30,2027-05-05,Requalification GMP,100
+SD-0019,Site C - Puurs,Toutes lignes,2026-02-13,2026-02-23,Inventaire annuel,100
+SD-0020,Site C - Puurs,Ligne 3,2027-05-08,2027-05-18,Changement de campagne produit,100
+SD-0021,Site C - Puurs,Ligne 2,2026-02-23,2026-03-09,Arrêt annuel congés,100

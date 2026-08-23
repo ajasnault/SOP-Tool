@@ -1,0 +1,34 @@
+{
+  "name": "sop-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test": "tsx --test src/**/*.test.ts",
+    "ingest:test": "tsx src/scripts/ingestTestData.ts",
+    "ingest:renamed": "tsx src/scripts/ingestTestData.ts --renamed"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.120.0",
+    "chokidar": "^4.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "papaparse": "^5.4.1",
+    "pptxgenjs": "^4.0.1",
+    "xlsx": "^0.18.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.10.5",
+    "@types/papaparse": "^5.3.15",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

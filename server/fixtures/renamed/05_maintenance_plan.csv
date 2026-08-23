@@ -1,0 +1,119 @@
+ref_maintenance,ref_machine,type_maintenance,date_planifiee,duree_heures,frequence,mttr,mtbf,statut
+MNT-0001,MCH-001,Maintenance curative programmée,2026-05-17,8.4,Ponctuelle,8.6,310,Réalisée
+MNT-0002,MCH-001,Maintenance curative programmée,2026-08-11,11.2,Semestrielle,17.1,97,Reportée
+MNT-0003,MCH-001,Validation périodique (requalification),2026-07-02,25.2,Mensuelle,18.7,317,Planifiée
+MNT-0004,MCH-001,Maintenance curative programmée,2027-03-04,33.0,Semestrielle,21.3,246,Réalisée
+MNT-0005,MCH-001,Préventive - remplacement pièces d'usure,2027-06-20,6.9,Trimestrielle,3.2,58,Planifiée
+MNT-0006,MCH-001,Validation périodique (requalification),2026-06-14,47.2,Trimestrielle,20.5,181,Planifiée
+MNT-0007,MCH-002,Préventive - remplacement pièces d'usure,2026-02-03,18.5,Mensuelle,15.6,317,Réalisée
+MNT-0008,MCH-002,Validation périodique (requalification),2027-02-03,12.9,Mensuelle,22.4,228,Planifiée
+MNT-0009,MCH-002,Préventive - graissage,2026-11-17,46.4,Mensuelle,18.4,133,Réalisée
+MNT-0010,MCH-002,Validation périodique (requalification),2027-03-30,40.2,Ponctuelle,14.0,338,Planifiée
+MNT-0011,MCH-002,Préventive - étalonnage,2026-07-18,15.5,Mensuelle,6.1,118,Réalisée
+MNT-0012,MCH-002,Préventive - remplacement pièces d'usure,2026-05-03,19.4,Semestrielle,14.2,96,Planifiée
+MNT-0013,MCH-002,Préventive - remplacement pièces d'usure,2026-09-19,2.3,Trimestrielle,2.9,195,Réalisée
+MNT-0014,MCH-003,Maintenance curative programmée,2026-11-05,24.6,Ponctuelle,9.9,192,Réalisée
+MNT-0015,MCH-003,Maintenance curative programmée,2026-07-08,25.9,Trimestrielle,11.2,304,Planifiée
+MNT-0016,MCH-003,Préventive - étalonnage,2026-12-24,12.2,Semestrielle,9.3,180,Planifiée
+MNT-0017,MCH-003,Préventive - graissage,2027-05-02,47.8,Mensuelle,16.7,258,Planifiée
+MNT-0018,MCH-003,Validation périodique (requalification),2026-09-07,46.1,Annuelle,22.2,88,Planifiée
+MNT-0019,MCH-003,Maintenance curative programmée,2026-10-17,3.1,Semestrielle,13.3,290,Planifiée
+MNT-0020,MCH-003,Préventive - étalonnage,2026-02-14,15.6,Semestrielle,13.3,79,Planifiée
+MNT-0021,MCH-003,Préventive - étalonnage,2026-01-08,30.8,Trimestrielle,21.0,247,Réalisée
+MNT-0022,MCH-004,Préventive - graissage,2027-03-22,31.7,Trimestrielle,2.5,199,Planifiée
+MNT-0023,MCH-004,Validation périodique (requalification),2026-03-17,4.5,Ponctuelle,3.5,146,Reportée
+MNT-0024,MCH-004,Préventive - remplacement pièces d'usure,2027-02-22,19.8,Annuelle,9.0,229,Réalisée
+MNT-0025,MCH-004,Maintenance curative programmée,2026-01-07,31.5,Mensuelle,18.6,329,Planifiée
+MNT-0026,MCH-005,Préventive - graissage,2027-01-02,44.7,Semestrielle,19.3,184,Réalisée
+MNT-0027,MCH-005,Préventive - remplacement pièces d'usure,2026-10-16,37.2,Annuelle,10.7,45,Planifiée
+MNT-0028,MCH-005,Préventive - remplacement pièces d'usure,2026-08-14,8.3,Ponctuelle,8.5,354,Planifiée
+MNT-0029,MCH-006,Préventive - graissage,2027-01-18,46.0,Ponctuelle,21.2,102,Planifiée
+MNT-0030,MCH-006,Préventive - remplacement pièces d'usure,2026-01-06,28.3,Ponctuelle,14.0,73,Planifiée
+MNT-0031,MCH-006,Maintenance curative programmée,2026-12-19,11.7,Trimestrielle,5.5,143,Réalisée
+MNT-0032,MCH-006,Préventive - étalonnage,2026-09-16,10.9,Ponctuelle,20.7,311,Planifiée
+MNT-0033,MCH-006,Préventive - graissage,2026-03-16,15.4,Semestrielle,4.2,327,Planifiée
+MNT-0034,MCH-006,Préventive - étalonnage,2026-12-05,18.4,Mensuelle,8.3,65,Reportée
+MNT-0035,MCH-006,Validation périodique (requalification),2026-11-22,24.3,Ponctuelle,16.5,329,Planifiée
+MNT-0036,MCH-006,Préventive - remplacement pièces d'usure,2027-01-09,39.2,Trimestrielle,2.1,156,Réalisée
+MNT-0037,MCH-007,Validation périodique (requalification),2027-03-23,14.7,Trimestrielle,17.0,199,Réalisée
+MNT-0038,MCH-007,Validation périodique (requalification),2027-04-19,22.5,Annuelle,14.1,119,Réalisée
+MNT-0039,MCH-007,Préventive - étalonnage,2026-03-25,40.7,Ponctuelle,6.3,350,Planifiée
+MNT-0040,MCH-007,Maintenance curative programmée,2026-03-19,43.0,Mensuelle,19.9,326,Planifiée
+MNT-0041,MCH-007,Maintenance curative programmée,2026-08-06,43.7,Semestrielle,14.0,306,Planifiée
+MNT-0042,MCH-007,Préventive - étalonnage,2026-06-02,18.8,Ponctuelle,18.1,178,Planifiée
+MNT-0043,MCH-007,Préventive - remplacement pièces d'usure,2027-05-29,25.5,Semestrielle,13.0,152,Réalisée
+MNT-0044,MCH-007,Préventive - étalonnage,2026-06-19,36.8,Annuelle,5.5,319,Reportée
+MNT-0045,MCH-008,Préventive - remplacement pièces d'usure,2026-05-30,35.9,Semestrielle,2.9,279,Planifiée
+MNT-0046,MCH-008,Préventive - graissage,2026-09-28,19.0,Trimestrielle,13.4,214,Planifiée
+MNT-0047,MCH-008,Préventive - graissage,2027-04-11,42.6,Semestrielle,4.3,296,Réalisée
+MNT-0048,MCH-008,Validation périodique (requalification),2026-10-08,40.4,Ponctuelle,14.0,119,Planifiée
+MNT-0049,MCH-008,Préventive - graissage,2027-01-23,18.8,Ponctuelle,7.5,144,Réalisée
+MNT-0050,MCH-008,Validation périodique (requalification),2026-12-28,39.6,Annuelle,19.4,339,Planifiée
+MNT-0051,MCH-008,Préventive - étalonnage,2026-05-23,22.2,Mensuelle,13.3,173,Planifiée
+MNT-0052,MCH-008,Maintenance curative programmée,2026-07-11,9.2,Mensuelle,16.5,242,Réalisée
+MNT-0053,MCH-009,Préventive - remplacement pièces d'usure,2026-04-27,24.1,Annuelle,6.6,112,Réalisée
+MNT-0054,MCH-009,Préventive - graissage,2027-02-25,3.0,Trimestrielle,14.6,112,Planifiée
+MNT-0055,MCH-009,Maintenance curative programmée,2027-06-09,3.8,Trimestrielle,3.2,162,Reportée
+MNT-0056,MCH-009,Maintenance curative programmée,2027-06-14,46.1,Ponctuelle,16.0,175,Reportée
+MNT-0057,MCH-009,Préventive - remplacement pièces d'usure,2026-08-10,22.7,Annuelle,5.8,240,Réalisée
+MNT-0058,MCH-009,Maintenance curative programmée,2026-07-06,30.7,Semestrielle,5.7,205,Reportée
+MNT-0059,MCH-009,Préventive - remplacement pièces d'usure,2026-03-12,12.6,Trimestrielle,4.4,133,Réalisée
+MNT-0060,MCH-009,Préventive - étalonnage,2027-06-01,33.5,Ponctuelle,4.1,273,Reportée
+MNT-0061,MCH-010,Maintenance curative programmée,2026-02-09,42.4,Ponctuelle,18.6,77,Planifiée
+MNT-0062,MCH-010,Maintenance curative programmée,2026-05-14,43.5,Mensuelle,21.7,362,Planifiée
+MNT-0063,MCH-010,Préventive - graissage,2027-03-07,19.0,Ponctuelle,11.4,276,Réalisée
+MNT-0064,MCH-010,Maintenance curative programmée,2027-01-26,18.1,Mensuelle,11.4,160,Planifiée
+MNT-0065,MCH-010,Préventive - graissage,2026-08-27,43.9,Semestrielle,15.2,308,Planifiée
+MNT-0066,MCH-010,Préventive - graissage,2026-07-13,2.3,Ponctuelle,13.5,296,Planifiée
+MNT-0067,MCH-010,Validation périodique (requalification),2026-07-30,33.6,Annuelle,10.0,109,Planifiée
+MNT-0068,MCH-011,Maintenance curative programmée,2026-09-17,14.0,Annuelle,14.4,343,Planifiée
+MNT-0069,MCH-011,Préventive - remplacement pièces d'usure,2027-02-11,36.7,Ponctuelle,19.2,277,Planifiée
+MNT-0070,MCH-011,Validation périodique (requalification),2027-05-11,13.7,Ponctuelle,9.6,233,Réalisée
+MNT-0071,MCH-011,Préventive - remplacement pièces d'usure,2026-05-02,36.4,Trimestrielle,4.2,290,Planifiée
+MNT-0072,MCH-011,Maintenance curative programmée,2026-12-13,38.8,Mensuelle,5.5,355,Planifiée
+MNT-0073,MCH-011,Préventive - remplacement pièces d'usure,2026-04-04,39.9,Ponctuelle,11.6,62,Planifiée
+MNT-0074,MCH-011,Préventive - graissage,2027-01-15,5.7,Annuelle,22.5,235,Réalisée
+MNT-0075,MCH-012,Maintenance curative programmée,2026-10-21,34.7,Mensuelle,22.8,119,Réalisée
+MNT-0076,MCH-012,Maintenance curative programmée,2027-03-26,2.5,Semestrielle,6.3,336,Réalisée
+MNT-0077,MCH-012,Préventive - graissage,2026-08-26,30.3,Semestrielle,7.3,30,Reportée
+MNT-0078,MCH-012,Préventive - remplacement pièces d'usure,2026-03-30,47.9,Semestrielle,16.7,237,Réalisée
+MNT-0079,MCH-012,Préventive - graissage,2027-06-15,2.7,Mensuelle,14.1,316,Reportée
+MNT-0080,MCH-012,Validation périodique (requalification),2026-12-23,18.0,Trimestrielle,15.3,129,Planifiée
+MNT-0081,MCH-012,Validation périodique (requalification),2027-02-18,28.4,Trimestrielle,11.0,84,Réalisée
+MNT-0082,MCH-013,Préventive - graissage,2026-10-29,17.6,Ponctuelle,23.0,305,Réalisée
+MNT-0083,MCH-013,Préventive - remplacement pièces d'usure,2026-09-14,33.9,Ponctuelle,12.6,154,Réalisée
+MNT-0084,MCH-013,Maintenance curative programmée,2027-04-15,33.4,Mensuelle,12.6,162,Planifiée
+MNT-0085,MCH-013,Préventive - étalonnage,2026-08-14,33.1,Semestrielle,11.1,210,Réalisée
+MNT-0086,MCH-013,Validation périodique (requalification),2026-01-10,34.2,Trimestrielle,8.3,234,Réalisée
+MNT-0087,MCH-013,Préventive - étalonnage,2026-12-17,5.5,Annuelle,8.9,141,Réalisée
+MNT-0088,MCH-013,Préventive - étalonnage,2026-10-03,10.4,Annuelle,18.2,150,Réalisée
+MNT-0089,MCH-014,Préventive - étalonnage,2026-07-31,12.5,Ponctuelle,9.8,84,Planifiée
+MNT-0090,MCH-014,Préventive - remplacement pièces d'usure,2026-03-22,33.1,Ponctuelle,2.1,307,Reportée
+MNT-0091,MCH-014,Validation périodique (requalification),2027-05-09,19.1,Annuelle,21.8,324,Réalisée
+MNT-0092,MCH-014,Maintenance curative programmée,2027-05-18,10.4,Semestrielle,10.8,325,Planifiée
+MNT-0093,MCH-014,Préventive - remplacement pièces d'usure,2027-06-23,38.8,Ponctuelle,2.7,207,Planifiée
+MNT-0094,MCH-015,Préventive - graissage,2026-06-28,23.0,Ponctuelle,12.1,34,Planifiée
+MNT-0095,MCH-015,Préventive - graissage,2026-08-04,19.5,Semestrielle,10.0,162,Planifiée
+MNT-0096,MCH-015,Préventive - remplacement pièces d'usure,2026-09-27,12.9,Ponctuelle,9.5,124,Planifiée
+MNT-0097,MCH-015,Validation périodique (requalification),2026-08-04,21.3,Semestrielle,20.8,173,Planifiée
+MNT-0098,MCH-015,Préventive - étalonnage,2026-05-15,47.0,Mensuelle,17.9,150,Réalisée
+MNT-0099,MCH-015,Préventive - étalonnage,2027-01-26,11.0,Annuelle,19.7,120,Planifiée
+MNT-0100,MCH-015,Maintenance curative programmée,2026-05-18,47.8,Ponctuelle,17.9,279,Planifiée
+MNT-0101,MCH-015,Préventive - étalonnage,2026-02-18,20.3,Mensuelle,6.7,160,Planifiée
+MNT-0102,MCH-016,Validation périodique (requalification),2026-04-09,22.7,Semestrielle,9.9,316,Réalisée
+MNT-0103,MCH-016,Préventive - remplacement pièces d'usure,2026-09-21,17.8,Mensuelle,9.7,340,Planifiée
+MNT-0104,MCH-016,Validation périodique (requalification),2026-06-28,47.1,Semestrielle,9.2,291,Planifiée
+MNT-0105,MCH-016,Préventive - remplacement pièces d'usure,2027-04-03,42.9,Ponctuelle,8.3,353,Reportée
+MNT-0106,MCH-016,Validation périodique (requalification),2026-06-21,31.5,Annuelle,15.9,322,Planifiée
+MNT-0107,MCH-016,Validation périodique (requalification),2026-03-15,5.6,Trimestrielle,8.9,364,Planifiée
+MNT-0108,MCH-016,Préventive - remplacement pièces d'usure,2026-10-01,29.8,Semestrielle,21.5,215,Réalisée
+MNT-0109,MCH-016,Préventive - remplacement pièces d'usure,2027-06-18,46.4,Trimestrielle,6.0,41,Planifiée
+MNT-0110,MCH-017,Préventive - graissage,2026-09-15,45.3,Trimestrielle,5.7,82,Planifiée
+MNT-0111,MCH-017,Préventive - graissage,2027-04-30,27.2,Annuelle,13.5,72,Planifiée
+MNT-0112,MCH-017,Préventive - remplacement pièces d'usure,2026-06-09,5.9,Semestrielle,7.0,175,Planifiée
+MNT-0113,MCH-017,Préventive - étalonnage,2026-05-10,8.0,Mensuelle,2.8,212,Réalisée
+MNT-0114,MCH-018,Maintenance curative programmée,2027-05-03,23.5,Semestrielle,14.1,99,Reportée
+MNT-0115,MCH-018,Préventive - remplacement pièces d'usure,2026-07-01,29.2,Ponctuelle,11.6,357,Réalisée
+MNT-0116,MCH-018,Préventive - remplacement pièces d'usure,2026-11-14,43.8,Ponctuelle,7.0,75,Planifiée
+MNT-0117,MCH-018,Préventive - étalonnage,2027-01-10,21.0,Semestrielle,2.2,297,Réalisée
+MNT-0118,MCH-018,Préventive - remplacement pièces d'usure,2026-05-20,17.8,Ponctuelle,2.2,281,Reportée

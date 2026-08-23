@@ -1,0 +1,61 @@
+matricule,poste,usine,equipe,poste_horaire,competences,anciennete,etp
+EMP-0001,Cariste,Site B - Cork,Équipe 1,Après-midi (14h-22h),Conduite presse à comprimés; Zone stérile (grade A/B),17.5,1.0
+EMP-0002,Opérateur de production,Site C - Puurs,Équipe 4,Après-midi (14h-22h),Conduite presse à comprimés; Habilitation caces,3.9,1.0
+EMP-0003,Superviseur de ligne,Site C - Puurs,Équipe 1,Matin (6h-14h),CIP/SIP; Maintenance électromécanique,12.0,1.0
+EMP-0004,Pharmacien de production,Site B - Cork,Équipe 2,Nuit (22h-6h),Maintenance électromécanique; Contrôle qualité en ligne; Zone stérile (grade A/B),16.3,1.0
+EMP-0005,Cariste,Site B - Cork,Équipe 2,Nuit (22h-6h),Habilitation caces,15.7,0.5
+EMP-0006,Technicien qualité,Site C - Puurs,Équipe 4,Après-midi (14h-22h),CIP/SIP; Habilitation clean-room; Habilitation caces,7.5,0.8
+EMP-0007,Technicien qualité,Site C - Puurs,Équipe 2,Matin (6h-14h),CIP/SIP; Zone stérile (grade A/B); Habilitation caces,18.1,0.5
+EMP-0008,Superviseur de ligne,Site B - Cork,Équipe 1,Journée (8h-17h),CIP/SIP; Conduite réacteur; Habilitation clean-room,18.9,0.5
+EMP-0009,Responsable qualité,Site B - Cork,Équipe 1,Journée (8h-17h),Habilitation caces,17.0,1.0
+EMP-0010,Technicien qualité,Site B - Cork,Équipe 4,Nuit (22h-6h),Conduite presse à comprimés,11.7,1.0
+EMP-0011,Opérateur de production,Site A - Lyon,Équipe 2,Matin (6h-14h),Conduite presse à comprimés,10.9,1.0
+EMP-0012,Opérateur de production,Site C - Puurs,Équipe 4,Journée (8h-17h),Habilitation clean-room; Conduite réacteur; CIP/SIP,5.2,1.0
+EMP-0013,Opérateur de production,Site A - Lyon,Équipe 4,Matin (6h-14h),Conduite réacteur; CIP/SIP,12.5,0.8
+EMP-0014,Superviseur de ligne,Site C - Puurs,Équipe 1,Nuit (22h-6h),Conduite réacteur; Maintenance électromécanique; Habilitation caces,18.4,1.0
+EMP-0015,Responsable qualité,Site C - Puurs,Équipe 1,Matin (6h-14h),Zone stérile (grade A/B); Habilitation clean-room; Habilitation caces,4.6,0.5
+EMP-0016,Responsable qualité,Site C - Puurs,Équipe 2,Journée (8h-17h),Conduite presse à comprimés; Contrôle qualité en ligne; Maintenance électromécanique,12.9,0.8
+EMP-0017,Cariste,Site A - Lyon,Équipe 2,Après-midi (14h-22h),Contrôle qualité en ligne; Habilitation clean-room; CIP/SIP,14.6,0.5
+EMP-0018,Approvisionneur,Site B - Cork,Équipe 3,Nuit (22h-6h),Contrôle qualité en ligne; Habilitation caces,14.1,1.0
+EMP-0019,Responsable qualité,Site C - Puurs,Équipe 2,Journée (8h-17h),Habilitation clean-room; CIP/SIP; Zone stérile (grade A/B),10.1,0.8
+EMP-0020,Opérateur de production,Site C - Puurs,Équipe 1,Nuit (22h-6h),Conduite réacteur; Habilitation clean-room; Conduite presse à comprimés,21.9,1.0
+EMP-0021,Opérateur de production,Site B - Cork,Équipe 2,Après-midi (14h-22h),Conduite réacteur; Contrôle qualité en ligne,18.2,1.0
+EMP-0022,Pharmacien de production,Site A - Lyon,Équipe 1,Journée (8h-17h),CIP/SIP; Conduite presse à comprimés,6.2,0.5
+EMP-0023,Responsable qualité,Site A - Lyon,Équipe 3,Nuit (22h-6h),Contrôle qualité en ligne,12.7,1.0
+EMP-0024,Technicien de maintenance,Site C - Puurs,Équipe 3,Journée (8h-17h),Habilitation caces,18.3,0.5
+EMP-0025,Technicien de maintenance,Site C - Puurs,Équipe 3,Matin (6h-14h),Contrôle qualité en ligne; Conduite réacteur; Habilitation caces,20.3,1.0
+EMP-0026,Superviseur de ligne,Site B - Cork,Équipe 4,Matin (6h-14h),Conduite réacteur,14.1,0.8
+EMP-0027,Opérateur de production,Site B - Cork,Équipe 1,Nuit (22h-6h),CIP/SIP; Habilitation caces; Habilitation clean-room,15.5,1.0
+EMP-0028,Opérateur de production,Site C - Puurs,Équipe 4,Journée (8h-17h),Conduite presse à comprimés; Habilitation caces; Zone stérile (grade A/B),6.7,0.8
+EMP-0029,Pharmacien de production,Site A - Lyon,Équipe 3,Matin (6h-14h),Conduite réacteur; Habilitation clean-room,9.1,1.0
+EMP-0030,Cariste,Site C - Puurs,Équipe 4,Après-midi (14h-22h),Habilitation caces,12.5,0.8
+EMP-0031,Cariste,Site C - Puurs,Équipe 2,Après-midi (14h-22h),Conduite presse à comprimés,6.2,0.8
+EMP-0032,Superviseur de ligne,Site C - Puurs,Équipe 1,Matin (6h-14h),Contrôle qualité en ligne; Zone stérile (grade A/B); CIP/SIP,8.0,1.0
+EMP-0033,Superviseur de ligne,Site C - Puurs,Équipe 1,Nuit (22h-6h),Maintenance électromécanique,13.7,0.8
+EMP-0034,Pharmacien de production,Site B - Cork,Équipe 1,Après-midi (14h-22h),Maintenance électromécanique,3.9,1.0
+EMP-0035,Technicien de maintenance,Site C - Puurs,Équipe 1,Après-midi (14h-22h),CIP/SIP; Contrôle qualité en ligne; Habilitation caces,0.8,1.0
+EMP-0036,Technicien qualité,Site B - Cork,Équipe 4,Matin (6h-14h),Zone stérile (grade A/B); Maintenance électromécanique,12.1,1.0
+EMP-0037,Technicien qualité,Site C - Puurs,Équipe 4,Après-midi (14h-22h),Conduite réacteur; Zone stérile (grade A/B); Habilitation clean-room,20.0,0.5
+EMP-0038,Opérateur de production,Site B - Cork,Équipe 2,Matin (6h-14h),Zone stérile (grade A/B); Contrôle qualité en ligne,15.5,1.0
+EMP-0039,Opérateur de production,Site B - Cork,Équipe 1,Matin (6h-14h),Habilitation clean-room; Maintenance électromécanique,18.8,1.0
+EMP-0040,Technicien de maintenance,Site A - Lyon,Équipe 3,Journée (8h-17h),Contrôle qualité en ligne,11.4,1.0
+EMP-0041,Superviseur de ligne,Site B - Cork,Équipe 1,Après-midi (14h-22h),Habilitation caces,12.6,1.0
+EMP-0042,Opérateur de production,Site A - Lyon,Équipe 3,Nuit (22h-6h),Contrôle qualité en ligne; Maintenance électromécanique,3.9,1.0
+EMP-0043,Superviseur de ligne,Site B - Cork,Équipe 3,Après-midi (14h-22h),Habilitation clean-room; Contrôle qualité en ligne; Conduite réacteur,14.0,0.8
+EMP-0044,Opérateur de production,Site C - Puurs,Équipe 3,Après-midi (14h-22h),Maintenance électromécanique,19.8,1.0
+EMP-0045,Technicien de maintenance,Site C - Puurs,Équipe 4,Après-midi (14h-22h),Zone stérile (grade A/B); Habilitation clean-room,3.8,1.0
+EMP-0046,Superviseur de ligne,Site B - Cork,Équipe 2,Après-midi (14h-22h),CIP/SIP; Habilitation clean-room; Contrôle qualité en ligne,15.2,1.0
+EMP-0047,Pharmacien de production,Site B - Cork,Équipe 2,Journée (8h-17h),CIP/SIP,7.3,0.5
+EMP-0048,Technicien de maintenance,Site A - Lyon,Équipe 3,Après-midi (14h-22h),Conduite réacteur; Contrôle qualité en ligne; CIP/SIP,19.4,0.8
+EMP-0049,Cariste,Site B - Cork,Équipe 4,Nuit (22h-6h),Zone stérile (grade A/B),2.8,1.0
+EMP-0050,Opérateur de production,Site C - Puurs,Équipe 3,Après-midi (14h-22h),Zone stérile (grade A/B); Conduite presse à comprimés; Maintenance électromécanique,1.1,1.0
+EMP-0051,Approvisionneur,Site A - Lyon,Équipe 4,Nuit (22h-6h),Contrôle qualité en ligne,11.1,1.0
+EMP-0052,Pharmacien de production,Site A - Lyon,Équipe 2,Matin (6h-14h),Conduite réacteur; CIP/SIP,20.9,1.0
+EMP-0053,Responsable qualité,Site A - Lyon,Équipe 1,Après-midi (14h-22h),Habilitation caces; Maintenance électromécanique,7.5,0.8
+EMP-0054,Responsable qualité,Site B - Cork,Équipe 4,Matin (6h-14h),Contrôle qualité en ligne; Maintenance électromécanique; CIP/SIP,9.0,0.5
+EMP-0055,Opérateur de production,Site C - Puurs,Équipe 1,Journée (8h-17h),Conduite réacteur; Conduite presse à comprimés,11.7,0.8
+EMP-0056,Opérateur de production,Site C - Puurs,Équipe 4,Matin (6h-14h),Habilitation clean-room,10.0,1.0
+EMP-0057,Technicien qualité,Site B - Cork,Équipe 2,Journée (8h-17h),Conduite réacteur; Maintenance électromécanique,11.6,1.0
+EMP-0058,Approvisionneur,Site C - Puurs,Équipe 4,Matin (6h-14h),Conduite presse à comprimés; Habilitation caces; Habilitation clean-room,20.7,0.5
+EMP-0059,Pharmacien de production,Site B - Cork,Équipe 4,Nuit (22h-6h),Conduite réacteur; Conduite presse à comprimés,10.3,1.0
+EMP-0060,Approvisionneur,Site A - Lyon,Équipe 3,Nuit (22h-6h),CIP/SIP; Maintenance électromécanique; Contrôle qualité en ligne,3.2,1.0

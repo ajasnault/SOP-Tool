@@ -1,0 +1,6 @@
+product_id,Nom commercial,Groupe,Présentation,active_molecule,dosage,batch_size_units,unit_of_measure,standard_cost_eur_per_unit,shelf_life_months,regulatory_status,site
+PRD-001,Amoxiclav 100mg,API,Poudre,Amoxiclav,100mg,1000,kg,2.14,12,Approuvé - export only,Site C - Puurs
+PRD-002,Paracetamol 500,Packaging,Blister,Paracetamol,-,500,unités,0.5,18,Approuvé,Site C - Puurs
+PRD-003,Ibuprofen 50,Packaging,Blister,Ibuprofen,-,10000,unités,6.32,36,Approuvé - export only,Site B - Cork
+PRD-004,Doliprane 250mg,API,Poudre,Paracetamol,250mg,800,kg,3.05,12,Approuvé,Site A - Lyon
+PRD-005,Ventoline 100mcg,Formulation Liquide,Solution,Salbutamol,100mcg,600,kg,4.4,9,Approuvé - export only,Site B - Cork
