@@ -16,11 +16,17 @@ import { startWatcher } from "./watch.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Charge server/.env (ANTHROPIC_API_KEY, SOP_LLM_MODEL) — optionnel, jamais commité.
+// Charge server/.env en local (ANTHROPIC_API_KEY, SOP_LLM_MODEL) — absent en prod
+// (Railway et consorts injectent les variables nativement dans process.env, sans
+// fichier .env), donc cet échec est normal et ne doit rien logger à lui seul.
 try {
   process.loadEnvFile(path.join(__dirname, "..", ".env"));
 } catch {
-  console.warn("[server] pas de .env trouvé — la génération des propositions de réconciliation (LLM) échouera sans ANTHROPIC_API_KEY.");
+  // pas de fichier .env — attendu en prod, voir commentaire ci-dessus.
+}
+
+if (!process.env.ANTHROPIC_API_KEY) {
+  console.warn("[server] ANTHROPIC_API_KEY absente de l'environnement — la génération des propositions de réconciliation (LLM) échouera.");
 }
 
 const dataDir = path.join(__dirname, "..", "data");
