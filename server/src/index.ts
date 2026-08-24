@@ -39,8 +39,12 @@ mkdirSync(dataDir, { recursive: true });
 const db = openDb(dbPath);
 startWatcher(db, path.join(dataDir, "watched"), path.join(dataDir, "processed"));
 
+// Verrouillé sur le domaine du frontend déployé (client et serveur sont deux
+// services Railway séparés) ; overridable via CORS_ORIGIN si ce domaine change.
+const corsOrigin = process.env.CORS_ORIGIN ?? "https://empathetic-benevolence-production-cd6a.up.railway.app";
+
 const app = express();
-app.use(cors());
+app.use(cors({ origin: corsOrigin }));
 app.use(express.json());
 
 app.use("/api", dashboardRouter(db));
