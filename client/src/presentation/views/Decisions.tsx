@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { DashboardSummary } from "@/api/types";
 import type { Decision, DecisionStatus, OptionSnapshot } from "@/api/decisionTypes";
 import { fetchDecisions, createDecision, updateDecision, deleteDecision } from "@/api/client";
+import { apiUrl } from "@/api/apiBase";
 import { useDecisionDraft } from "../decisionDraftContext";
 
 const STATUS_LABELS: Record<DecisionStatus, string> = {
@@ -298,7 +299,7 @@ export function Decisions({ data, site }: { data: DashboardSummary; site: string
                 <td className="py-2 text-right">
                   {d.option_snapshot && (
                     <a
-                      href={`/api/export/reconciliation-plan/${d.id}`}
+                      href={apiUrl(`/api/export/reconciliation-plan/${d.id}`)}
                       className="mr-3 text-teal-dark hover:underline"
                       title="Document de synthèse à transmettre aux équipes — n'écrit aucun ordre de fabrication"
                     >

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchEntities } from "@/api/adminClient";
 import { importFile, confirmImport } from "@/api/adminClient";
+import { apiUrl } from "@/api/apiBase";
 import type { EntityInfo, ImportReport } from "@/api/adminTypes";
 import { MappingTable } from "./components/MappingTable";
 import { ValidationPanel } from "./components/ValidationPanel";
@@ -24,7 +25,7 @@ export function ImportMappingPage() {
       setEntities(list);
       if (list.length > 0) setEntityName(list[0].entity);
     });
-    fetch("/api/thresholds")
+    fetch(apiUrl("/api/thresholds"))
       .then((r) => r.json())
       .then((t) => setThreshold(t.mapping_confidence_min ?? 0.75));
   }, []);

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { fetchSites } from "@/api/client";
 import { useLiveDashboard } from "@/api/useLiveDashboard";
+import { apiUrl } from "@/api/apiBase";
 import { ExecutiveSummary } from "./views/ExecutiveSummary";
 import { DemandReview } from "./views/DemandReview";
 import { CapacityReview } from "./views/CapacityReview";
@@ -14,7 +15,7 @@ import { DecisionDraftContext, type DecisionDraft } from "./decisionDraftContext
 function exportUrl(site: string | undefined, cycleReferenceMonth: string): string {
   const params = new URLSearchParams({ cycleReferenceMonth });
   if (site) params.set("site", site);
-  return `/api/export/pptx?${params.toString()}`;
+  return apiUrl(`/api/export/pptx?${params.toString()}`);
 }
 
 const SLIDES = [

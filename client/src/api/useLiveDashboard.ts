@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { fetchDashboard } from "./client";
+import { apiUrl } from "./apiBase";
 import type { DashboardSummary } from "./types";
 
 export type LiveStatus = "loading" | "nominal" | "refreshing" | "error";
@@ -38,7 +39,7 @@ export function useLiveDashboard(site?: string, cycleReferenceMonth?: string): L
   }, [site, cycleReferenceMonth, load]);
 
   useEffect(() => {
-    const source = new EventSource("/api/events");
+    const source = new EventSource(apiUrl("/api/events"));
     source.addEventListener("data-changed", () => {
       load(site, cycleReferenceMonth);
     });

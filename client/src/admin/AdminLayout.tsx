@@ -1,4 +1,5 @@
 import { Link, NavLink, Outlet } from "react-router-dom";
+import { apiUrl } from "@/api/apiBase";
 
 const NAV = [
   { to: "/admin", label: "Import & mapping", end: true },
@@ -30,7 +31,7 @@ export function AdminLayout() {
           ))}
         </nav>
         <a
-          href="/api/export/pptx"
+          href={apiUrl("/api/export/pptx")}
           className="mt-8 block rounded-sm border border-navy px-2.5 py-1.5 text-center text-[13px] font-medium text-navy hover:bg-bg-alt"
         >
           Exporter ce cycle (PPTX)
