@@ -77,6 +77,30 @@ plusieurs `absences` de l'employé (bornée à 1). **Pas de charge réelle** : a
 donnée ne lie un employé à un ordre de fabrication précis, donc seule la
 disponibilité est calculée (cf. `docs/data-model.md`).
 
+## Taux de service prévisionnel
+
+```
+couvert(produit, mois) = min( Σ batch_qty_units des ordres du produit dont planned_end tombe dans le mois
+                                (hors statut "Reporté"),
+                              Σ forecast_qty_units du produit sur le mois, tous marchés )
+taux de service(mois)  = Σ couvert(produit, mois) / Σ demande(produit, mois) × 100
+```
+
+Part de la demande prévue que le plan de production couvre, **plafonnée produit
+par produit** : le surplus planifié d'un produit ne compense jamais le déficit
+d'un autre (sinon le plan actuel, ~2× la demande au total, afficherait 100 %
+alors que des produits restent non couverts). Production rattachée au mois de
+`planned_end` (le lot est disponible à la fin de l'ordre) ; ordres "Reporté"
+exclus, car ils ne livreront pas sur le mois. Filtre site = site du produit.
+`null` si le mois n'a aucune demande.
+
+C'est un taux de service **prévisionnel** (plan vs demande), pas un taux de
+service réalisé : celui-ci nécessiterait des données de livraison, absentes du
+jeu de données. Cible configurable : seuil `service_level_target_pct`
+(défaut 95 %) — en dessous, le KPI passe en rouge. Vérifié sur le jeu de
+données de production (import du 2026-08-24) : 74,3 % en octobre 2026,
+76/120 produits entièrement couverts.
+
 ## Mois de référence du cycle (`cycleReferenceMonth`)
 
 Introduit le 2026-08-20 pour remplacer l'ancien `currentMonth` (résolution

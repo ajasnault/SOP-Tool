@@ -19,6 +19,9 @@ export function ExecutiveSummary({ data, site }: { data: DashboardSummary; site:
   const fteAvailable = hrRows.reduce((s, r) => s + r.fte_available, 0);
   const hrAvailPct = fteTotal > 0 ? (fteAvailable / fteTotal) * 100 : null;
 
+  const sl = data.serviceLevel;
+  const serviceLevelPct = sl.service_level_pct;
+
   const worstGap = [...gapsCurrent].sort((a, b) => (b.utilization_pct ?? 0) - (a.utilization_pct ?? 0))[0];
 
   return (
@@ -35,7 +38,14 @@ export function ExecutiveSummary({ data, site }: { data: DashboardSummary; site:
       </header>
 
       <div className="grid grid-cols-4 gap-5">
-        <KpiCardUnavailable label="Taux de service prévisionnel" caption="nécessite données de livraison" />
+        <KpiCard
+          label="Taux de service prévisionnel"
+          value={serviceLevelPct !== null ? NUM.format(serviceLevelPct) : "—"}
+          unit="%"
+          caption={`demande couverte par le plan · ${sl.products_fully_covered}/${sl.products_with_demand} produits à 100 % · cible ${NUM.format(data.serviceLevelTargetPct)} %`}
+          barPct={serviceLevelPct}
+          tone={serviceLevelPct !== null && serviceLevelPct < data.serviceLevelTargetPct ? "red" : "navy"}
+        />
         <KpiCard
           label="Utilisation moyenne capacité"
           value={avgUtil !== null ? NUM.format(avgUtil) : "—"}

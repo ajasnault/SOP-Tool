@@ -36,6 +36,7 @@ export function dashboardRouter(db: DatabaseSync): Router {
       mapping_confidence_min: getThreshold(db, "mapping_confidence_min", 0.75),
       source_staleness_warning_hours: getThreshold(db, "source_staleness_warning_hours", 24),
       frozen_period_weeks: getThreshold(db, "frozen_period_weeks", 8),
+      service_level_target_pct: getThreshold(db, "service_level_target_pct", 95),
     });
   });
 

@@ -37,6 +37,7 @@ export interface Thresholds {
   mapping_confidence_min: number;
   source_staleness_warning_hours: number;
   frozen_period_weeks: number;
+  service_level_target_pct: number;
 }
 
 export interface ColumnInfo {

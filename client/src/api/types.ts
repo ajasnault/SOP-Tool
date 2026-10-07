@@ -26,6 +26,15 @@ export interface DemandRow {
   qty_units: number;
 }
 
+export interface ServiceLevelSummary {
+  month: string;
+  demand_units: number;
+  covered_units: number;
+  service_level_pct: number | null;
+  products_with_demand: number;
+  products_fully_covered: number;
+}
+
 export interface DashboardSummary {
   /** Tous les mois avec au moins une donnée — bornes de navigation entre cycles. */
   dataHorizon: string[];
@@ -43,6 +52,9 @@ export interface DashboardSummary {
   /** Capacité par machine sur chartHorizon (18 mois glissants) — heatmap d'évolution de charge. */
   capacityTrend: MachineMonthCapacity[];
   hrAvailability: HrAvailabilityRow[];
+  /** Taux de service prévisionnel du cycle consulté (demande couverte par le plan, plafonnée par produit). */
+  serviceLevel: ServiceLevelSummary;
+  serviceLevelTargetPct: number;
   demandTrend: { month: string; qty_units: number }[];
   demandByFamily: DemandRow[];
 }

@@ -62,8 +62,9 @@ présent sur l'export nommé) plutôt que `XLSX.readFile()`. Test de régression
 
 La maquette liste 4 seuils que les données actuelles ne permettent pas de
 calculer :
-- `service_level_target_pct` (taux de service) — nécessite des données de
-  livraison/exécution des commandes, absentes du jeu de test.
+- `service_level_target_pct` (taux de service) — **branché le 2026-10-07**
+  sur le taux de service prévisionnel (défaut 95 %), exposé dans "Seuils
+  d'alerte".
 - `stock_coverage_min_weeks` (couverture de stock) — nécessite des données de
   stock/inventaire, absentes.
 - `absence_rate_max_pct` — calculable en théorie (les absences existent),
@@ -94,7 +95,11 @@ des données absentes du jeu de données (même famille de problème que le
 point 3, appliquée cette fois aux KPI individuels plutôt qu'à des vues
 entières — même politique appliquée, pas de nouvelle décision) :
 - **Taux de service prévisionnel** — nécessite des données de
-  livraison/exécution des commandes.
+  livraison/exécution des commandes. **Mise à jour (2026-10-07)** : calculé
+  désormais en version *prévisionnelle* (demande couverte par le plan de
+  production, plafonnée par produit), sans nouvelle donnée — voir
+  docs/calculations.md ("Taux de service prévisionnel"). Le taux de service
+  *réalisé* reste non calculable sans données de livraison.
 - **Écart demande vs plan (vs cycle précédent)** — nécessite un instantané du
   cycle précédent à comparer ; aucun mécanisme de versionnement de cycle
   n'existe dans le modèle de données actuel.

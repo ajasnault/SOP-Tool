@@ -4,10 +4,12 @@ import { consolidatedDemand, demandTrend, type DemandRow } from "./demand.js";
 import { hrAvailabilityForMonth, type HrAvailabilityRow } from "./hr.js";
 import { rollingMonths, monthAfterWeeks } from "./period.js";
 import { getThreshold } from "../config.js";
+import { serviceLevelForMonth, type ServiceLevelSummary } from "./serviceLevel.js";
 
 export * from "./capacity.js";
 export * from "./demand.js";
 export * from "./hr.js";
+export * from "./serviceLevel.js";
 export * from "./period.js";
 export { getThreshold, setThreshold } from "../config.js";
 
@@ -77,6 +79,10 @@ export interface DashboardSummary {
   capacityTrend: MachineMonthCapacity[];
   /** Disponibilité RH pour cycleReferenceMonth uniquement. */
   hrAvailability: HrAvailabilityRow[];
+  /** Taux de service prévisionnel pour cycleReferenceMonth. Voir docs/calculations.md ("Taux de service prévisionnel"). */
+  serviceLevel: ServiceLevelSummary;
+  /** Cible de taux de service (seuil `service_level_target_pct`, défaut 95) — en dessous, le KPI passe en rouge. */
+  serviceLevelTargetPct: number;
   /** Sur chartHorizon (18 mois glissants), mois sans forecast inclus à 0 — pour que l'axe avance visiblement même sans donnée. */
   demandTrend: { month: string; qty_units: number }[];
   demandByFamily: DemandRow[];
@@ -107,6 +113,8 @@ export function computeDashboard(db: DatabaseSync, site?: string, cycleReference
 
   const capacity = capacityForMonth(db, referenceMonth, site);
   const hrAvailability = hrAvailabilityForMonth(db, referenceMonth, site);
+  const serviceLevel = serviceLevelForMonth(db, referenceMonth, site);
+  const serviceLevelTargetPct = getThreshold(db, "service_level_target_pct", 95);
 
   const chartHorizon = rollingMonths(referenceMonth, CHART_HORIZON_MONTHS);
   // ~20ms mesurées pour 18 mois × 26 machines (toutes) sur le jeu de test —
@@ -139,6 +147,8 @@ export function computeDashboard(db: DatabaseSync, site?: string, cycleReference
     capacity,
     capacityTrend,
     hrAvailability,
+    serviceLevel,
+    serviceLevelTargetPct,
     demandTrend: paddedTrend,
     demandByFamily: paddedByFamily,
   };

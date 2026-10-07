@@ -46,6 +46,14 @@ const THRESHOLDS: ThresholdMeta[] = [
     step: 1,
     unit: "sem.",
   },
+  {
+    key: "service_level_target_pct",
+    label: "Cible de taux de service",
+    description: "Synthèse exécutive — en dessous de cette cible, le taux de service prévisionnel est signalé en rouge.",
+    defaultValue: 95,
+    step: 1,
+    unit: "%",
+  },
 ];
 
 export function ThresholdsPage() {

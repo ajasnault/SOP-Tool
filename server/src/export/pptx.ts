@@ -81,7 +81,14 @@ function addSummarySlide(pptx: PptxInstance, dashboard: DashboardSummary, siteLa
   const fteAvailable = hrRows.reduce((s, r) => s + r.fte_available, 0);
   const hrAvailPct = fteTotal > 0 ? (fteAvailable / fteTotal) * 100 : null;
 
+  const sl = dashboard.serviceLevel;
   const kpis: { label: string; value: string; caption: string; tone: string }[] = [
+    {
+      label: "Taux de service prévisionnel",
+      value: sl.service_level_pct !== null ? `${round1(sl.service_level_pct)} %` : "—",
+      caption: `${sl.products_fully_covered}/${sl.products_with_demand} produits couverts · cible ${round1(dashboard.serviceLevelTargetPct)} %`,
+      tone: sl.service_level_pct !== null && sl.service_level_pct < dashboard.serviceLevelTargetPct ? RED : NAVY,
+    },
     {
       label: "Utilisation moyenne capacité",
       value: avgUtil !== null ? `${round1(avgUtil)} %` : "—",
@@ -102,9 +109,9 @@ function addSummarySlide(pptx: PptxInstance, dashboard: DashboardSummary, siteLa
     },
   ];
 
-  const cardW = 3.7;
+  const cardW = 2.8;
   kpis.forEach((kpi, i) => {
-    const x = 0.7 + i * (cardW + 0.3);
+    const x = 0.7 + i * (cardW + 0.25);
     slide.addShape(pptx.ShapeType.rect, { x, y: 1.7, w: cardW, h: 1.9, fill: { color: "FFFFFF" }, line: { color: BORDER, width: 1 } });
     slide.addText(kpi.label, { x: x + 0.25, y: 1.85, w: cardW - 0.5, h: 0.5, fontSize: 11, color: SLATE });
     slide.addText(kpi.value, { x: x + 0.25, y: 2.3, w: cardW - 0.5, h: 0.7, fontSize: 30, color: kpi.tone, fontFace: "Georgia" });
