@@ -14,7 +14,9 @@ version lisible).
 | `machines` | `machine_id` | — | `02_machines.csv` |
 | `employees` | `employee_id` | — | `07_hr_resources.csv` |
 | `forecasts` | `id` (auto) | `product_id → products` | `03_forecasts.csv` |
-| `production_orders` | `order_id` | `product_id → products`, `machine_id → machines` | `04_production_plan.csv` |
+| `production_orders` | `order_id` | `product_id → products`, `machine_id → machines` | `04_production_plan.csv` — un OF = une opération (`step_no`) d'un lot (`lot_id`), tous deux optionnels |
+| `routings` | `routing_id` (unique `product_id`+`step_no`) | `product_id → products` | `09_routings.csv` — gamme : ordre des opérations, type de machine, point QC + spec + délai de libération N(μ, σ) |
+| `quality_results` | `qc_id` | `product_id → products` (`lot_id` en texte) | `10_quality_results.csv` — résultat par lot et point de contrôle |
 | `maintenance_plans` | `maintenance_id` | `machine_id → machines` | `05_maintenance_plan.csv` |
 | `shutdowns` | `shutdown_id` | — (`site`/`production_line` en texte libre, pas de table `sites`) | `06_shutdowns.csv` |
 | `absences` | `absence_id` | `employee_id → employees` | `08_hr_absences.csv` |
@@ -27,6 +29,74 @@ pour pouvoir mettre en quarantaine une ligne invalide sans annuler tout l'import
 
 Dates/mois stockés en TEXT ISO (`YYYY-MM-DD`, `YYYY-MM-DD HH:MM` ou `YYYY-MM` pour
 `forecasts.month`) — pas de type DATE natif en SQLite.
+
+## Gammes, lots et contrôle qualité
+
+Ajoutés le 2026-10-08, après le constat que le plan d'origine n'avait aucun
+flux : chaque OF était une opération isolée sur une machine tirée au hasard
+(67 % des OF sur une machine d'un autre site que le produit, campagnes
+mélangeant les sites), si bien que la charge suivait la demande sur toutes les
+machines en même temps.
+
+- **`routings`** : pour chaque produit, les étapes dans l'ordre (`step_no`
+  10, 20, …), l'opération, le `machine_type` requis et le site. Si l'étape se
+  termine par un contrôle qualité : `qc_point`, `qc_attribute`, spec
+  `spec_lower`–`spec_upper`, délai de libération moyen et écart-type (heures).
+- **`production_orders.lot_id` / `step_no`** : un lot suit sa gamme ; l'étape
+  n+1 ne démarre qu'après la fin de l'étape n et, s'il y a un point QC, après
+  la libération.
+- **`quality_results`** : `Conforme` / `Hors spécifications` (valeur mesurée
+  connue), `En cours d'analyse` (prélevé, pas encore décidé), `Planifié`
+  (lot futur). **Un lot hors spécifications n'a aucun OF aux étapes suivantes.**
+
+Les trois sont optionnels : un plan sans gamme s'importe et se calcule comme
+avant (voir docs/calculations.md, "Taux de service prévisionnel").
+
+### Jeu de données « flux + QC » (`server/src/scripts/generateFlowDataset.ts`)
+
+Reprend tels quels les produits, la demande (choc d'oct.–nov. 2026 compris) et
+les données RH du jeu en production ; régénère le reste, avec une graine fixe
+(reproductible) :
+
+- **Parc** : 66 machines, en 5 lignes cohérentes par site (API, Solides,
+  Liquides, Stérile, Conditionnement — cette dernière commune à tous les flux).
+  Chaque type a un temps de changement de série et un temps de vide de ligne
+  (`line_clearance_hours`, 0,5 à 2 h). Capacités dimensionnées sur la demande
+  médiane, vides de ligne et changements de série compris : un goulot délibéré
+  par site (~80 % hors choc : remplissage liquide à Lyon, réacteur à Cork, presse
+  à comprimés à Puurs), encartonneuse ~65 %, le reste 40–56 %. Quand vides de
+  ligne et changements dépasseraient 35 % du temps d'une machine (beaucoup de
+  petits lots, ex. ~490 OF/mois en encartonnage), une machine de plus du même
+  type est installée (ex. Encartonneuse 1 et 2).
+- **Gammes** par forme galénique, avec 3 types de points QC : contrôle en
+  cours sur le vrac (24 h ± 6 h), libération API (120 h ± 24 h), libération
+  produit fini (168 h ± 36 h ; 336 h ± 48 h pour les injectables, test de
+  stérilité ; 48 h ± 12 h pour le façonnage).
+- **Capabilité process cachée** : chaque produit × point QC a une moyenne et
+  un écart-type (Cp 0,75–1,3, légèrement décentré) ; un produit « à problème »
+  par site (Cp 0,7, décentré) au contrôle vrac. Seule la spec est publiée.
+  Mesure ~ N(μ, σ) → hors spec = rejet. Résultat : ~1 % de lots rejetés
+  (0,8 % sur les contrôles décidés avant la date d'extraction).
+- **Lots** : une campagne par produit et par mois de demande ; nombre de lots =
+  demande / rendement QC attendu (calculé à partir des distributions) / taille
+  de lot. Lancement = date de libération visée − délai standard de la gamme.
+- **Ordonnancement à capacité finie** lot par lot : une machine traite un OF à
+  la fois ; avant chaque OF, vide de ligne (même produit) ou changement de série
+  (autre produit) ; parmi les machines du type, celle qui termine le plus tôt ;
+  aucun OF pendant une maintenance ou un arrêt de ligne.
+- **Date d'extraction** (`--asof`, défaut 2026-10-08) : avant, tout est réalisé
+  (résultats QC tirés, rejets effectifs) ; après, le plan suppose la conformité
+  (délai QC moyen) — un plan ne connaît pas les rejets futurs.
+
+Vérifications faites sur le jeu généré (script indépendant du générateur) :
+aucun OF hors ordre de gamme, avant libération QC, en aval d'un lot rejeté,
+sans vide de ligne ou changement de série complet avant lui, ou pendant une
+maintenance/un arrêt ; délais QC
+observés conformes aux lois annoncées (ex. vrac : 24,0 h, écart-type 6,1 h).
+
+Limite connue reprise telle quelle : le référentiel produits mélange les
+unités (comprimés en kg ou en L, famille « Packaging » vendue comme produit
+fini). Non corrigé — il fait partie du jeu en production.
 
 ## Tables outillage (ingestion, config)
 

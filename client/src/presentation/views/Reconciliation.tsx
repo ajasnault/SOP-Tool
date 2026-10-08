@@ -56,7 +56,7 @@ export function Reconciliation({ data, site }: { data: DashboardSummary; site: s
     <div className="flex h-full flex-col overflow-y-auto px-12 py-10">
       <header className="flex items-end justify-between border-b border-border pb-4">
         <div>
-          <div className="text-[13px] font-semibold uppercase tracking-wide text-teal">04 · Réconciliation</div>
+          <div className="text-[13px] font-semibold uppercase tracking-wide text-teal">05 · Réconciliation</div>
           <h1 className="font-serif text-4xl text-navy">Propositions au-delà de la période gelée</h1>
         </div>
         <div className="flex flex-col items-end gap-1">

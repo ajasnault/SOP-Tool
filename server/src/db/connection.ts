@@ -25,6 +25,9 @@ function migrate(db: DatabaseSync): void {
     "ALTER TABLE import_batches ADD COLUMN error_message TEXT",
     "ALTER TABLE decisions ADD COLUMN site TEXT",
     "ALTER TABLE decisions ADD COLUMN option_snapshot_json TEXT",
+    "ALTER TABLE production_orders ADD COLUMN lot_id TEXT",
+    "ALTER TABLE machines ADD COLUMN line_clearance_hours REAL",
+    "ALTER TABLE production_orders ADD COLUMN step_no INTEGER",
   ];
   for (const sql of alters) {
     try {
@@ -33,6 +36,8 @@ function migrate(db: DatabaseSync): void {
       if (!(err as Error).message.includes("duplicate column name")) throw err;
     }
   }
+  // Après les ALTER : sur une base antérieure, lot_id n'existe qu'à partir d'ici.
+  db.exec("CREATE INDEX IF NOT EXISTS idx_production_orders_lot ON production_orders(lot_id, step_no)");
 }
 
 export type Db = DatabaseSync;

@@ -36,20 +36,30 @@ combinent souvent les deux.
 
 ## Temps de production planifié
 
-Pour chaque `production_orders` (hors statut `Annulé` s'il existe) rattaché à une
-machine et chevauchant la période :
+Pour chaque `production_orders` rattaché à une machine et démarrant dans la période :
 
 ```
-temps_of_heures = batch_qty_units / machine.capacity_per_hour_units + machine.changeover_time_hours
+temps_of_heures = batch_qty_units / machine.capacity_per_hour_units
+                + machine.changeover_time_hours   si l'OF précédent sur la même machine
+                                                   (ordre de planned_start) porte un autre produit,
+                                                   ou s'il n'y a pas d'OF précédent
+                + machine.line_clearance_hours    sinon (même produit)
 ```
 
-Le changeover est compté une fois par ordre (hypothèse simplificatrice — en
-réalité il ne s'applique qu'au changement de produit d'une machine à l'autre,
-mais l'information de séquencement fin n'est pas disponible dans le jeu de test).
+**Vide de ligne obligatoire** (depuis le 2026-10-08) : en GMP, aucun OF ne
+démarre sans vide de ligne, même après un lot du même produit (retrait des
+articles, documents et étiquettes du lot précédent, vérification). Au
+changement de produit, le changement de série (nettoyage complet) inclut le
+vide de ligne : on ne cumule pas les deux. `line_clearance_hours` vide (jeux
+antérieurs) = 0. Calculé en SQL avec `LAG`, sur tout l'historique de la
+machine, via l'index couvrant `idx_production_orders_seq`. Avant cette date, le
+changement de série était compté sur chaque OF quel que soit le produit.
 
 **Rattachement à un mois** : l'intégralité du temps de l'ordre est comptée sur le
-mois de `planned_start` (pas de prorata si l'ordre chevauche deux mois — rare vu
-les durées observées dans le jeu de test, quelques heures à quelques jours).
+mois de `planned_start` (pas de prorata si l'ordre chevauche deux mois). C'est
+pourquoi le goulot d'un plan ordonnancé à capacité finie peut afficher
+légèrement plus de 100 % (ex. 100,1 %) : un OF commencé le 31 au soir compte en
+entier sur le mois.
 
 ## Taux d'utilisation planifié
 
@@ -80,26 +90,70 @@ disponibilité est calculée (cf. `docs/data-model.md`).
 ## Taux de service prévisionnel
 
 ```
-couvert(produit, mois) = min( Σ batch_qty_units des ordres du produit dont planned_end tombe dans le mois
-                                (hors statut "Reporté"),
-                              Σ forecast_qty_units du produit sur le mois, tous marchés )
-taux de service(mois)  = Σ couvert(produit, mois) / Σ demande(produit, mois) × 100
+disponible(produit, mois) = Σ batch_qty_units des lots finis du produit disponibles dans le mois
+couvert(produit, mois)    = min( disponible(produit, mois), Σ forecast_qty_units du produit sur le mois )
+taux de service(mois)     = Σ couvert(produit, mois) / Σ demande(produit, mois) × 100
 ```
 
-Part de la demande prévue que le plan de production couvre, **plafonnée produit
-par produit** : le surplus planifié d'un produit ne compense jamais le déficit
-d'un autre (sinon le plan actuel, ~2× la demande au total, afficherait 100 %
-alors que des produits restent non couverts). Production rattachée au mois de
-`planned_end` (le lot est disponible à la fin de l'ordre) ; ordres "Reporté"
-exclus, car ils ne livreront pas sur le mois. Filtre site = site du produit.
-`null` si le mois n'a aucune demande.
+**Lot fini disponible** (depuis le 2026-10-08, gammes) :
+- plan avec gamme (`step_no` renseigné et gamme importée pour le produit) :
+  seul l'OF de la **dernière étape de la gamme** produit du fini (un lot qui
+  passe par 5 machines n'est compté qu'une fois). Il est disponible au mois de
+  sa **libération QC** (`quality_results.release_date` de cette étape), sinon
+  au mois de `planned_end`. Un lot avec un résultat « Hors spécifications » à
+  n'importe quel point de contrôle est exclu ;
+- plan sans gamme (`step_no` vide, jeux antérieurs, ou produit sans gamme) :
+  chaque OF est un lot fini, disponible au mois de `planned_end` (calcul d'origine).
+
+Ordres "Reporté" exclus dans les deux cas. Couverture **plafonnée produit par
+produit** : le surplus planifié d'un produit ne compense jamais le déficit d'un
+autre. Filtre site = site du produit. `null` si le mois n'a aucune demande.
 
 C'est un taux de service **prévisionnel** (plan vs demande), pas un taux de
-service réalisé : celui-ci nécessiterait des données de livraison, absentes du
-jeu de données. Cible configurable : seuil `service_level_target_pct`
-(défaut 95 %) — en dessous, le KPI passe en rouge. Vérifié sur le jeu de
-données de production (import du 2026-08-24) : 74,3 % en octobre 2026,
-76/120 produits entièrement couverts.
+service réalisé : celui-ci nécessiterait des données de livraison. Cible
+configurable : seuil `service_level_target_pct` (défaut 95 %).
+Valeurs sur le jeu « flux + QC » (généré le 2026-10-08) : 96,4 % en septembre
+2026, 63,3 % en octobre (choc de demande, goulots saturés), 75,5 % en novembre,
+82,4 % en décembre, 97,4 % en janvier 2027 (le retard se résorbe).
+
+## Flux et goulot
+
+Vue "Flux & qualité". Les gammes (`routings`) sont regroupées par site et par
+enchaînement de types de machines (ex. Granulateur → Presse → Enrobeuse →
+Blister → Encartonneuse) ; chaque étape porte l'utilisation du mois de ses
+machines :
+
+```
+utilisation(étape, site, mois) = Σ heures planifiées / Σ heures disponibles
+                                 des machines du site de ce machine_type
+goulot(flux, mois)             = étape d'utilisation maximale
+```
+
+Le goulot fixe le débit de toute la chaîne en aval : dans un plan ordonnancé à
+capacité finie, les étapes en aval d'un goulot saturé sont sous-chargées (elles
+attendent ses lots). Une même machine (ex. l'encartonneuse, commune à tous les
+flux d'un site) apparaît dans plusieurs flux avec la même utilisation.
+
+## Contrôle qualité
+
+Fenêtre glissante de 3 mois se terminant au mois du cycle, sur les résultats
+**décidés** (`Conforme` / `Hors spécifications`), rattachés au mois de leur
+`release_date` :
+
+```
+taux de rejet          = nb Hors spécifications / nb contrôles décidés
+valeur perdue          = Σ (quantité du lot × standard_cost_eur_per_unit) des lots rejetés
+délai réel (point QC)  = moyenne de (release_date − sample_date)
+délai prévu (point QC) = moyenne de routings.qc_lead_time_mean_hours sur les MÊMES lots
+```
+
+Le délai prévu est pondéré par lot, pas moyenné par gamme : sinon 336 h
+(injectables, test de stérilité) et 48 h (façonnage) pèseraient pareil quel que
+soit le nombre de lots contrôlés. « Produits les plus rejetés » : au moins 5
+contrôles décidés dans la fenêtre. Les contrôles `En cours d'analyse` sont
+comptés à part (file d'attente du laboratoire à la date d'extraction). Les
+lots planifiés au-delà ne sont pas encore contrôlés : le plan les suppose
+conformes, et compense par un surplus de lots (voir data-model.md, jeu « flux + QC »).
 
 ## Mois de référence du cycle (`cycleReferenceMonth`)
 

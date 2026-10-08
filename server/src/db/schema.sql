@@ -27,6 +27,8 @@ CREATE TABLE IF NOT EXISTS machines (
   production_line TEXT,
   capacity_per_hour_units REAL,
   changeover_time_hours REAL,
+  -- Vide de ligne entre deux OF du même produit (GMP), voir docs/calculations.md.
+  line_clearance_hours REAL,
   oee_target_pct REAL,
   status TEXT,
   commissioning_year INTEGER
@@ -55,9 +57,14 @@ CREATE TABLE IF NOT EXISTS forecasts (
 );
 CREATE INDEX IF NOT EXISTS idx_forecasts_product_month ON forecasts(product_id, month);
 
+-- Un OF = une opération (step_no de la gamme) d'un lot (lot_id) sur une
+-- machine. lot_id/step_no sont optionnels : un plan sans gamme (un OF = un lot
+-- fini) reste accepté, voir docs/data-model.md.
 CREATE TABLE IF NOT EXISTS production_orders (
   order_id TEXT PRIMARY KEY,
+  lot_id TEXT,
   product_id TEXT NOT NULL REFERENCES products(product_id),
+  step_no INTEGER,
   machine_id TEXT NOT NULL REFERENCES machines(machine_id),
   campaign_id TEXT,
   planned_start TEXT NOT NULL,
@@ -67,6 +74,48 @@ CREATE TABLE IF NOT EXISTS production_orders (
   priority TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_production_orders_machine ON production_orders(machine_id, planned_start);
+CREATE INDEX IF NOT EXISTS idx_production_orders_start ON production_orders(planned_start);
+-- Index couvrant pour la séquence des OF par machine (changements de série, calc/capacity.ts).
+CREATE INDEX IF NOT EXISTS idx_production_orders_seq ON production_orders(machine_id, planned_start, order_id, product_id, batch_qty_units);
+CREATE INDEX IF NOT EXISTS idx_production_orders_end ON production_orders(planned_end);
+
+-- Gamme : ordre des opérations d'un produit, type de machine requis, et point
+-- de contrôle qualité éventuel à l'issue de l'opération (spec + délai de
+-- libération moyen/écart-type). Voir docs/data-model.md.
+CREATE TABLE IF NOT EXISTS routings (
+  routing_id TEXT PRIMARY KEY,
+  product_id TEXT NOT NULL REFERENCES products(product_id),
+  step_no INTEGER NOT NULL,
+  operation TEXT,
+  machine_type TEXT NOT NULL,
+  site TEXT,
+  qc_point TEXT,
+  qc_attribute TEXT,
+  spec_lower REAL,
+  spec_upper REAL,
+  qc_lead_time_mean_hours REAL,
+  qc_lead_time_sd_hours REAL,
+  UNIQUE(product_id, step_no)
+);
+
+-- Résultats de contrôle qualité par lot et par point de contrôle. `result` :
+-- Conforme | Hors spécifications | En cours d'analyse | Planifié. Un lot hors
+-- spécifications n'a aucun OF aux étapes suivantes.
+CREATE TABLE IF NOT EXISTS quality_results (
+  qc_id TEXT PRIMARY KEY,
+  lot_id TEXT NOT NULL,
+  product_id TEXT NOT NULL REFERENCES products(product_id),
+  step_no INTEGER,
+  qc_point TEXT,
+  sample_date TEXT NOT NULL,
+  release_date TEXT,
+  qc_attribute TEXT,
+  measured_value REAL,
+  spec_lower REAL,
+  spec_upper REAL,
+  result TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_quality_results_lot ON quality_results(lot_id, step_no);
 
 CREATE TABLE IF NOT EXISTS maintenance_plans (
   maintenance_id TEXT PRIMARY KEY,

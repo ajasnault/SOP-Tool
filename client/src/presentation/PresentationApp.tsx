@@ -5,6 +5,7 @@ import { apiUrl } from "@/api/apiBase";
 import { ExecutiveSummary } from "./views/ExecutiveSummary";
 import { DemandReview } from "./views/DemandReview";
 import { CapacityReview } from "./views/CapacityReview";
+import { FlowQuality } from "./views/FlowQuality";
 import { Reconciliation } from "./views/Reconciliation";
 import { Decisions } from "./views/Decisions";
 import { SlideFooter } from "./components/SlideFooter";
@@ -22,6 +23,7 @@ const SLIDES = [
   { label: "Synthèse", Component: ExecutiveSummary },
   { label: "Demande", Component: DemandReview },
   { label: "Capacité", Component: CapacityReview },
+  { label: "Flux & qualité", Component: FlowQuality },
   { label: "Réconciliation", Component: Reconciliation },
   { label: "Décisions", Component: Decisions },
 ];

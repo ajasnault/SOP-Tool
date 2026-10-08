@@ -165,22 +165,32 @@ export function importEntity(db: DatabaseSync, entityName: string, filePath: str
   const placeholders = cols.map(() => "?").join(", ");
   const insertStmt = db.prepare(`INSERT OR REPLACE INTO ${entity.table} (${cols.join(", ")}) VALUES (${placeholders})`);
 
-  for (const row of validRows) {
-    insertStmt.run(...cols.map((c) => row.values[c] ?? null));
-  }
+  // Une seule transaction : un plan de ~100k OF s'importe en secondes au lieu
+  // de minutes (un commit par ligne sinon), et un échec en cours de route ne
+  // laisse pas une table à moitié écrite.
+  db.exec("BEGIN");
+  try {
+    for (const row of validRows) {
+      insertStmt.run(...cols.map((c) => row.values[c] ?? null));
+    }
 
-  const batchId = db
-    .prepare(
-      "INSERT INTO import_batches (entity, source_filename, rows_total, rows_imported, rows_quarantined, status) VALUES (?, ?, ?, ?, ?, 'success')"
-    )
-    .run(entityName, options.sourceLabel ?? filePath, rows.length, validRows.length, errors.length).lastInsertRowid as number;
+    const batchId = db
+      .prepare(
+        "INSERT INTO import_batches (entity, source_filename, rows_total, rows_imported, rows_quarantined, status) VALUES (?, ?, ?, ?, ?, 'success')"
+      )
+      .run(entityName, options.sourceLabel ?? filePath, rows.length, validRows.length, errors.length).lastInsertRowid as number;
 
-  const errorStmt = db.prepare(
-    "INSERT INTO import_errors (import_batch_id, row_number, field, message, raw_row_json) VALUES (?, ?, ?, ?, ?)"
-  );
-  for (const err of errors) {
-    const rawRow = rows[err.rowNumber - 2] ?? {};
-    errorStmt.run(batchId, err.rowNumber, err.field, err.message, JSON.stringify(rawRow));
+    const errorStmt = db.prepare(
+      "INSERT INTO import_errors (import_batch_id, row_number, field, message, raw_row_json) VALUES (?, ?, ?, ?, ?)"
+    );
+    for (const err of errors) {
+      const rawRow = rows[err.rowNumber - 2] ?? {};
+      errorStmt.run(batchId, err.rowNumber, err.field, err.message, JSON.stringify(rawRow));
+    }
+    db.exec("COMMIT");
+  } catch (err) {
+    db.exec("ROLLBACK");
+    throw err;
   }
 
   return {

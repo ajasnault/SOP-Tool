@@ -121,7 +121,7 @@ export function Decisions({ data, site }: { data: DashboardSummary; site: string
     <div className="flex h-full flex-col overflow-y-auto px-12 py-10">
       <header className="flex items-end justify-between border-b border-border pb-4">
         <div>
-          <div className="text-[13px] font-semibold uppercase tracking-wide text-teal">05 · Décisions</div>
+          <div className="text-[13px] font-semibold uppercase tracking-wide text-teal">06 · Décisions</div>
           <h1 className="font-serif text-4xl text-navy">Plan d'action</h1>
         </div>
         <button

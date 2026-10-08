@@ -5,18 +5,21 @@
  */
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { mkdirSync } from "node:fs";
+import { mkdirSync, existsSync } from "node:fs";
 import { openDb } from "../db/connection.js";
 import { importEntity } from "../ingestion/importEntity.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const useRenamed = process.argv.includes("--renamed");
+// --dir=<dossier> : ingère un autre jeu (ex. sortie de generateFlowDataset.ts) ;
+// --db=<fichier> : vers une autre base que data/sop.db.
+const argValue = (name: string) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=").slice(1).join("=");
 
-const sourceDir = useRenamed
-  ? path.join(__dirname, "..", "..", "fixtures", "renamed")
-  : path.join(__dirname, "..", "..", "..", "..", "Projet S&OP");
+const sourceDir =
+  argValue("dir") ??
+  (useRenamed ? path.join(__dirname, "..", "..", "fixtures", "renamed") : path.join(__dirname, "..", "..", "..", "..", "Projet S&OP"));
 
-const dbPath = path.join(__dirname, "..", "..", "data", useRenamed ? "sop.renamed-test.db" : "sop.db");
+const dbPath = argValue("db") ?? path.join(__dirname, "..", "..", "data", useRenamed ? "sop.renamed-test.db" : "sop.db");
 mkdirSync(path.dirname(dbPath), { recursive: true });
 
 const ENTITY_FILES: [string, string][] = [
@@ -24,7 +27,9 @@ const ENTITY_FILES: [string, string][] = [
   ["machines", "02_machines.csv"],
   ["employees", "07_hr_resources.csv"],
   ["forecasts", "03_forecasts.csv"],
+  ["routings", "09_routings.csv"],
   ["production_orders", "04_production_plan.csv"],
+  ["quality_results", "10_quality_results.csv"],
   ["maintenance_plans", "05_maintenance_plan.csv"],
   ["shutdowns", "06_shutdowns.csv"],
   ["absences", "08_hr_absences.csv"],
@@ -35,6 +40,8 @@ const reports = [];
 
 for (const [entity, filename] of ENTITY_FILES) {
   const filePath = path.join(sourceDir, filename);
+  // Gammes et résultats QC sont optionnels (absents des jeux antérieurs).
+  if (!existsSync(filePath) && (entity === "routings" || entity === "quality_results")) continue;
   const report = importEntity(db, entity, filePath);
   reports.push(report);
 }

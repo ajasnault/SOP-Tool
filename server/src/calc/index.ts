@@ -1,15 +1,19 @@
 import type { DatabaseSync } from "node:sqlite";
-import { capacityForMonth, type MachineMonthCapacity } from "./capacity.js";
+import { capacityForMonths, type MachineMonthCapacity } from "./capacity.js";
 import { consolidatedDemand, demandTrend, type DemandRow } from "./demand.js";
 import { hrAvailabilityForMonth, type HrAvailabilityRow } from "./hr.js";
 import { rollingMonths, monthAfterWeeks } from "./period.js";
 import { getThreshold } from "../config.js";
 import { serviceLevelForMonth, type ServiceLevelSummary } from "./serviceLevel.js";
+import { flowsForMonth, type ProductionFlow } from "./flow.js";
+import { qualitySummary, type QualitySummary } from "./quality.js";
 
 export * from "./capacity.js";
 export * from "./demand.js";
 export * from "./hr.js";
 export * from "./serviceLevel.js";
+export * from "./flow.js";
+export * from "./quality.js";
 export * from "./period.js";
 export { getThreshold, setThreshold } from "../config.js";
 
@@ -19,10 +23,12 @@ const CHART_HORIZON_MONTHS = 18;
 export function horizonMonths(db: DatabaseSync): string[] {
   const row = db
     .prepare(
+      // MIN/MAX séparés par table : résolus par index, sans parcourir les ~100k OF.
       `SELECT MIN(month) AS min_month, MAX(month) AS max_month FROM (
-         SELECT month FROM forecasts
-         UNION ALL
-         SELECT substr(planned_start, 1, 7) AS month FROM production_orders
+         SELECT MIN(month) AS month FROM forecasts
+         UNION ALL SELECT MAX(month) FROM forecasts
+         UNION ALL SELECT substr(MIN(planned_start), 1, 7) FROM production_orders
+         UNION ALL SELECT substr(MAX(planned_start), 1, 7) FROM production_orders
        )`
     )
     .get() as unknown as { min_month: string | null; max_month: string | null };
@@ -86,6 +92,10 @@ export interface DashboardSummary {
   /** Sur chartHorizon (18 mois glissants), mois sans forecast inclus à 0 — pour que l'axe avance visiblement même sans donnée. */
   demandTrend: { month: string; qty_units: number }[];
   demandByFamily: DemandRow[];
+  /** Flux de production (gammes) du cycle avec l'utilisation de chaque étape et le goulot. Vide si aucune gamme importée. */
+  flows: ProductionFlow[];
+  /** Contrôle qualité sur les 3 mois glissants se terminant au cycle. Voir docs/calculations.md ("Contrôle qualité"). */
+  quality: QualitySummary;
 }
 
 /**
@@ -111,15 +121,17 @@ export function computeDashboard(db: DatabaseSync, site?: string, cycleReference
   const referenceMonth = resolveCycleReferenceMonth(dataHorizon, cycleReferenceMonth, todayMonth);
   const isCurrentCycle = referenceMonth === todayMonth;
 
-  const capacity = capacityForMonth(db, referenceMonth, site);
   const hrAvailability = hrAvailabilityForMonth(db, referenceMonth, site);
   const serviceLevel = serviceLevelForMonth(db, referenceMonth, site);
   const serviceLevelTargetPct = getThreshold(db, "service_level_target_pct", 95);
 
   const chartHorizon = rollingMonths(referenceMonth, CHART_HORIZON_MONTHS);
-  // ~20ms mesurées pour 18 mois × 26 machines (toutes) sur le jeu de test —
-  // négligeable, cf. docs/calculations.md ("Heatmap d'évolution de charge").
-  const capacityTrend = chartHorizon.flatMap((month) => capacityForMonth(db, month, site));
+  // Une seule passe sur les OF pour le mois du cycle + les 18 mois glissants
+  // (le mois du cycle en fait partie : chartHorizon démarre dessus).
+  const capacityTrend = capacityForMonths(db, chartHorizon, site);
+  const capacity = capacityTrend.filter((r) => r.month === referenceMonth);
+  const flows = flowsForMonth(db, capacity, site);
+  const quality = qualitySummary(db, referenceMonth, site);
 
   const frozenPeriodWeeks = getThreshold(db, "frozen_period_weeks", 8);
   const frozenPeriodEndMonth = monthAfterWeeks(referenceMonth, frozenPeriodWeeks);
@@ -151,5 +163,7 @@ export function computeDashboard(db: DatabaseSync, site?: string, cycleReference
     serviceLevelTargetPct,
     demandTrend: paddedTrend,
     demandByFamily: paddedByFamily,
+    flows,
+    quality,
   };
 }
